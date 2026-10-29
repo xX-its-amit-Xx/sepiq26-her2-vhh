@@ -1,0 +1,980 @@
+[
+ {
+  "term": "epitope",
+  "plain": "The patch on the target protein that an antibody or nanobody touches.",
+  "expert": "Set of antigen residues in contact with the binder; here defined as Voronota-LT contact area > 0 on the cryo-EM model.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "paratope",
+  "plain": "The part of the nanobody that touches the target.",
+  "expert": "Binder-side interface residues; for VHH mostly CDR3 (about 46% of contact residues) plus a framework tail (about 24% of contacts outside CDRs).",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "VHH",
+  "plain": "The single grabbing domain of a camel-family heavy-chain-only antibody; a nanobody.",
+  "expert": "Variable domain of the heavy-chain-only antibody (HCAb) of camelids; about 120-135 aa in this challenge.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "nanobody",
+  "plain": "A tiny antibody fragment from camels, llamas or alpacas, stable and easy to make in bacteria.",
+  "expert": "Trade name for VHH; four nanobody-derived drugs approved 2018-2022 (caplacizumab, envafolimab, cilta-cel, ozoralizumab).",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "antibody",
+  "plain": "A Y-shaped immune protein that sticks to a specific target.",
+  "expert": "Immunoglobulin with two heavy and two light chains; conventional antibodies bind with VH+VL.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "heavy-chain-only antibody",
+  "plain": "A camel-family antibody that lacks the light chains.",
+  "expert": "HCAb; variable domain VHH; described by Hamers-Casterman 1993 (snippet only in the hive).",
+  "see": "research/q2_vhh_immunology_structure/camelid_hcab_biology_alpaca_germline_ighv_genes_and_immunisation_response.md"
+ },
+ {
+  "term": "CDR",
+  "plain": "One of three variable loops of an antibody that do most of the grabbing.",
+  "expert": "Complementarity-determining region; CDR1, CDR2, CDR3 under IMGT numbering.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "CDR1",
+  "plain": "The first grabbing loop of a nanobody.",
+  "expert": "IMGT CDR1; alpaca CDR1/CDR2 tips show Gly/Ala insertions (20.78% Gly, 12.18% Ala, Tu 2020).",
+  "see": "research/q2_vhh_immunology_structure/camelid_hcab_biology_alpaca_germline_ighv_genes_and_immunisation_response.md"
+ },
+ {
+  "term": "CDR2",
+  "plain": "The second grabbing loop of a nanobody.",
+  "expert": "IMGT CDR2; part of the paratope; numbering from the hive's custom script may be off by one.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "CDR3",
+  "plain": "The third and most variable loop, usually the main contact.",
+  "expert": "Holds 46% of antigen-contacting VHH residues and 54% of pairwise contacts (Mitchell and Colwell 2018); ONU CDR3 lengths 12 to 20 aa.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "framework",
+  "plain": "The steadier scaffold between the loops.",
+  "expert": "FR1-FR4; FR2 positions 42/49/50/52 account for much of the roughly 24% of contacts outside CDRs.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "hallmark residues",
+  "plain": "Four framework positions that make a VHH water-soluble without a light chain.",
+  "expert": "FR2 positions F37, E44, R45, F/L/W/G47 (Kabat) distinguishing VHH from VH; 17 hallmark-bearing alpaca V genes carry >85% of usage.",
+  "see": "research/q2_vhh_immunology_structure/camelid_hcab_biology_alpaca_germline_ighv_genes_and_immunisation_response.md"
+ },
+ {
+  "term": "germline gene",
+  "plain": "The inherited gene segment an antibody starts from.",
+  "expert": "Alpaca locus: 88 IGHV (84 functional), 8 IGHD, 7 IGHJ (Tu 2020).",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "somatic hypermutation",
+  "plain": "Mutations that an immune cell adds to refine an antibody.",
+  "expert": "SHM; alpaca VJ-lineage substitution rate 12-22%, per-region rates not reported.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "kinked CDR3",
+  "plain": "A CDR3 that bends back over the framework.",
+  "expert": "IGHV3-3 structures 82% kinked; modelled structures overstate kinking (>95%).",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "immunisation",
+  "plain": "Injecting an animal so its immune system makes antibodies.",
+  "expert": "One alpaca immunised with wild-type human HER2 supplies the AVIDa-hHER2 repertoire.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "alpaca",
+  "plain": "A camel-family animal whose antibodies supply the nanobodies.",
+  "expert": "Vicugna pacos; source of the AVIDa-hHER2 library.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "HER2",
+  "plain": "A cell-surface growth-signal protein that some cancers overproduce.",
+  "expert": "ERBB2, UniProt P04626; ectodomain 23-652; amplified in 3.4% of 10,712 TCGA samples.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "ERBB2",
+  "plain": "The gene name for HER2.",
+  "expert": "Gene encoding HER2; 17q12 amplicon co-amplifies STARD3, TCAP, PNMT, PGAP3, GRB7.",
+  "see": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md"
+ },
+ {
+  "term": "EGFR family",
+  "plain": "Four related receptors (EGFR, HER2, HER3, HER4) that pair up to signal.",
+  "expert": "ErbB family; ligand binding between domains I and III extends the receptor and exposes the dimerisation arm.",
+  "see": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md"
+ },
+ {
+  "term": "EGFR",
+  "plain": "The first member of the ErbB receptor family.",
+  "expert": "ErbB1; dimerisation arm 266-281 (Zhang 2023 numbering).",
+  "see": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md"
+ },
+ {
+  "term": "HER3",
+  "plain": "A receptor partner of HER2.",
+  "expert": "ErbB3; HER2-HER3 interface is the smallest and most dynamic of the three per Diwanji 2021; KD not measured in opened sources.",
+  "see": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md"
+ },
+ {
+  "term": "HER4",
+  "plain": "A fourth receptor in the family.",
+  "expert": "ErbB4; uses more of the domain I rim than HER2-HER3.",
+  "see": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md"
+ },
+ {
+  "term": "ectodomain",
+  "plain": "The part of the receptor outside the cell.",
+  "expert": "HER2 ECD residues 23-652 of P04626; the challenge antigen is 1-624 + His6.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "domain I",
+  "plain": "The first outer bead of HER2.",
+  "expert": "P04626 23-217 (older papers: mature 1-195); public VHH epitopes cluster here and at junctions.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "domain II",
+  "plain": "The second bead, carrying the dimerisation arm.",
+  "expert": "P04626 218-341; arm 270-285; pertuzumab site.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "domain III",
+  "plain": "The third bead.",
+  "expert": "P04626 342-510; zero approved-drug contacts.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "domain IV",
+  "plain": "The fourth bead, nearest the membrane.",
+  "expert": "P04626 511-652; trastuzumab site; no public VHH epitope found here.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "juxtamembrane",
+  "plain": "The stretch right next to the cell membrane.",
+  "expert": "P04626 630-652 in the hive's boundary table; likely unresolved in cryo-EM.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "dimerisation arm",
+  "plain": "A loop in domain II that lets receptors pair.",
+  "expert": "HER2 residues 270-285 (ALVTYNTDTFESMPNP); key residues F279 and L313.",
+  "see": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md"
+ },
+ {
+  "term": "tether",
+  "plain": "A folded-back state where domain IV hides the arm.",
+  "expert": "Inactive EGFR/HER3/HER4 conformation; HER2 is extended in all public structures.",
+  "see": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md"
+ },
+ {
+  "term": "signal peptide",
+  "plain": "A short tag that is cut off when the protein reaches the surface.",
+  "expert": "P04626 residues 1-22; included in the challenge numbering, so older mature-numbered papers differ by 22.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "trastuzumab",
+  "plain": "The first anti-HER2 antibody drug (Herceptin).",
+  "expert": "Humanised IgG1 binding domain IV; FDA 1998-09-25; Fab complex 1N8Z (2003).",
+  "see": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md"
+ },
+ {
+  "term": "pertuzumab",
+  "plain": "An antibody drug that blocks HER2 pairing.",
+  "expert": "Humanised IgG1 binding domain II; FDA 2012-06-08.",
+  "see": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md"
+ },
+ {
+  "term": "margetuximab",
+  "plain": "A trastuzumab-like antibody tuned for immune recruitment.",
+  "expert": "Margenza, FDA 2020-12-16; no public complex among 63 P04626 entries (5O4G is Fab MF3958, not margetuximab).",
+  "see": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md"
+ },
+ {
+  "term": "antibody-drug conjugate",
+  "plain": "An antibody carrying a toxic payload to the cancer cell.",
+  "expert": "ADC; Kadcyla (2013-02-22, DM1) and Enhertu (2019-12-20, DXd) use the trastuzumab antibody.",
+  "see": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md"
+ },
+ {
+  "term": "glycan",
+  "plain": "A sugar chain attached to a protein.",
+  "expert": "N-linked at sequons N68, N124/125, N187, N259, N530, N571, N629; handling by organisers unknown.",
+  "see": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md"
+ },
+ {
+  "term": "sequon",
+  "plain": "The amino-acid pattern where a sugar chain can attach.",
+  "expert": "N-X-S/T N-glycosylation motif; seven to eight in the HER2 ECD.",
+  "see": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md"
+ },
+ {
+  "term": "disulfide bond",
+  "plain": "A sulfur-sulfur staple that holds a protein fold.",
+  "expert": "All 25 UniProt disulfides lie within single domains (4/9/2/10).",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "amplification",
+  "plain": "Extra copies of a gene in a tumour.",
+  "expert": "Gene copy-number gain; GISTIC=+2 in 362/10,712 samples (3.4%).",
+  "see": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md"
+ },
+ {
+  "term": "p95HER2",
+  "plain": "Shortened forms of HER2 that lack the outer part.",
+  "expert": "Membrane-retained C-terminal fragments from alternative translation at Met611/Met687; distinct from shed ECD (~105-110 kDa).",
+  "see": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md"
+ },
+ {
+  "term": "UniProt",
+  "plain": "The reference database of protein sequences and numbering.",
+  "expert": "P04626 is the HER2 accession; challenge numbering follows it including the signal peptide.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "PDB",
+  "plain": "The public archive of 3D structures.",
+  "expert": "Protein Data Bank; 63 entries carry P04626, 45 with ECD coordinates.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "SAbDab",
+  "plain": "A database of antibody structures.",
+  "expert": "Structural Antibody Database; SAbDab-nano is the nanobody subset.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "SAbDab-nano",
+  "plain": "The nanobody-only database of structures.",
+  "expert": "823 structures / 492 non-redundant CDR sets in Sept 2021; 2026 count not obtained.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "IMGT",
+  "plain": "A standard numbering scheme for antibody residues.",
+  "expert": "International ImMunoGeneTics numbering; the hive's own script was not ANARCI-verified.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "ANARCI",
+  "plain": "A tool that numbers antibody sequences.",
+  "expert": "Antibody Numbering and Antigen Receptor ClassIfication; not installed on this Windows box.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Kabat numbering",
+  "plain": "An older antibody numbering scheme.",
+  "expert": "Used for hallmark positions F37/E44/R45/G47; differs from IMGT.",
+  "see": "research/q2_vhh_immunology_structure/camelid_hcab_biology_alpaca_germline_ighv_genes_and_immunisation_response.md"
+ },
+ {
+  "term": "phage display",
+  "plain": "Showing proteins on virus particles so you can fish for binders.",
+  "expert": "Library of VHH-displaying phage selected by binding; two pMES4 libraries here.",
+  "see": "research/q3_assay_ngs_ground_truth/phage_display_biopanning_physics_and_biases_display_expression_amplification_avidity.md"
+ },
+ {
+  "term": "phage",
+  "plain": "A virus that infects bacteria.",
+  "expert": "Bacteriophage; carrier in phage display.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "phagemid",
+  "plain": "A small circular DNA used to display proteins on phage.",
+  "expert": "pMES4 is the vector named for the AVIDa libraries in the brief.",
+  "see": "BRIEF.md"
+ },
+ {
+  "term": "biopanning",
+  "plain": "Fishing sticky phage out of a library by washing.",
+  "expert": "Rounds of binding to immobilised antigen, washing and elution; one round for AVIDa-hHER2.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "NGS",
+  "plain": "Reading millions of DNA sequences at once.",
+  "expert": "Next-generation sequencing; read counts before and after panning.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "read count",
+  "plain": "How many times a sequence was read.",
+  "expert": "NGS_read_count_table.csv; 77.9% of sequences are singletons.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "singleton",
+  "plain": "A sequence read exactly once.",
+  "expert": "77.9% of AVIDa sequences; the label test drops singletons.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "enrichment",
+  "plain": "A rise in a sequence's share after fishing.",
+  "expert": "Share after panning above share before; binder if rise and p <= 0.05.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "IE-score",
+  "plain": "The organisers' enrichment score.",
+  "expert": "Pooled two-proportion z-test statistic, clipped at -500, no multiple-testing correction.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "z-test",
+  "plain": "A test of whether two proportions differ.",
+  "expert": "Two-proportion z-test; Z^2 equals the 2x2 Pearson chi-squared.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "chi-squared",
+  "plain": "A test of whether counts differ more than chance.",
+  "expert": "2x2 Pearson, no Yates correction; invalid below about 10 combined reads.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "p-value",
+  "plain": "How surprising the data are if nothing is going on.",
+  "expert": "Binder threshold p <= 0.05; nominal false-positive rate 2.5-5%.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "multiple testing",
+  "plain": "Running many tests makes false positives likely.",
+  "expert": "No correction applied; hIL6 uses min-p over 12 sublibraries.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Cochran's rule",
+  "plain": "A rule for when chi-squared is trustworthy.",
+  "expert": "Expected counts should be at least 5; share of labels violating it is unmeasured.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "PCR error",
+  "plain": "Copying mistakes made while amplifying DNA.",
+  "expert": "Over-dispersion raises false binders to 5-15%; also creates sequencing-error-floor variants.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "display bias",
+  "plain": "Some proteins show up on phage better than others.",
+  "expert": "Expression/display bias (rho 0.88 in one scFv study) can mimic enrichment.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "parasitic clone",
+  "plain": "A phage that wins by growing fast, not by binding.",
+  "expert": "Amplification artefact in phage display.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "tag binder",
+  "plain": "A sequence that sticks to the tag, not the target.",
+  "expert": "His-tag or GACQ-region binders pose as HER2 binders.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "His tag",
+  "plain": "A run of histidines used to purify proteins.",
+  "expert": "His6 appended to antigen and VHH constructs; set to zero in submissions.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "GACQ",
+  "plain": "The last four residues of the HER2 construct, native not a tag.",
+  "expert": "P04626 621-624.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "binder label",
+  "plain": "The Yes/Not call in the training table.",
+  "expert": "7,316 Yes and 12,051 Not among 19,367 labelled; enrichment-derived, not biophysical.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Mother Library",
+  "plain": "The starting pool of the library.",
+  "expert": "Mother Library B alone carries the competition sublibraries; 59% of Yes have zero mother reads.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "competition sublibrary",
+  "plain": "A panning done with a known drug competing for the target.",
+  "expert": "Trastuzumab, pertuzumab, RabMAb (named Companion in the count file) columns; the only epitope-informative columns.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "USEARCH cluster",
+  "plain": "Sequence families grouped at 93% identity.",
+  "expert": "Cluster column in the AVIDa table.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Hamming distance",
+  "plain": "The number of positions that differ.",
+  "expert": "Hamming-1 CDR3 families: 120,206 from 1.68 M sequences.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "clonotype",
+  "plain": "A family of sequences from one ancestral cell.",
+  "expert": "Here, Hamming-1 CDR3 families; large families are partly PCR variants.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "cryo-EM",
+  "plain": "Imaging frozen molecules with electrons to build a 3D picture.",
+  "expert": "Cryo-electron microscopy; challenge truth at about 3.0 A.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "resolution",
+  "plain": "How fine the detail of a 3D picture is.",
+  "expert": "In angstroms; 9MTX 3.06 A, 9MTE 2.66 A, 5MY6 2.25 A (X-ray).",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "angstrom",
+  "plain": "One ten-billionth of a metre.",
+  "expert": "A; 4 A is a common contact cutoff.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "map and model",
+  "plain": "The raw 3D density and the atoms fitted into it.",
+  "expert": "Labels exist only for modelled residues.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "X-ray crystallography",
+  "plain": "Building a structure from X-ray scattering of crystals.",
+  "expert": "Used for 5MY6; crystal-lattice contacts can inflate epitopes.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Voronota",
+  "plain": "Software that measures contact areas between atoms.",
+  "expert": "Voronota-LT by Kliment Olechnovic; radical tessellation with 1.4 A probe.",
+  "see": "research/q3_assay_ngs_ground_truth/voronota_lt_contact_area_definition_and_how_epitope_labels_depend_on_the_cutoff.md"
+ },
+ {
+  "term": "Voronota-LT",
+  "plain": "The light version used to define the challenge truth.",
+  "expert": "Guideline names v1.1.479 / release v1.29.4602; workers used v1.1.497 / v1.29.4816.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "contact area",
+  "plain": "How much surface two residues share.",
+  "expert": "Voronota tessellation area; area > 0 can include contacts 4-6 A apart.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "area-weighted metric",
+  "plain": "A score variant that counts big contacts more.",
+  "expert": "Weighted recall = TP_area/P_area paired with ordinary precision; near cutoff-proof.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "PR-AUC",
+  "plain": "A score for ranking true residues above false ones when positives are rare.",
+  "expert": "Area under the precision-recall curve, macro-averaged over 3 complexes.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "precision",
+  "plain": "Of the residues you flag, the share that are right.",
+  "expert": "TP/(TP+FP).",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "recall",
+  "plain": "Of the true residues, the share you found.",
+  "expert": "TP/(TP+FN).",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "average precision",
+  "plain": "A way to compute the area under precision-recall.",
+  "expert": "AP; a constant predictor scores ~0.04 versus ~0.52 under trapezoid.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "trapezoid PR-AUC",
+  "plain": "Another way to compute the area under precision-recall.",
+  "expert": "Optimistic interpolation; constant predictor ~0.52.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "prevalence",
+  "plain": "The share of residues that are truly positive.",
+  "expert": "Base rate; HER2 about 3-5%; 8GZ5 0.126.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "base rate",
+  "plain": "The chance level before any model.",
+  "expert": "Same as prevalence; random PR-AUC equals it.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "macro-average",
+  "plain": "Average of the three complexes' scores, no pooling.",
+  "expert": "Each complex scored separately then averaged.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "pooling",
+  "plain": "Mixing both chains into one ranked list.",
+  "expert": "Pooled scoring would reward a CDR prior; 0.64 on VHH alone vs 0.34 pooled.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "ROC-AUC",
+  "plain": "Chance that a true residue outranks a false one.",
+  "expert": "Area under the ROC curve; insensitive to prevalence; DiscoTope-3.0 0.783/0.795.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "MCC",
+  "plain": "A balanced single-number classifier score.",
+  "expert": "Matthews correlation coefficient; AsEP 0.305 to 0.152 under epitope-group split.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "bootstrap",
+  "plain": "Resampling the data to see how much a score wobbles.",
+  "expert": "Organiser bootstrap B=2000 over residue indices, not complexes.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "paired cluster bootstrap",
+  "plain": "Bootstrap that keeps related items together and compares methods on the same resamples.",
+  "expert": "Official tie-breaker; a 3-cluster version is degenerate with ~14% false positives.",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "confidence interval",
+  "plain": "The range a score plausibly lies in.",
+  "expert": "3 complexes give CI about 0.18 wide.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "shuffle null",
+  "plain": "The score you would get by scrambling the answer.",
+  "expert": "8GZ5 null: mean AP 0.147, sd 0.032, P(>=0.176)=0.16.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "lift",
+  "plain": "How many times better than chance.",
+  "expert": "Score divided by prevalence; baseline lift 1.2x finite null or 1.4x analytic.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "tie",
+  "plain": "Two residues given the same score.",
+  "expert": "Rounding or clipping cost about 0.10 AP; make values unique.",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "calibration",
+  "plain": "Making probabilities match true frequencies.",
+  "expert": "Strictly increasing transforms cannot change PR-AUC within a list; matters only if chains are pooled.",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "isotonic regression",
+  "plain": "A monotone calibration step.",
+  "expert": "Can hurt PR-AUC through ties.",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "shrinkage",
+  "plain": "Pulling uncertain values toward the base rate.",
+  "expert": "Split-half disagreement as the weight; 0.2 prior shrinkage in the ensembling recipe.",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "ensemble",
+  "plain": "Combining several models or runs.",
+  "expert": "Mean over >= 3 models x 5 seeds; mean not max (max about 0.10 AP worse).",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "seed",
+  "plain": "The random starting number of a model run.",
+  "expert": "Different seeds give different poses; contact frequency across seeds is the consensus.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "consensus",
+  "plain": "The contacts that repeat across runs.",
+  "expert": "Per-residue interface frequency over seeds and engines; shrunk by split-half disagreement.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "co-folding",
+  "plain": "AI that draws the complex of two proteins from sequences.",
+  "expert": "AF3, Boltz, Chai-1, OpenFold3, Protenix.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "AlphaFold3",
+  "plain": "A co-folding AI from DeepMind and Isomorphic.",
+  "expert": "AF3; 31.6% DockQ>=0.23 on 60 nanobodies, 1 seed; cutoff 2021-09-30; weights need application; server outputs cannot be used downstream.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "AlphaFold2",
+  "plain": "The 2020 protein-structure AI.",
+  "expert": "CASP14 median GDT_TS 92.4 (Jumper 2021).",
+  "see": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md"
+ },
+ {
+  "term": "Boltz",
+  "plain": "An open co-folding model family.",
+  "expert": "Boltz-1 23.3% nanobody success; Boltz-2 cutoff 2023-06-01 and flagged leakage-prone; the user holds Boltz credits.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Chai",
+  "plain": "An open co-folding model.",
+  "expert": "Chai-1 15.0% nanobody success; cutoff 2021-01-12; needs bf16 (not V100/T4).",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "OpenFold3",
+  "plain": "An open-source AlphaFold3-style model.",
+  "expert": "v0.5.0; no weight application needed; cutoff 2021-09-30.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Protenix",
+  "plain": "A ByteDance co-folding model.",
+  "expert": "v1 FoldBench Ab-Ag 52.3% (antibody, not nanobody); v2 weights proprietary.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "HADDOCK",
+  "plain": "A docking program driven by restraints.",
+  "expert": "HADDOCK3 blind 20% top-10; 55% with loose epitope; 87.5% with true interface (n=40).",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "docking",
+  "plain": "Fitting two molecules together.",
+  "expert": "Rigid or semi-flexible shape and energy search; barely helps without an epitope hint.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "DockQ",
+  "plain": "A 0-1 score for how right a docked pose is.",
+  "expert": "DockQ>=0.23 acceptable, >=0.80 high; CAPRI/Track B metric.",
+  "see": "research/q4_challenge_intelligence/capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring.md"
+ },
+ {
+  "term": "CAPRI",
+  "plain": "The blind docking challenge series.",
+  "expert": "Critical Assessment of PRedicted Interactions; 54 rounds and 230 targets by 2022; round 65 in 2026.",
+  "see": "research/q4_challenge_intelligence/capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring.md"
+ },
+ {
+  "term": "CAPRI-Q",
+  "plain": "The CAPRI quality grading.",
+  "expert": "Track B grading with DockQ-based measures.",
+  "see": "research/q4_challenge_intelligence/capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring.md"
+ },
+ {
+  "term": "CASP",
+  "plain": "The blind protein-structure prediction contest.",
+  "expert": "Critical Assessment of Structure Prediction; CASP12 2016, CASP13 2018, CASP14 2020, CASP15, CASP16.",
+  "see": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md"
+ },
+ {
+  "term": "ipTM",
+  "plain": "The AI's own confidence in how two chains fit.",
+  "expert": "Interface predicted TM score; nanobody DockQ>=0.23 AP only 0.450.",
+  "see": "research/q5_structure_prediction_docking/confidence_metrics_iptm_pae_plddt_seed_diversity_and_epitope_probability_from_ensembles.md"
+ },
+ {
+  "term": "pLDDT",
+  "plain": "The AI's per-residue confidence.",
+  "expert": "Predicted local distance difference test; I-pLDDT + Rosetta dGB reaches AP 0.743.",
+  "see": "research/q5_structure_prediction_docking/confidence_metrics_iptm_pae_plddt_seed_diversity_and_epitope_probability_from_ensembles.md"
+ },
+ {
+  "term": "PAE",
+  "plain": "The AI's expected error between two positions.",
+  "expert": "Predicted aligned error; basis for ipSAE.",
+  "see": "research/q5_structure_prediction_docking/confidence_metrics_iptm_pae_plddt_seed_diversity_and_epitope_probability_from_ensembles.md"
+ },
+ {
+  "term": "ipSAE",
+  "plain": "A confidence score built from PAE across the interface.",
+  "expert": "Used to weight contact frequency; AUROC not obtained (snippet only).",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "RMSD",
+  "plain": "Average distance between two structures.",
+  "expert": "CDR3 RMSD 2.9-4.3 A versus framework about 0.8 A for AF3-class predictions.",
+  "see": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Fnat",
+  "plain": "Fraction of true contacts recovered.",
+  "expert": "DockQ component; floor 0.1 lets an acceptable pose have most contacts wrong.",
+  "see": "research/q4_challenge_intelligence/capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring.md"
+ },
+ {
+  "term": "GDT_TS",
+  "plain": "A 0-100 score for how close a predicted fold is.",
+  "expert": "CASP metric; 61.4 mean (CASP13) vs 92.4 median (CASP14) are different statistics.",
+  "see": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md"
+ },
+ {
+  "term": "MSA",
+  "plain": "A stack of aligned related sequences.",
+  "expert": "Multiple sequence alignment; source of coevolution signal.",
+  "see": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md"
+ },
+ {
+  "term": "coevolution",
+  "plain": "Positions that mutate together because they touch.",
+  "expert": "Foundation of DCA contact prediction; absent here because HER2 is constant.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "DCA",
+  "plain": "A method that finds touching residues from co-variation.",
+  "expert": "Direct coupling analysis; only VHH-VHH couplings identifiable; composite 0.509 < variability 0.562.",
+  "see": "research/q7_data_representation_integration/paired_coevolution_potts_dca_and_contact_inference_from_binder_vs_nonbinder_sequences.md"
+ },
+ {
+  "term": "Potts model",
+  "plain": "The statistical model behind DCA.",
+  "expert": "Pairwise-coupling maximum-entropy model over sequences.",
+  "see": "research/q7_data_representation_integration/paired_coevolution_potts_dca_and_contact_inference_from_binder_vs_nonbinder_sequences.md"
+ },
+ {
+  "term": "PU learning",
+  "plain": "Learning from positives plus unlabelled examples.",
+  "expert": "Positive-unlabelled; Elkan-Noto and nnPU lowered held-out PR-AUC here.",
+  "see": "research/q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md"
+ },
+ {
+  "term": "label noise",
+  "plain": "Wrong labels in the training data.",
+  "expert": "10-40% false positives among binders is an assumption-derived estimate.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "leakage",
+  "plain": "Test answers sneaking into training.",
+  "expert": "Includes homologous HER2 structures inside engine training windows; rules say it is fine if the answer is right.",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "proxy set",
+  "plain": "Public solved cases used as stand-in tests.",
+  "expert": "5MY6, 7QVK, 9MTE (two VHHs), 9MTX (+8GZ5 sanity); 9MTE/9MTX are post-cutoff.",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "grouped cross-validation",
+  "plain": "Splitting by family so relatives stay on one side.",
+  "expert": "CDR3-cluster or epitope-bin folds; random splits inflate by 10-45%.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "leave-one-complex-out",
+  "plain": "Test on one complex, build on the others.",
+  "expert": "Validation protocol for the proxy league.",
+  "see": "research/_meta/king_world_KINGLOG.md"
+ },
+ {
+  "term": "training cutoff",
+  "plain": "The date after which a model has seen no data.",
+  "expert": "AF3 2021-09-30; Boltz-2 2023-06-01; Chai-1 2021-01-12.",
+  "see": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "language model",
+  "plain": "A neural net trained on sequences as text.",
+  "expert": "Protein LMs: ESM-2 (MIT), AbLang-2 (BSD-3), IgBert (MIT); IgLM non-commercial.",
+  "see": "research/q6_epitope_ml_methods/protein_and_antibody_language_models_esm_ablang_nanobert_iglm_embeddings_for_interfaces.md"
+ },
+ {
+  "term": "ESM-2",
+  "plain": "A widely used protein language model.",
+  "expert": "MIT licence; paratope probes 0.69-0.77 PR-AUC.",
+  "see": "research/q6_epitope_ml_methods/protein_and_antibody_language_models_esm_ablang_nanobert_iglm_embeddings_for_interfaces.md"
+ },
+ {
+  "term": "AbLang-2",
+  "plain": "An antibody language model.",
+  "expert": "BSD-3 licence.",
+  "see": "research/q6_epitope_ml_methods/protein_and_antibody_language_models_esm_ablang_nanobert_iglm_embeddings_for_interfaces.md"
+ },
+ {
+  "term": "DiscoTope-3.0",
+  "plain": "A structure-based B-cell epitope predictor.",
+  "expert": "PR-AUC 0.232 (AF2 input) on 24 antigens at 6.4% prevalence; DTU academic licence.",
+  "see": "research/q6_epitope_ml_methods/b_cell_epitope_predictors_bepipred3_discotope3_sema_abepitope_state_and_limits.md"
+ },
+ {
+  "term": "BepiPred-3.0",
+  "plain": "A sequence-based B-cell epitope predictor.",
+  "expert": "ROC-AUC 0.738/0.771; no PR-AUC reported.",
+  "see": "research/q6_epitope_ml_methods/b_cell_epitope_predictors_bepipred3_discotope3_sema_abepitope_state_and_limits.md"
+ },
+ {
+  "term": "AsEP",
+  "plain": "A benchmark of antibody-antigen epitope groups.",
+  "expert": "Best PLM AUROC 0.544 on unseen epitope groups.",
+  "see": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "AntiBinder",
+  "plain": "The organisers' baseline model.",
+  "expert": "Zhang 2025; IgFold + ESM-2 pair classifier with cross-attention; residue metric not reported; proxy 0.176.",
+  "see": "research/q6_epitope_ml_methods/antibinder_architecture_attention_epitope_extraction_and_why_it_scores_0_176.md"
+ },
+ {
+  "term": "AVIDa-hHER2",
+  "plain": "The COGNANO HER2 nanobody dataset.",
+  "expert": "1,843,875 VHH, 19,367 labelled; HF dataset gated (401) for most workers.",
+  "see": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "COGNANO",
+  "plain": "The company that supplied the training data.",
+  "expert": "Yamazaki, Maeda, Imura.",
+  "see": "BRIEF.md"
+ },
+ {
+  "term": "SEPIQ",
+  "plain": "The London organiser of the challenge.",
+  "expert": "With COGNANO, CAPRI, OpenFold, AMED-BINDS.",
+  "see": "BRIEF.md"
+ },
+ {
+  "term": "Track A",
+  "plain": "The residue-level prediction contest.",
+  "expert": "Per-residue probabilities; PR-AUC; five submissions; prizes $3,000/$2,000/$1,000.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "Track B",
+  "plain": "The atomic-level structure contest run by CAPRI.",
+  "expert": "DockQ/CAPRI-Q; details not yet confirmed; closed for this deadline.",
+  "see": "research/q4_challenge_intelligence/capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring.md"
+ },
+ {
+  "term": "Hugging Face Space",
+  "plain": "The website where files are uploaded.",
+  "expert": "Checks only four header names, returns no score, enforces no cap.",
+  "see": "research/q4_challenge_intelligence/hf_space_dataset_files_template_csvs_submission_mechanics_and_community_discussion.md"
+ },
+ {
+  "term": "Explorer cluster",
+  "plain": "The university GPU cluster available to the team.",
+  "expert": "Public partitions only (short, gpu, gpu-short), at most 2 GPUs; Slurm.",
+  "see": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "mimotope",
+  "plain": "A short peptide that mimics an epitope.",
+  "expert": "Peptide epitope mapping; tools need 5-30 selected peptides, sensitivity about 0.3.",
+  "see": "research/q7_data_representation_integration/mimotope_and_peptide_epitope_mapping_phage_sequences_and_epitope_inference_from_binding_alone.md"
+ },
+ {
+  "term": "deep mutational scanning",
+  "plain": "Measuring the effect of many mutations to map function.",
+  "expert": "DMS; here natural variants differ only at the error floor so they are no DMS.",
+  "see": "research/q7_data_representation_integration/deep_mutational_scanning_and_cdr_mutation_tolerance_as_paratope_evidence_in_public_data.md"
+ },
+ {
+  "term": "presence-only model",
+  "plain": "A model fitted from only positive records.",
+  "expert": "MaxEnt = Poisson process = PU learning; intercept not identifiable (Fithian and Hastie 2013).",
+  "see": "research/q9_serendipity_cross_domain/ecology_niche_modelling_and_species_distribution_with_presence_only_data.md"
+ },
+ {
+  "term": "decibans",
+  "plain": "Adding evidence as log-odds in units of weight-of-evidence.",
+  "expert": "W = 10 log10(enriched/background frequency); valid only under independence.",
+  "see": "research/q9_serendipity_cross_domain/cryptanalysis_and_codebreaking_known_plaintext_and_crib_dragging_for_interface_inference.md"
+ },
+ {
+  "term": "hotspot",
+  "plain": "A residue or region touched again and again.",
+  "expert": "Pertuzumab/trastuzumab hotspots are not VHH hotspots.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "niche",
+  "plain": "A distinct zone of the surface that binders occupy.",
+  "expert": "44 antibody epitopes form about 11 clusters (about 7.4 effective niches).",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "habitat mask",
+  "plain": "A per-residue map of where binders can land.",
+  "expert": "630-row mask in her2_ecd_habitat_mask.json.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "relative solvent accessibility",
+  "plain": "How exposed a residue is.",
+  "expert": "RSA; exposure alone gives AUC 0.72 for touched-by-any-binder.",
+  "see": "research/q1_her2_biology/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "ONU11",
+  "plain": "First of three held-out nanobody clones.",
+  "expert": "VHH 127 aa with His6; CDR3 RPLGSTWTEHPY, a label-noise clone.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "ONU13",
+  "plain": "Second held-out clone.",
+  "expert": "VHH 127 aa with His6; CDR3 KYGSSRLWDY (12 aa); depleted >20x by trastuzumab.",
+  "see": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "ONU23",
+  "plain": "Third held-out clone.",
+  "expert": "VHH 135 aa with His6 (129 proper); CDR3 DGRFYSDYVWSSPDEYAY (20 aa); hardest for structure predictors.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ },
+ {
+  "term": "folding from binding",
+  "plain": "The organisers' hypothesis that binding data hold weak structural signal.",
+  "expert": "Presented as testable; q7 found no per-HER2-residue signal in NGS data.",
+  "see": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md"
+ }
+]

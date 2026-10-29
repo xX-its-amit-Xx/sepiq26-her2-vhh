@@ -1,0 +1,11 @@
+[
+{"challenge":"Netflix Prize","year":2009,"winner":"BellKor's Pragmatic Chaos","margin":"test RMSE 0.856704 vs 0.856714 (tie at 4 decimals; submitted 20 min earlier)","test_items":"1,408,342 quiz + 1,408,789 test","edge":"new data features plus massive blend"},
+{"challenge":"Merck Molecular Activity (Kaggle)","year":2012,"winner":"Dahl/Jaitly/Jordan-Squire/Salakhutdinov","margin":"unverified vs runner-up; ~15% relative over Merck baseline","test_items":"15 assays; per-assay n unverified","edge":"multitask DNN + dropout + ensembling on fixed descriptors"},
+{"challenge":"Higgs ML (Kaggle)","year":2014,"winner":"Gabor Melis (AMS ~3.81)","margin":"close to Salimans (2nd), Courtiol (3rd)","test_items":"800k events total; private size unverified; 1,785 teams","edge":"ensembles; details unverified"},
+{"challenge":"DREAM AZ drug synergy","year":2019,"winner":"Yuanfang Guan","margin":"SC2 Bayes factor > 5; others not read","test_items":"SC1 167 combos; SC2 370; 160 teams","edge":"prior-knowledge features (drug targets, pathways)"},
+{"challenge":"NCI-DREAM drug sensitivity","year":2014,"winner":"Bayesian multitask MKL","margin":"not read","test_items":"44 methods; cell-line count unverified","edge":"nonlinear model + pathway information"},
+{"challenge":"CASP14","year":2020,"winner":"AlphaFold2","margin":"z-sum 244.0 vs 90.8","test_items":"92 domains / 96 targets","edge":"end-to-end architecture plus MSA representation"},
+{"challenge":"CAPRI","year":"2001-","winner":"per-round","margin":"n/a","test_items":">300 targets over 59 rounds; 16 in rounds 47-55","edge":"sampling plus scoring"},
+{"challenge":"CAGI","year":"2010-","winner":"per-challenge","margin":"n/a","test_items":"50 challenges / 5 editions; per-challenge n unverified","edge":"conservation plus supervised features"},
+{"challenge":"CAFA3 / Kaggle Otto","year":"2019 / 2015","winner":"not researched","margin":"unverified","test_items":"unverified","edge":"unverified"}
+]

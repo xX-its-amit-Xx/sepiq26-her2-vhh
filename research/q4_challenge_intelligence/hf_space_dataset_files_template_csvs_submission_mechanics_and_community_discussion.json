@@ -1,0 +1,15 @@
+[
+ {"repo":"space","file":"app.py","bytes":29211,"last_commit":"2026-10-15"},
+ {"repo":"space","file":"README.md","bytes":232,"last_commit":"2026-05-06"},
+ {"repo":"space","file":"requirements.txt","bytes":51,"last_commit":"2026-10-15"},
+ {"repo":"space","file":"Dockerfile","bytes":477,"last_commit":"2026-09-02"},
+ {"repo":"space","file":"LICENSE","bytes":11331,"last_commit":"2025-12-09"},
+ {"repo":"space","file":"vhh_dataset_tutorial.ipynb","bytes":21768,"last_commit":"2026-06-15"},
+ {"repo":"dataset","file":"AVIDa-hHER2.csv","bytes":499335870,"last_commit":"2026-06-15"},
+ {"repo":"dataset","file":"NGS_read_count_table.csv","bytes":126170849,"last_commit":"2026-08-25"},
+ {"repo":"dataset","file":"README.md","bytes":17291,"last_commit":"2026-09-04"},
+ {"repo":"dataset","file":"prediction_template_ONU11.csv","bytes":8757,"last_commit":"2026-08-31"},
+ {"repo":"dataset","file":"prediction_template_ONU13.csv","bytes":8757,"last_commit":"2026-08-31"},
+ {"repo":"dataset","file":"prediction_template_ONU23.csv","bytes":8853,"last_commit":"2026-08-31"},
+ {"repo":"dataset","file":"LICENSE","bytes":0,"last_commit":"2026-06-02"}
+]

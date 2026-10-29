@@ -1,0 +1,47 @@
+import json,re
+from Bio import Align
+d=json.load(open('vhh_entries.json'))
+al=Align.PairwiseAligner();al.mode='global';al.match_score=1;al.mismatch_score=0;al.open_gap_score=-1;al.extend_gap_score=-0.5
+ONU={'ONU11':'AARPLGSTWTEHPY','ONU13':'AAKYGSSRLWDY','ONU23':'AADGRFYSDYVWSSPDEYAY'}
+def cdr3(s):
+    m=re.search(r'Y[YF]C(.{3,30}?)W[GA]Q?G',s)
+    return m.group(1) if m else None
+def isvhh(s):
+    return 95<=len(s)<=160 and re.search(r'^[A-Z]{0,25}[QE]VQL|^[A-Z]{0,25}[QE]V[QK]L',s) and re.search(r'W[GA]Q?G.{0,3}[QT]VTVSS',s) and 'CH1' not in s
+ERBB={'P04626','P00533','P21860','Q15303'}
+vh=[];erbb=[]
+for k,e in d.items():
+    ents=e['polymer_entities']
+    accs=set()
+    for p in ents:
+        for r in (p['rcsb_polymer_entity_container_identifiers'].get('reference_sequence_identifiers') or []):
+            accs.add(r['database_accession'])
+    for p in ents:
+        s=p['entity_poly']['pdbx_seq_one_letter_code_can']
+        if isvhh(s):
+            c=cdr3(s)
+            vh.append((k,p['rcsb_polymer_entity_container_identifiers']['auth_asym_ids'],c,s,len(ents),accs))
+            if accs&ERBB: erbb.append((k,sorted(accs&ERBB),e['struct']['title'],c))
+print('VHH entities',len(vh),'entries',len({v[0] for v in vh}))
+print('ERBB-family partner entries with VHH:');[print(' ',x) for x in sorted(set((a,tuple(b),c,dd) for a,b,c,dd in erbb))]
+res={}
+for name,c0 in ONU.items():
+    hits=[]
+    for k,ch,c,s,n,a in vh:
+        if not c: continue
+        sc=al.score(c0,c)/max(len(c0),len(c))
+        if sc>=0.7: hits.append((round(sc,2),k,ch,c,len(c)))
+    hits.sort(reverse=True)
+    res[name]=hits
+    print(name,c0,'n>=0.9:',len({h[1] for h in hits if h[0]>=0.9}),'n>=0.8:',len({h[1] for h in hits if h[0]>=0.8}),'n>=0.7:',len({h[1] for h in hits}))
+    for h in hits[:12]: print('   ',h)
+json.dump({k:v for k,v in res.items()},open('audit_hits.json','w'))
+# full-seq identity to ONU (framework-aware)
+FULL={'ONU11':'QVQLQESGGGSVQAGGSLRLSCAASGRTLSGWVMGWFRQAPGKDRDFVAHLSGDTTAYAHSVKGRFTISRDNAKDTVFLQMNSLKPEDTGVYYCAARPLGSTWTEHPYWGQGTQVTVSS',
+'ONU13':'QVQLQESGGGLVQAGGSLRLSCTASERTFSIDYMGWYRQAPGKQREFVGTIEWNSGSTGYGDSVKGRFTISRDNAKNTGYLQMNSLKPEDTAVYYCAAKYGSSRLWDYWGQGTQVTVSS',
+'ONU23':'QVQLQESGGGLVQAGGSLRLSCAASGRTLSGAAMGWFRQAPGKEREFVAGISWSTSRTQYADSVKGRFTISRDNAKNTVFLQMNSLNAEDTAVYYCAADGRFYSDYVWSSPDEYAYWGQGTQVTVSS'}
+for name,f in FULL.items():
+    best=[]
+    for k,ch,c,s,n,a in vh:
+        sc=al.score(f,s)/max(len(f),len(s)); best.append((round(sc,3),k,ch))
+    best.sort(reverse=True); print(name,'top full-seq identity',best[:6])

@@ -1,0 +1,15 @@
+[
+{"model":"ESM-2 650M","params":"650M","training":"UniRef50","licence":"MIT (code); no separate weight licence stated in README","usable":"yes","paratope_prauc_nbbench":0.718,"paratope_auroc_nbbench":0.928},
+{"model":"ESM-2 150M","params":"150M","training":"UniRef50","licence":"MIT","usable":"yes","paratope_prauc_nbbench":0.714,"paratope_auroc_nbbench":0.922},
+{"model":"ESM C 300M","params":"~300M","training":"EvolutionaryScale (unverified)","licence":"Cambrian Open (attribution/naming duties)","usable":"probably, with notices","paratope_prauc_nbbench":null,"paratope_auroc_nbbench":null},
+{"model":"ESM C 600M / ESM3","params":"600M+","training":"EvolutionaryScale","licence":"Cambrian Non-Commercial","usable":"avoid","paratope_prauc_nbbench":null,"paratope_auroc_nbbench":null},
+{"model":"AbLang (H)","params":"86M","training":"OAS","licence":"not checked","usable":"likely","paratope_prauc_nbbench":0.756,"paratope_auroc_nbbench":0.933},
+{"model":"AbLang-2","params":"unverified","training":"OAS paired+unpaired, germline-debiased","licence":"BSD-3-Clause","usable":"yes","paratope_prauc_paraplume_pecan":0.693},
+{"model":"nanoBERT","params":"14M small / 86M big","training":"10M INDI nanobodies","licence":"not checked","usable":"probably","paratope_prauc_nbbench":0.719,"paratope_auroc_nbbench":0.928},
+{"model":"IgLM","params":"unverified","training":"558M OAS chains","licence":"JHU Academic (non-commercial)","usable":"risky","paratope_prauc_nbbench":null},
+{"model":"IgBert","params":"420M","training":">2B unpaired + 2M paired OAS","licence":"MIT (HF card)","usable":"yes","paratope_prauc_nbbench":0.687,"paratope_auroc_nbbench":0.921},
+{"model":"AntiBERTy","params":"26M","training":"OAS-derived","licence":"not checked","usable":"likely","paratope_prauc_nbbench":0.739,"paratope_auroc_nbbench":0.932},
+{"model":"AntiBERTa2-CSSP","params":"202M","training":"not opened","licence":"not checked","usable":"likely","paratope_prauc_nbbench":0.765,"paratope_auroc_nbbench":0.939},
+{"model":"VHHBERT","params":"86M","training":"VHHCorpus-2M","licence":"not checked","usable":"likely","paratope_prauc_nbbench":0.695,"paratope_auroc_nbbench":0.921},
+{"model":"ProtT5","params":"unverified","training":"not opened","licence":"not verified","usable":"likely","paratope_prauc_paraplume_pecan":0.734}
+]

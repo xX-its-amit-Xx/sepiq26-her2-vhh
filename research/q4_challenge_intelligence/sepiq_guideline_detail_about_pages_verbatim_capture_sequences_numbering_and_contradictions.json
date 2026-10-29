@@ -1,0 +1,13 @@
+[
+{"event":"Track A original deadline","date":"2026-09-15","source":"HF Space discussion #1 (participant quote)","status":"superseded"},
+{"event":"Organiser: deadline postponed one to two months","date":"2026-08-28","source":"HF Space discussion #1","status":"explains move to Oct 31"},
+{"event":"Track A submission window","date":"2026-09-01 to 2026-10-31","source":"home, /detail, HF Space","status":"current"},
+{"event":"Track B CAPRI round begins","date":"2026-09-16","source":"home, HF Space","status":"unconfirmed by CAPRI"},
+{"event":"Judging and evaluation","date":"2026-11-01 to 2026-11-30","source":"home, HF Space","status":"current"},
+{"event":"Ranking announcement (team names only, no scores)","date":"2026-12-01","source":"HF Space","status":"current"},
+{"event":"Evaluation and results announcement","date":"2026-12-15","source":"/detail","status":"current"},
+{"event":"Days from 2026-10-17 to 2026-10-31","date":"14","source":"computed","status":"computed"},
+{"event":"Days from 2026-10-17 to 2026-12-15","date":"59","source":"computed","status":"computed"},
+{"event":"Number of antibodies","date":"3 (ONU11, ONU13, ONU23)","source":"/detail, /guideline, HF Space; home says seven once (stale)","status":"resolved: 3"},
+{"event":"Sequence lengths as printed","date":"HER2 630; ONU11 127; ONU13 127; ONU23 135","source":"/detail parsed by code","status":"verified"}
+]

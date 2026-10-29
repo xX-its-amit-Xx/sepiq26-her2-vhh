@@ -1,0 +1,21 @@
+{
+ "5MY6_2Rs15d": {
+  "pid": "P1",
+  "mean_iptm": 0.297,
+  "split_half_r_A": 0.745,
+  "split_half_r_B": 0.948,
+  "N": 15,
+  "lam_A": {
+   "shrink_iptm": 1.0,
+   "shrink_splithalf": 0.255,
+   "shrink_fixed02": 0.2
+  },
+  "lam_B": {
+   "shrink_iptm": 1.0,
+   "shrink_splithalf": 0.052,
+   "shrink_fixed02": 0.2
+  },
+  "mean_freq_A": 0.0338,
+  "mean_freq_B": 0.2017
+ }
+}

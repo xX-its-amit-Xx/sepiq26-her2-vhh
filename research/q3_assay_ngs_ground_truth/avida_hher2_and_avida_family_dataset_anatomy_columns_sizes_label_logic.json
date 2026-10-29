@@ -1,0 +1,11 @@
+[
+{"dataset":"AVIDa-hIL6","antigen":"IL-6 WT + 30 Ala mutants","alpacas":1,"mother_libraries":12,"panning_rounds":1,"samples":573891,"binders":20980,"non_binders":552911,"unique_vhh":38599,"validation":"20 clones IF+BLI; 10/10 binders bound; 6 non-binders and 4 noise negative by BLI","licence":"cc-by-nc-4.0"},
+{"dataset":"AVIDa-SARS-CoV-2","antigen":"12 SARS-CoV-2 variants + OC43","alpacas":2,"mother_libraries":31,"panning_rounds":"not confirmed","samples":77003,"binders":22002,"non_binders":55001,"unique_vhh":36100,"validation":"none found (9 VHH cited from external study)","licence":"cc-by-nc-4.0"},
+{"dataset":"AVIDa-hHER2 (SEPIQ gated)","antigen":"human HER2 ECD WT","alpacas":1,"mother_libraries":2,"panning_rounds":1,"samples":1843875,"binders":"few hundred labelled (count unverified)","non_binders":"unverified","unique_vhh":1843875,"validation":"none found","licence":"other, gated"},
+{"dataset":"label_rule","rule":"Target IE>=1.3 -> Not","source":"SEPIQ card"},
+{"dataset":"label_rule","rule":"Background IE<=-3 -> noise","source":"SEPIQ card"},
+{"dataset":"label_rule","rule":"Background IE<0 and >=2 above target -> Yes","source":"SEPIQ card"},
+{"dataset":"label_rule","rule":"Background IE<0 other -> non-sig.","source":"SEPIQ card"},
+{"dataset":"label_rule","rule":"Background IE>0 and target<=-1.3 -> Yes","source":"SEPIQ card"},
+{"dataset":"label_rule","rule":"all other -> non-sig.","source":"SEPIQ card"}
+]

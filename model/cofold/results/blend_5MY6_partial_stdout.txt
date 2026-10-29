@@ -1,0 +1,49 @@
+{
+ "5MY6_2Rs15d": {
+  "pid": "P1",
+  "mean_iptm": 0.297,
+  "split_half_r_A": 0.745,
+  "split_half_r_B": 0.948,
+  "N": 15,
+  "lam_A": {
+   "shrink_iptm": 1.0,
+   "shrink_splithalf": 0.255,
+   "shrink_fixed02": 0.2
+  },
+  "lam_B": {
+   "shrink_iptm": 1.0,
+   "shrink_splithalf": 0.052,
+   "shrink_fixed02": 0.2
+  },
+  "mean_freq_A": 0.0338,
+  "mean_freq_B": 0.2017
+ }
+}
+arm                scope    wt     integ        macro  null   per-complex ['P1']
+raw_freq           antigen  0.7576 0.0423  [0.7576]
+raw_freq           vhh      0.9771 0.2383  [0.9771]
+raw_freq           pooled   0.8910 0.1049  [0.891]
+raw_freq_cal       antigen  0.7576 0.0423  [0.7576]
+raw_freq_cal       vhh      0.9771 0.2383  [0.9771]
+raw_freq_cal       pooled   0.8479 0.0864  [0.8479]
+shrink_iptm        antigen  0.0570 0.0431  [0.057]
+shrink_iptm        vhh      0.7003 0.2434  [0.7003]
+shrink_iptm        pooled   0.4195 0.1114  [0.4195]
+shrink_splithalf   antigen  0.7799 0.0415  [0.7799]
+shrink_splithalf   vhh      0.9789 0.2387  [0.9789]
+shrink_splithalf   pooled   0.8969 0.0936  [0.8969]
+shrink_fixed02     antigen  0.7799 0.0415  [0.7799]
+shrink_fixed02     vhh      0.9853 0.2390  [0.9853]
+shrink_fixed02     pooled   0.8926 0.0964  [0.8926]
+db_full            antigen  0.5602 0.0414  [0.5602]
+db_full            vhh      0.9800 0.2391  [0.98]
+db_full            pooled   0.8294 0.0963  [0.8294]
+db_conf            antigen  0.0570 0.0431  [0.057]
+db_conf            vhh      0.7003 0.2434  [0.7003]
+db_conf            pooled   0.4263 0.1138  [0.4263]
+FLOOR_composite    antigen  0.0570 0.0431  [0.057]
+FLOOR_composite    vhh      0.7003 0.2434  [0.7003]
+FLOOR_composite    pooled   0.4192 0.1112  [0.4192]
+uniform_random     antigen  0.0336 0.0434  [0.0336]
+uniform_random     vhh      0.4024 0.2377  [0.4024]
+uniform_random     pooled   0.2564 0.1715  [0.2564]

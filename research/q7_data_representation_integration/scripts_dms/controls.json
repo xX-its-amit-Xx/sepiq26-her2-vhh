@@ -1,0 +1,14 @@
+{
+ "point": {
+  "CDR3_uniform": 0.2055755687974834,
+  "CDR3+tolerance_tiebreak(-mism)": 0.2542033307274701,
+  "CDR3+centrality_tiebreak(d)": 0.25833926945128416,
+  "CDR3+edge_tiebreak(-d)": 0.20151665183321202
+ },
+ "perm_null_mean": 0.22758108050263479,
+ "perm_null_ci": [
+  0.19793134072094007,
+  0.258107758612153
+ ],
+ "p": 0.0475
+}

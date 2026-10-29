@@ -1,0 +1,10 @@
+[
+{"method":"BepiPred-3.0","test_set":"TS1","n":"5 antigens, 971 res","prevalence":0.256,"roc_auc":0.738,"pr_auc":"NOT REPORTED","nanobody":"no","her2_leak":"unknown (likely yes)","licence":"not stated on DTU page","verdict":"weak prior"},
+{"method":"BepiPred-3.0","test_set":"TS2","n":"15 antigens, 2670 res","prevalence":0.190,"roc_auc":0.771,"pr_auc":"NOT REPORTED","nanobody":"no","her2_leak":"unknown (likely yes)","licence":"not stated on DTU page","verdict":"weak prior"},
+{"method":"BepiPred-3.0","test_set":"IEDB linear","n":"3560 seqs","prevalence":0.116,"roc_auc":0.663,"pr_auc":"NOT REPORTED","nanobody":"no","her2_leak":"unknown","licence":"not stated","verdict":"weak prior"},
+{"method":"DiscoTope-3.0 (AF2 input)","test_set":"external 24 antigens","n":"6788 res","prevalence":0.064,"roc_auc":0.783,"pr_auc":0.232,"nanobody":"no","her2_leak":"unknown (likely yes)","licence":"CC variant unverified; academic server","verdict":"usable prior, document licence"},
+{"method":"DiscoTope-3.0 (solved input)","test_set":"external 24 antigens","n":"6788 res","prevalence":0.064,"roc_auc":0.795,"pr_auc":0.223,"nanobody":"no","her2_leak":"unknown (likely yes)","licence":"CC variant unverified","verdict":"usable prior"},
+{"method":"SEMA 2.0","test_set":"101 seqs masked/unmasked","n":"101","prevalence":"NOT REPORTED","roc_auc":"0.744/0.777","pr_auc":"NOT REPORTED","nanobody":"not stated","her2_leak":"unknown (likely yes)","licence":"ambiguous MIT notice","verdict":"weak prior"},
+{"method":"EpiPred","test_set":"X-test 30 / H-test 15","n":"45","prevalence":"NOT REPORTED","roc_auc":"NOT REPORTED","pr_auc":"NOT REPORTED","nanobody":"not stated","her2_leak":"unknown","licence":"not stated","verdict":"historical, low"},
+{"method":"AbEpiTope-1.0","test_set":"1730 complexes","n":"1730","prevalence":"NOT REPORTED","roc_auc":"NOT REPORTED (residue)","pr_auc":"NOT REPORTED","nanobody":"probably no (VH+VL required)","her2_leak":"unknown (likely yes)","licence":"academic non-commercial","verdict":"unlikely to run on VHH"}
+]

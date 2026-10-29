@@ -1,0 +1,21 @@
+[
+{"table":"her2_nanobody","name":"2Rs15d","pdb":"5MY6","method":"X-ray 2.25 A","epitope_domain":"I (non-competing with trastuzumab/pertuzumab)","affinity":"low-nM by SPR (exact KD unverified)","source":"D'Huyvetter 2017 Clin Cancer Res doi 10.1158/1078-0432.CCR-17-0310","status":"PDB verified (RCSB page opened); affinity number unverified"},
+{"table":"her2_nanobody","name":"NM-02","pdb":"7QVK","method":"X-ray 3.1 A","epitope_domain":"I and II (21 residues, membrane-distal, no overlap with trastuzumab/pertuzumab)","affinity":"~200 pM (humanised variant K 212 pM)","source":"PLOS ONE 2023 doi 10.1371/journal.pone.0288259","status":"verified (paper opened)"},
+{"table":"her2_nanobody","name":"27A05","pdb":"9MTE","method":"cryo-EM 2.66 A","epitope_domain":"I and III (computed 4 A: 6 + 12 residues)","affinity":"unverified","source":"TPP-45142 paper doi 10.1158/1535-7163.MCT-25-0654 (from RCSB citation; paper not opened)","status":"PDB verified; clone-to-chain assignment inferred"},
+{"table":"her2_nanobody","name":"47D05","pdb":"9MTE","method":"cryo-EM 2.66 A","epitope_domain":"I and II (computed 4 A: 9 + 1 residues)","affinity":"unverified","source":"same","status":"PDB verified; assignment inferred"},
+{"table":"her2_nanobody","name":"29E09","pdb":"9MTX","method":"cryo-EM 3.06 A","epitope_domain":"I and III (computed 4 A: 7 + 10 residues)","affinity":"unverified","source":"same","status":"PDB verified"},
+{"table":"her2_nanobody","name":"5F7","pdb":"none found","method":"-","epitope_domain":"IV (competes with trastuzumab)","affinity":"4.7 +/- 0.9 nM (after radiolabelling, search snippet)","source":"Vaneycken 2011 / At-211 paper doi 10.1021/acs.molpharmaceut.9b00354 (snippets only)","status":"unverified (not opened)"},
+{"table":"her2_nanobody","name":"A9B5","pdb":"none found","method":"-","epitope_domain":"I (snippet)","affinity":"unverified","source":"PMC10634241 snippet","status":"unverified"},
+{"table":"cdr3_length","set":"human VH repertoire","n":324005,"median":14,"mean":14.11,"source":"Zhang 2025 Front Immunol"},
+{"table":"cdr3_length","set":"alpaca VHH repertoire","n":465173,"median":16,"mean":15.73,"source":"Zhang 2025"},
+{"table":"cdr3_length","set":"llama VHH repertoire","n":219381,"median":16,"mean":15.74,"source":"Zhang 2025"},
+{"table":"cdr3_length","set":"bactrian VHH repertoire","n":187873,"median":19,"mean":19.34,"source":"Zhang 2025"},
+{"table":"cdr3_length","set":"Mitchell&Colwell 90 Nb-antigen structures","n":90,"median":15,"mean":15.19,"source":"Proteins 2018"},
+{"table":"cdr3_length","set":"PDB camelid VHH unique sequences (this worker, anchor-based)","n":854,"median":16,"mean":15.67,"frac_ge18":0.352,"source":"computed"},
+{"table":"prediction_rmsd","method":"NanoBodyBuilder2","cdr3_A":2.89,"cdr1_A":1.98,"cdr2_A":1.37,"framework_A":0.79,"set":"nanobody test set (size not stated in main text)","source":"Abanades 2023"},
+{"table":"prediction_rmsd","method":"AlphaFold2","cdr3_A":3.44,"cdr1_A":2.08,"cdr2_A":1.35,"framework_A":0.82,"set":"same","source":"Abanades 2023"},
+{"table":"prediction_rmsd","method":"AlphaFold (ColabFold) / IgFold / NanoNet","cdr3_A":"4.00 / 4.25 / 5.43 (mean)","set":"71 nanobodies","source":"Ruffolo 2023 (PMC10129313)"},
+{"table":"prediction_rmsd","method":"OmegaFold / AF2 / IgFold / ESMFold / NanoNet","cdr3_A":"median 2.5 / 3.3 / 3.3 / 3.3 / 3.8","set":"75 nanobodies","source":"Valdes-Tresanco 2023 Molecules"},
+{"table":"prediction_rmsd","method":"AF3 / AF2-Multimer","cdr3_A":"median 1.34 / 1.90 (bound)","set":"70 complexes","source":"Eshak & Goupil-Lamy 2024 preprint"},
+{"table":"prediction_rmsd","method":"AF3 (1 seed) unbound H3","cdr3_A":"median 2.30","set":"70 nanobodies","source":"Hitawala & Gray 2025 mAbs"}
+]

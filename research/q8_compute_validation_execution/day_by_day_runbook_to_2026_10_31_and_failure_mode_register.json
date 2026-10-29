@@ -1,0 +1,23 @@
+[
+{"n":1,"mode":"HF Space upload errors / partial upload","p":"M","impact":"H","signal":"error text, missing file","mitigation":"early S1 upload, retry triple, receipts","owner":"Q"},
+{"n":2,"mode":"Residue numbering offset (signal peptide 22 aa)","p":"H","impact":"H","signal":"proxy score near zero","mitigation":"template seqNum as truth, round-trip test","owner":"W1"},
+{"n":3,"mode":"VHH sequential vs Kabat numbering","p":"M","impact":"H","signal":"CDR3 outside chain","mitigation":"index mapping, resName assert","owner":"W1"},
+{"n":4,"mode":"His-tag/extra residues","p":"M","impact":"M","signal":"row count differs","mitigation":"template defines rows","owner":"W3"},
+{"n":5,"mode":"Chain A/B swap","p":"M","impact":"H","signal":"resName mismatch per chain","mitigation":"validator","owner":"W3"},
+{"n":6,"mode":"Explorer queue stall","p":"M","impact":"M","signal":"pending >6h","mitigation":"Modal/Colab failover","owner":"Q"},
+{"n":7,"mode":"Boltz credit exhaustion","p":"M","impact":"M","signal":"balance","mitigation":"Chai-1/OpenFold3","owner":"W4"},
+{"n":8,"mode":"AF3 weights unavailable","p":"H","impact":"L","signal":"no approval","mitigation":"drop AF3","owner":"Q"},
+{"n":9,"mode":"Proxy leakage inflating scores","p":"H","impact":"H","signal":"clean proxy AP << flagged proxy AP","mitigation":"gate on 9MTX/9MTE, templates-off ablation","owner":"W2"},
+{"n":10,"mode":"All three VHH same epitope assumption","p":"M","impact":"H","signal":"antigen maps correlate >0.9","mitigation":"per-clone inference, S5 hedge","owner":"W6"},
+{"n":11,"mode":"Metric mismatch /detail vs /guideline","p":"M","impact":"M","signal":"differing text","mitigation":"report both PR-AUC variants","owner":"Q"},
+{"n":12,"mode":"Extended deadline rumour","p":"M","impact":"H","signal":"Aug 28 comment only","mitigation":"plan to Oct 30","owner":"Q"},
+{"n":13,"mode":"Sanctions/residency eligibility","p":"L","impact":"H","signal":"unknown","mitigation":"check members vs /detail list","owner":"Q"},
+{"n":14,"mode":"Test set dominated by one epitope","p":"M","impact":"M","signal":"per-complex AP spread","mitigation":"report per complex, S5","owner":"W6"},
+{"n":15,"mode":"Gated dataset access not granted","p":"M","impact":"M","signal":"no email by D03","mitigation":"public sequences and PDB suffice except NGS arm","owner":"Q"},
+{"n":16,"mode":"HF OAuth session expiry","p":"L","impact":"M","signal":"login screen","mitigation":"re-login","owner":"Q"},
+{"n":17,"mode":"Scores outside 0-1 or NaN","p":"L","impact":"H","signal":"validator","mitigation":"assert","owner":"W3"},
+{"n":18,"mode":"Ensemble overfit to 2 clean proxies","p":"H","impact":"M","signal":"LOO weight drift","mitigation":"<=3 params, shrink to prior","owner":"W6"},
+{"n":19,"mode":"Scorer wrong","p":"M","impact":"H","signal":"cannot reproduce 8GZ5 numbers","mitigation":"independent reimplementation","owner":"W3"},
+{"n":20,"mode":"Methods note incomplete","p":"M","impact":"M","signal":"checklist gaps D11","mitigation":"checklist","owner":"W7"},
+{"n":21,"mode":"Local resource trouble on NGS table","p":"M","impact":"L","signal":"CPU>75%, <5GB free","mitigation":"column subsets","owner":"W5"}
+]

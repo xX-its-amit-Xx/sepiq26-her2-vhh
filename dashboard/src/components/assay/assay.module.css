@@ -1,0 +1,30 @@
+.sec { margin: 2.5rem 0; }
+.sec h2 { font-family: var(--font-head); font-size: 1.6rem; margin: 0 0 0.4rem; }
+.track { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.5rem 0 0.8rem; align-items: stretch; }
+.step { font-family: var(--font-head); font-size: 0.85rem; border: 1px solid var(--hair); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 0.45rem 0.7rem; cursor: pointer; text-align: left; flex: 1 1 8rem; min-width: 0; }
+.step small { display: block; color: var(--ink-3); font-size: 0.72rem; }
+.step:hover { border-color: var(--vhh); }
+.stepOn { background: var(--vhh-soft); border-color: var(--vhh); }
+.stepTruth.stepOn { background: var(--her2-soft); border-color: var(--her2); }
+.trackLabel { font-family: var(--font-head); font-size: 0.78rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 1rem; }
+.panel { border: 1px solid var(--hair); background: var(--panel); border-radius: 10px; padding: 0.8rem 1rem; }
+.panel h3 { font-family: var(--font-head); margin: 0 0 0.3rem; font-size: 1.15rem; }
+.tool { border: 1px solid var(--hair); background: var(--panel); border-radius: 10px; padding: 1rem; margin: 1rem 0; }
+.ctl { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.2rem; margin: 0.6rem 0; }
+.ctl label { font-family: var(--font-head); font-size: 0.85rem; display: flex; justify-content: space-between; gap: 0.5rem; flex-wrap: wrap; }
+.ctl label b { color: var(--vhh); font-variant-numeric: tabular-nums; }
+.ctl input[type="range"] { width: 100%; accent-color: var(--vhh); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 0.6rem; margin: 0.8rem 0; }
+.stat { border: 1px solid var(--hair); border-radius: 8px; background: var(--bg); padding: 0.5rem 0.7rem; min-width: 0; }
+.v { font-family: var(--font-head); font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.l { font-size: 0.78rem; color: var(--ink-2); }
+.bad { color: var(--bad); } .good { color: var(--good); } .amber { color: var(--amber); } .her2 { color: var(--her2); } .vhh { color: var(--vhh); }
+.svg { width: 100%; height: auto; display: block; }
+.svg text { font-family: var(--font-head); font-size: 11px; fill: var(--ink-2); }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.8rem; }
+.tblwrap { overflow-x: auto; max-width: 100%; }
+.tbl { border-collapse: collapse; font-size: 0.85rem; width: 100%; }
+.tbl th, .tbl td { border-bottom: 1px solid var(--hair); padding: 0.3rem 0.5rem; text-align: left; font-variant-numeric: tabular-nums; }
+.fail { border-left: 4px solid var(--bad); }
+.small { font-size: 0.85rem; color: var(--ink-2); }
+.btnrow { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.5rem 0; }

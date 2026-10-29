@@ -1,0 +1,11 @@
+[
+{"tool":"3DEX","year":2005,"input":"mimotopes + structure","method":"motif, distance graph","server":"stand-alone, unchecked","accuracy":"none quoted in review"},
+{"tool":"MIMOX","year":2006,"input":"mimotopes + structure","method":"ClustalW consensus + cluster","server":"immunet.cn/mimox 404 on 2026-10-17","accuracy":"reproduces FINDMAP/3DEX case studies"},
+{"tool":"MIMOP","year":2006,"input":"mimotopes + template","method":"MimAlign/MimCons","server":"upon request","accuracy":"none quoted"},
+{"tool":"Mapitope","year":2003,"input":"mimotopes + structure","method":"residue-pair statistics","server":"via Pepitope","accuracy":"none quoted"},
+{"tool":"PepSurf","year":2006,"input":"peptides (<=14 aa) + structure","method":"graph alignment","server":"pepitope.tau.ac.il cert mismatch, HTTP 307; unverified","accuracy":"correct in 4 complexes (NAR); MimoTree comparison sens 0.32 prec 0.28"},
+{"tool":"EpiSearch","year":2009,"input":"<=30 peptides + structure","method":"12 A patches","server":"curie.utmb.edu unreachable from test box","accuracy":"HER2/trastuzumab top patch 9/14 interface residues; MimoTree comparison sens 0.31 prec 0.21"},
+{"tool":"Pep-3D-Search","year":2008,"input":"mimotopes or motif","method":"ant colony","server":"unchecked","accuracy":"none quoted"},
+{"tool":"MimoPro","year":2011,"input":"mimotopes + structure","method":"patch+graph hybrid","server":"unchecked","accuracy":"none quoted"},
+{"tool":"MimoTree","year":2024,"input":"mimotopes + structure","method":"gapped alignment","server":"unchecked","accuracy":"sens 0.52 prec 0.17 MCC 0.16 (complex); sens 0.33 prec 0.12 (unbound)"}
+]

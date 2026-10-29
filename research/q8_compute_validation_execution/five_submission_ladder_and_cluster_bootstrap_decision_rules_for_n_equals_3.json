@@ -1,0 +1,7 @@
+[
+ {"rung":"S1","date":"2026-10-20","content":"sequence prior + co-fold contact map","advance":"proxy macro PR-AUC >= random+0.05, valid format","kill":"not above random: submit as smoke test, fix pipeline"},
+ {"rung":"S2","date":"2026-10-24","content":"add NGS-derived per-residue feature","advance":"raw gain>=0.03, CI lower>0, positive in >=2/3 complexes","kill":"gain<0.03 or sign flips: drop feature"},
+ {"rung":"S3","date":"2026-10-27","content":"ensemble of surviving arms + second co-folder","advance":"beats best single by >=0.02 or ties within noise, no complex worse by >0.03","kill":"worse than best single by >0.02: revert"},
+ {"rung":"S4","date":"2026-10-29","content":"calibrated candidate (leave-one-complex-out)","advance":"both PR-AUC variants not worse than S3","kill":"drop >0.01 or <3 proxy complexes: keep S3"},
+ {"rung":"S5","date":"2026-10-30","content":"reserved hedge = pre-registered final arm or fix","advance":"final-choice rule section 6","kill":"never an untested idea"}
+]

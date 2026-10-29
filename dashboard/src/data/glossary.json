@@ -1,0 +1,841 @@
+[
+ {
+  "id": "epitope",
+  "term": "epitope",
+  "short": "The patch on the target protein that an antibody or nanobody touches."
+ },
+ {
+  "id": "paratope",
+  "term": "paratope",
+  "short": "The part of the nanobody that touches the target."
+ },
+ {
+  "id": "vhh",
+  "term": "VHH",
+  "short": "The single grabbing domain of a camel-family heavy-chain-only antibody; a nanobody."
+ },
+ {
+  "id": "nanobody",
+  "term": "nanobody",
+  "short": "A tiny antibody fragment from camels, llamas or alpacas, stable and easy to make in bacteria."
+ },
+ {
+  "id": "antibody",
+  "term": "antibody",
+  "short": "A Y-shaped immune protein that sticks to a specific target."
+ },
+ {
+  "id": "heavy-chain-only-antibody",
+  "term": "heavy-chain-only antibody",
+  "short": "A camel-family antibody that lacks the light chains."
+ },
+ {
+  "id": "cdr",
+  "term": "CDR",
+  "short": "One of three variable loops of an antibody that do most of the grabbing."
+ },
+ {
+  "id": "cdr1",
+  "term": "CDR1",
+  "short": "The first grabbing loop of a nanobody."
+ },
+ {
+  "id": "cdr2",
+  "term": "CDR2",
+  "short": "The second grabbing loop of a nanobody."
+ },
+ {
+  "id": "cdr3",
+  "term": "CDR3",
+  "short": "The third and most variable loop, usually the main contact."
+ },
+ {
+  "id": "framework",
+  "term": "framework",
+  "short": "The steadier scaffold between the loops."
+ },
+ {
+  "id": "hallmark-residues",
+  "term": "hallmark residues",
+  "short": "Four framework positions that make a VHH water-soluble without a light chain."
+ },
+ {
+  "id": "germline-gene",
+  "term": "germline gene",
+  "short": "The inherited gene segment an antibody starts from."
+ },
+ {
+  "id": "somatic-hypermutation",
+  "term": "somatic hypermutation",
+  "short": "Mutations that an immune cell adds to refine an antibody."
+ },
+ {
+  "id": "kinked-cdr3",
+  "term": "kinked CDR3",
+  "short": "A CDR3 that bends back over the framework."
+ },
+ {
+  "id": "immunisation",
+  "term": "immunisation",
+  "short": "Injecting an animal so its immune system makes antibodies."
+ },
+ {
+  "id": "alpaca",
+  "term": "alpaca",
+  "short": "A camel-family animal whose antibodies supply the nanobodies."
+ },
+ {
+  "id": "her2",
+  "term": "HER2",
+  "short": "A cell-surface growth-signal protein that some cancers overproduce."
+ },
+ {
+  "id": "erbb2",
+  "term": "ERBB2",
+  "short": "The gene name for HER2."
+ },
+ {
+  "id": "egfr-family",
+  "term": "EGFR family",
+  "short": "Four related receptors (EGFR, HER2, HER3, HER4) that pair up to signal."
+ },
+ {
+  "id": "egfr",
+  "term": "EGFR",
+  "short": "The first member of the ErbB receptor family."
+ },
+ {
+  "id": "her3",
+  "term": "HER3",
+  "short": "A receptor partner of HER2."
+ },
+ {
+  "id": "her4",
+  "term": "HER4",
+  "short": "A fourth receptor in the family."
+ },
+ {
+  "id": "ectodomain",
+  "term": "ectodomain",
+  "short": "The part of the receptor outside the cell."
+ },
+ {
+  "id": "domain-i",
+  "term": "domain I",
+  "short": "The first outer bead of HER2."
+ },
+ {
+  "id": "domain-ii",
+  "term": "domain II",
+  "short": "The second bead, carrying the dimerisation arm."
+ },
+ {
+  "id": "domain-iii",
+  "term": "domain III",
+  "short": "The third bead."
+ },
+ {
+  "id": "domain-iv",
+  "term": "domain IV",
+  "short": "The fourth bead, nearest the membrane."
+ },
+ {
+  "id": "juxtamembrane",
+  "term": "juxtamembrane",
+  "short": "The stretch right next to the cell membrane."
+ },
+ {
+  "id": "dimerisation-arm",
+  "term": "dimerisation arm",
+  "short": "A loop in domain II that lets receptors pair."
+ },
+ {
+  "id": "tether",
+  "term": "tether",
+  "short": "A folded-back state where domain IV hides the arm."
+ },
+ {
+  "id": "signal-peptide",
+  "term": "signal peptide",
+  "short": "A short tag that is cut off when the protein reaches the surface."
+ },
+ {
+  "id": "trastuzumab",
+  "term": "trastuzumab",
+  "short": "The first anti-HER2 antibody drug (Herceptin)."
+ },
+ {
+  "id": "pertuzumab",
+  "term": "pertuzumab",
+  "short": "An antibody drug that blocks HER2 pairing."
+ },
+ {
+  "id": "margetuximab",
+  "term": "margetuximab",
+  "short": "A trastuzumab-like antibody tuned for immune recruitment."
+ },
+ {
+  "id": "antibody-drug-conjugate",
+  "term": "antibody-drug conjugate",
+  "short": "An antibody carrying a toxic payload to the cancer cell."
+ },
+ {
+  "id": "glycan",
+  "term": "glycan",
+  "short": "A sugar chain attached to a protein."
+ },
+ {
+  "id": "sequon",
+  "term": "sequon",
+  "short": "The amino-acid pattern where a sugar chain can attach."
+ },
+ {
+  "id": "disulfide-bond",
+  "term": "disulfide bond",
+  "short": "A sulfur-sulfur staple that holds a protein fold."
+ },
+ {
+  "id": "amplification",
+  "term": "amplification",
+  "short": "Extra copies of a gene in a tumour."
+ },
+ {
+  "id": "p95her2",
+  "term": "p95HER2",
+  "short": "Shortened forms of HER2 that lack the outer part."
+ },
+ {
+  "id": "uniprot",
+  "term": "UniProt",
+  "short": "The reference database of protein sequences and numbering."
+ },
+ {
+  "id": "pdb",
+  "term": "PDB",
+  "short": "The public archive of 3D structures."
+ },
+ {
+  "id": "sabdab",
+  "term": "SAbDab",
+  "short": "A database of antibody structures."
+ },
+ {
+  "id": "sabdab-nano",
+  "term": "SAbDab-nano",
+  "short": "The nanobody-only database of structures."
+ },
+ {
+  "id": "imgt",
+  "term": "IMGT",
+  "short": "A standard numbering scheme for antibody residues."
+ },
+ {
+  "id": "anarci",
+  "term": "ANARCI",
+  "short": "A tool that numbers antibody sequences."
+ },
+ {
+  "id": "kabat-numbering",
+  "term": "Kabat numbering",
+  "short": "An older antibody numbering scheme."
+ },
+ {
+  "id": "phage-display",
+  "term": "phage display",
+  "short": "Showing proteins on virus particles so you can fish for binders."
+ },
+ {
+  "id": "phage",
+  "term": "phage",
+  "short": "A virus that infects bacteria."
+ },
+ {
+  "id": "phagemid",
+  "term": "phagemid",
+  "short": "A small circular DNA used to display proteins on phage."
+ },
+ {
+  "id": "biopanning",
+  "term": "biopanning",
+  "short": "Fishing sticky phage out of a library by washing."
+ },
+ {
+  "id": "ngs",
+  "term": "NGS",
+  "short": "Reading millions of DNA sequences at once."
+ },
+ {
+  "id": "read-count",
+  "term": "read count",
+  "short": "How many times a sequence was read."
+ },
+ {
+  "id": "singleton",
+  "term": "singleton",
+  "short": "A sequence read exactly once."
+ },
+ {
+  "id": "enrichment",
+  "term": "enrichment",
+  "short": "A rise in a sequence's share after fishing."
+ },
+ {
+  "id": "ie-score",
+  "term": "IE-score",
+  "short": "The organisers' enrichment score."
+ },
+ {
+  "id": "z-test",
+  "term": "z-test",
+  "short": "A test of whether two proportions differ."
+ },
+ {
+  "id": "chi-squared",
+  "term": "chi-squared",
+  "short": "A test of whether counts differ more than chance."
+ },
+ {
+  "id": "p-value",
+  "term": "p-value",
+  "short": "How surprising the data are if nothing is going on."
+ },
+ {
+  "id": "multiple-testing",
+  "term": "multiple testing",
+  "short": "Running many tests makes false positives likely."
+ },
+ {
+  "id": "cochran-s-rule",
+  "term": "Cochran's rule",
+  "short": "A rule for when chi-squared is trustworthy."
+ },
+ {
+  "id": "pcr-error",
+  "term": "PCR error",
+  "short": "Copying mistakes made while amplifying DNA."
+ },
+ {
+  "id": "display-bias",
+  "term": "display bias",
+  "short": "Some proteins show up on phage better than others."
+ },
+ {
+  "id": "parasitic-clone",
+  "term": "parasitic clone",
+  "short": "A phage that wins by growing fast, not by binding."
+ },
+ {
+  "id": "tag-binder",
+  "term": "tag binder",
+  "short": "A sequence that sticks to the tag, not the target."
+ },
+ {
+  "id": "his-tag",
+  "term": "His tag",
+  "short": "A run of histidines used to purify proteins."
+ },
+ {
+  "id": "gacq",
+  "term": "GACQ",
+  "short": "The last four residues of the HER2 construct, native not a tag."
+ },
+ {
+  "id": "binder-label",
+  "term": "binder label",
+  "short": "The Yes/Not call in the training table."
+ },
+ {
+  "id": "mother-library",
+  "term": "Mother Library",
+  "short": "The starting pool of the library."
+ },
+ {
+  "id": "competition-sublibrary",
+  "term": "competition sublibrary",
+  "short": "A panning done with a known drug competing for the target."
+ },
+ {
+  "id": "usearch-cluster",
+  "term": "USEARCH cluster",
+  "short": "Sequence families grouped at 93% identity."
+ },
+ {
+  "id": "hamming-distance",
+  "term": "Hamming distance",
+  "short": "The number of positions that differ."
+ },
+ {
+  "id": "clonotype",
+  "term": "clonotype",
+  "short": "A family of sequences from one ancestral cell."
+ },
+ {
+  "id": "cryo-em",
+  "term": "cryo-EM",
+  "short": "Imaging frozen molecules with electrons to build a 3D picture."
+ },
+ {
+  "id": "resolution",
+  "term": "resolution",
+  "short": "How fine the detail of a 3D picture is."
+ },
+ {
+  "id": "angstrom",
+  "term": "angstrom",
+  "short": "One ten-billionth of a metre."
+ },
+ {
+  "id": "map-and-model",
+  "term": "map and model",
+  "short": "The raw 3D density and the atoms fitted into it."
+ },
+ {
+  "id": "x-ray-crystallography",
+  "term": "X-ray crystallography",
+  "short": "Building a structure from X-ray scattering of crystals."
+ },
+ {
+  "id": "voronota",
+  "term": "Voronota",
+  "short": "Software that measures contact areas between atoms."
+ },
+ {
+  "id": "voronota-lt",
+  "term": "Voronota-LT",
+  "short": "The light version used to define the challenge truth."
+ },
+ {
+  "id": "contact-area",
+  "term": "contact area",
+  "short": "How much surface two residues share."
+ },
+ {
+  "id": "area-weighted-metric",
+  "term": "area-weighted metric",
+  "short": "A score variant that counts big contacts more."
+ },
+ {
+  "id": "pr-auc",
+  "term": "PR-AUC",
+  "short": "A score for ranking true residues above false ones when positives are rare."
+ },
+ {
+  "id": "precision",
+  "term": "precision",
+  "short": "Of the residues you flag, the share that are right."
+ },
+ {
+  "id": "recall",
+  "term": "recall",
+  "short": "Of the true residues, the share you found."
+ },
+ {
+  "id": "average-precision",
+  "term": "average precision",
+  "short": "A way to compute the area under precision-recall."
+ },
+ {
+  "id": "trapezoid-pr-auc",
+  "term": "trapezoid PR-AUC",
+  "short": "Another way to compute the area under precision-recall."
+ },
+ {
+  "id": "prevalence",
+  "term": "prevalence",
+  "short": "The share of residues that are truly positive."
+ },
+ {
+  "id": "base-rate",
+  "term": "base rate",
+  "short": "The chance level before any model."
+ },
+ {
+  "id": "macro-average",
+  "term": "macro-average",
+  "short": "Average of the three complexes' scores, no pooling."
+ },
+ {
+  "id": "pooling",
+  "term": "pooling",
+  "short": "Mixing both chains into one ranked list."
+ },
+ {
+  "id": "roc-auc",
+  "term": "ROC-AUC",
+  "short": "Chance that a true residue outranks a false one."
+ },
+ {
+  "id": "mcc",
+  "term": "MCC",
+  "short": "A balanced single-number classifier score."
+ },
+ {
+  "id": "bootstrap",
+  "term": "bootstrap",
+  "short": "Resampling the data to see how much a score wobbles."
+ },
+ {
+  "id": "paired-cluster-bootstrap",
+  "term": "paired cluster bootstrap",
+  "short": "Bootstrap that keeps related items together and compares methods on the same resamples."
+ },
+ {
+  "id": "confidence-interval",
+  "term": "confidence interval",
+  "short": "The range a score plausibly lies in."
+ },
+ {
+  "id": "shuffle-null",
+  "term": "shuffle null",
+  "short": "The score you would get by scrambling the answer."
+ },
+ {
+  "id": "lift",
+  "term": "lift",
+  "short": "How many times better than chance."
+ },
+ {
+  "id": "tie",
+  "term": "tie",
+  "short": "Two residues given the same score."
+ },
+ {
+  "id": "calibration",
+  "term": "calibration",
+  "short": "Making probabilities match true frequencies."
+ },
+ {
+  "id": "isotonic-regression",
+  "term": "isotonic regression",
+  "short": "A monotone calibration step."
+ },
+ {
+  "id": "shrinkage",
+  "term": "shrinkage",
+  "short": "Pulling uncertain values toward the base rate."
+ },
+ {
+  "id": "ensemble",
+  "term": "ensemble",
+  "short": "Combining several models or runs."
+ },
+ {
+  "id": "seed",
+  "term": "seed",
+  "short": "The random starting number of a model run."
+ },
+ {
+  "id": "consensus",
+  "term": "consensus",
+  "short": "The contacts that repeat across runs."
+ },
+ {
+  "id": "co-folding",
+  "term": "co-folding",
+  "short": "AI that draws the complex of two proteins from sequences."
+ },
+ {
+  "id": "alphafold3",
+  "term": "AlphaFold3",
+  "short": "A co-folding AI from DeepMind and Isomorphic."
+ },
+ {
+  "id": "alphafold2",
+  "term": "AlphaFold2",
+  "short": "The 2020 protein-structure AI."
+ },
+ {
+  "id": "boltz",
+  "term": "Boltz",
+  "short": "An open co-folding model family."
+ },
+ {
+  "id": "chai",
+  "term": "Chai",
+  "short": "An open co-folding model."
+ },
+ {
+  "id": "openfold3",
+  "term": "OpenFold3",
+  "short": "An open-source AlphaFold3-style model."
+ },
+ {
+  "id": "protenix",
+  "term": "Protenix",
+  "short": "A ByteDance co-folding model."
+ },
+ {
+  "id": "haddock",
+  "term": "HADDOCK",
+  "short": "A docking program driven by restraints."
+ },
+ {
+  "id": "docking",
+  "term": "docking",
+  "short": "Fitting two molecules together."
+ },
+ {
+  "id": "dockq",
+  "term": "DockQ",
+  "short": "A 0-1 score for how right a docked pose is."
+ },
+ {
+  "id": "capri",
+  "term": "CAPRI",
+  "short": "The blind docking challenge series."
+ },
+ {
+  "id": "capri-q",
+  "term": "CAPRI-Q",
+  "short": "The CAPRI quality grading."
+ },
+ {
+  "id": "casp",
+  "term": "CASP",
+  "short": "The blind protein-structure prediction contest."
+ },
+ {
+  "id": "iptm",
+  "term": "ipTM",
+  "short": "The AI's own confidence in how two chains fit."
+ },
+ {
+  "id": "plddt",
+  "term": "pLDDT",
+  "short": "The AI's per-residue confidence."
+ },
+ {
+  "id": "pae",
+  "term": "PAE",
+  "short": "The AI's expected error between two positions."
+ },
+ {
+  "id": "ipsae",
+  "term": "ipSAE",
+  "short": "A confidence score built from PAE across the interface."
+ },
+ {
+  "id": "rmsd",
+  "term": "RMSD",
+  "short": "Average distance between two structures."
+ },
+ {
+  "id": "fnat",
+  "term": "Fnat",
+  "short": "Fraction of true contacts recovered."
+ },
+ {
+  "id": "gdt-ts",
+  "term": "GDT_TS",
+  "short": "A 0-100 score for how close a predicted fold is."
+ },
+ {
+  "id": "msa",
+  "term": "MSA",
+  "short": "A stack of aligned related sequences."
+ },
+ {
+  "id": "coevolution",
+  "term": "coevolution",
+  "short": "Positions that mutate together because they touch."
+ },
+ {
+  "id": "dca",
+  "term": "DCA",
+  "short": "A method that finds touching residues from co-variation."
+ },
+ {
+  "id": "potts-model",
+  "term": "Potts model",
+  "short": "The statistical model behind DCA."
+ },
+ {
+  "id": "pu-learning",
+  "term": "PU learning",
+  "short": "Learning from positives plus unlabelled examples."
+ },
+ {
+  "id": "label-noise",
+  "term": "label noise",
+  "short": "Wrong labels in the training data."
+ },
+ {
+  "id": "leakage",
+  "term": "leakage",
+  "short": "Test answers sneaking into training."
+ },
+ {
+  "id": "proxy-set",
+  "term": "proxy set",
+  "short": "Public solved cases used as stand-in tests."
+ },
+ {
+  "id": "grouped-cross-validation",
+  "term": "grouped cross-validation",
+  "short": "Splitting by family so relatives stay on one side."
+ },
+ {
+  "id": "leave-one-complex-out",
+  "term": "leave-one-complex-out",
+  "short": "Test on one complex, build on the others."
+ },
+ {
+  "id": "training-cutoff",
+  "term": "training cutoff",
+  "short": "The date after which a model has seen no data."
+ },
+ {
+  "id": "language-model",
+  "term": "language model",
+  "short": "A neural net trained on sequences as text."
+ },
+ {
+  "id": "esm-2",
+  "term": "ESM-2",
+  "short": "A widely used protein language model."
+ },
+ {
+  "id": "ablang-2",
+  "term": "AbLang-2",
+  "short": "An antibody language model."
+ },
+ {
+  "id": "discotope-3-0",
+  "term": "DiscoTope-3.0",
+  "short": "A structure-based B-cell epitope predictor."
+ },
+ {
+  "id": "bepipred-3-0",
+  "term": "BepiPred-3.0",
+  "short": "A sequence-based B-cell epitope predictor."
+ },
+ {
+  "id": "asep",
+  "term": "AsEP",
+  "short": "A benchmark of antibody-antigen epitope groups."
+ },
+ {
+  "id": "antibinder",
+  "term": "AntiBinder",
+  "short": "The organisers' baseline model."
+ },
+ {
+  "id": "avida-hher2",
+  "term": "AVIDa-hHER2",
+  "short": "The COGNANO HER2 nanobody dataset."
+ },
+ {
+  "id": "cognano",
+  "term": "COGNANO",
+  "short": "The company that supplied the training data."
+ },
+ {
+  "id": "sepiq",
+  "term": "SEPIQ",
+  "short": "The London organiser of the challenge."
+ },
+ {
+  "id": "track-a",
+  "term": "Track A",
+  "short": "The residue-level prediction contest."
+ },
+ {
+  "id": "track-b",
+  "term": "Track B",
+  "short": "The atomic-level structure contest run by CAPRI."
+ },
+ {
+  "id": "hugging-face-space",
+  "term": "Hugging Face Space",
+  "short": "The website where files are uploaded."
+ },
+ {
+  "id": "explorer-cluster",
+  "term": "Explorer cluster",
+  "short": "The university GPU cluster available to the team."
+ },
+ {
+  "id": "mimotope",
+  "term": "mimotope",
+  "short": "A short peptide that mimics an epitope."
+ },
+ {
+  "id": "deep-mutational-scanning",
+  "term": "deep mutational scanning",
+  "short": "Measuring the effect of many mutations to map function."
+ },
+ {
+  "id": "presence-only-model",
+  "term": "presence-only model",
+  "short": "A model fitted from only positive records."
+ },
+ {
+  "id": "decibans",
+  "term": "decibans",
+  "short": "Adding evidence as log-odds in units of weight-of-evidence."
+ },
+ {
+  "id": "hotspot",
+  "term": "hotspot",
+  "short": "A residue or region touched again and again."
+ },
+ {
+  "id": "niche",
+  "term": "niche",
+  "short": "A distinct zone of the surface that binders occupy."
+ },
+ {
+  "id": "habitat-mask",
+  "term": "habitat mask",
+  "short": "A per-residue map of where binders can land."
+ },
+ {
+  "id": "relative-solvent-accessibility",
+  "term": "relative solvent accessibility",
+  "short": "How exposed a residue is."
+ },
+ {
+  "id": "onu11",
+  "term": "ONU11",
+  "short": "First of three held-out nanobody clones."
+ },
+ {
+  "id": "onu13",
+  "term": "ONU13",
+  "short": "Second held-out clone."
+ },
+ {
+  "id": "onu23",
+  "term": "ONU23",
+  "short": "Third held-out clone."
+ },
+ {
+  "id": "folding-from-binding",
+  "term": "folding from binding",
+  "short": "The organisers' hypothesis that binding data hold weak structural signal."
+ },
+ {
+  "id": "residue",
+  "term": "residue",
+  "short": "One building block (amino acid) in a protein chain; we number them to say exactly where something sits.",
+  "aliases": [
+   "residues"
+  ]
+ },
+ {
+  "id": "interface",
+  "term": "interface",
+  "short": "The set of positions on the target that are in contact with a binding partner.",
+  "aliases": [
+   "interface residues"
+  ]
+ },
+ {
+  "id": "structure prediction",
+  "term": "structure prediction",
+  "short": "Software that guesses the 3D shape of a protein, or of two proteins stuck together, from their sequences.",
+  "aliases": [
+   "structure-prediction"
+  ]
+ }
+]

@@ -1,0 +1,9 @@
+[
+{"method":"Parapred","input":"sequence CDR+flanks","nanobody_evaluated":"no claim found","metrics":"H-chain blind test (ParaDeep table): ROC 0.861, PR-AUC 0.516, MCC 0.410","prevalence_reported":"no","install":"oxpig/Parapred (README 404, unverified)"},
+{"method":"Paragraph","input":"IMGT-numbered structure","nanobody_evaluated":"not mentioned; heavy-only weights exist","metrics":"aggregator: AUC-PR 0.696, AUC-ROC 0.934 on PECAN set (third-party)","prevalence_reported":"no","install":"pip install . from oxpig/Paragraph, py3.8.3"},
+{"method":"NanoBERTa-ASP","input":"sequence","nanobody_evaluated":"yes","metrics":"AUC 0.947 (nanobody only), 0.952 (+heavy); precision 0.766/0.778; PR-AUC in figures only","prevalence_reported":"no","install":"GitHub per paper; weights unverified"},
+{"method":"ParaAntiProt","input":"sequence","nanobody_evaluated":"yes","metrics":"ROC-AUC 0.912, PR-AUC 0.665 (search summary)","prevalence_reported":"unknown","install":"unverified"},
+{"method":"ParaDeep","input":"sequence","nanobody_evaluated":"no","metrics":"H: ROC 0.959, PR-AUC 0.805, MCC 0.685 (n=222)","prevalence_reported":"10.4%","install":"github.com/PiyachatU/ParaDeep"},
+{"method":"NanoBodyBuilder2","input":"sequence->structure","nanobody_evaluated":"structure","metrics":"CDR-H3 RMSD 2.89 A","prevalence_reported":"n/a","install":"pip install ImmuneBuilder (+openmm, pdbfixer, ANARCI)"},
+{"method":"IgFold","input":"sequence->structure","nanobody_evaluated":"structure","metrics":"not extracted","prevalence_reported":"n/a","install":"pip install igfold (py>=3.11)"}
+]

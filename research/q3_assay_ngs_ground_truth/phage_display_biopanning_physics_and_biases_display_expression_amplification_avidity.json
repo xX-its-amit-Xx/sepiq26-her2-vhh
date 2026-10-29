@@ -1,0 +1,12 @@
+[
+{"step":1,"handoff":"Immunisation","bias":"repertoire","magnitude":"unquantified"},
+{"step":2,"handoff":"RNA/cDNA/PCR hinge primers","bias":"amplification/sampling","magnitude":"unquantified"},
+{"step":3,"handoff":"pMES4 cloning, TG1","bias":"pre-selection","magnitude":"unquantified"},
+{"step":4,"handoff":"pIII display","bias":"display/expression","magnitude":"rho 0.88 display vs expression (scFv)"},
+{"step":5,"handoff":"Antigen immobilisation","bias":"epitope/avidity","magnitude":"not inferable"},
+{"step":6,"handoff":"Wash","bias":"non-specific retention","magnitude":"unquantified for VHH"},
+{"step":7,"handoff":"Elution","bias":"selective loss","magnitude":"unquantified"},
+{"step":8,"handoff":"TG1 amplification","bias":"growth advantage","magnitude":"peptide: >1e-4 clones 35% bulk vs <1% emulsion; one clone 95% of eluate"},
+{"step":9,"handoff":"NGS PCR","bias":"quantitation","magnitude":"1.25-1.5x Poisson variance"},
+{"step":10,"handoff":"Sequencing + z-test","bias":"statistical","magnitude":"main FP source; FP 10-40% estimated"}
+]

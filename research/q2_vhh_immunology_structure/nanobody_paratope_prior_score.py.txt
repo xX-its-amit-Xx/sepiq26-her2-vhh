@@ -1,0 +1,110 @@
+import re,json,warnings,numpy as np
+warnings.filterwarnings('ignore')
+from Bio.PDB import MMCIFParser,NeighborSearch,ShrakeRupley
+from Bio.SeqUtils import seq1
+from sklearn.metrics import average_precision_score,roc_auc_score
+P=MMCIFParser(QUIET=True)
+KD={'A':1.8,'R':-4.5,'N':-3.5,'D':-3.5,'C':2.5,'Q':-3.5,'E':-3.5,'G':-0.4,'H':-3.2,'I':4.5,'L':3.8,'K':-3.9,'M':1.9,'F':2.8,'P':-1.6,'S':-0.8,'T':-0.7,'W':-0.9,'Y':-1.3,'V':4.2}
+def isv(s): return 95<=len(s)<=160 and re.search(r'W[GA].G.{0,4}VTV',s)
+def regions(s):
+    """heuristic IMGT-like anchors. returns dict idx->(region, imgt-ish pos offset tags)"""
+    c1=s.find('C'); w41=None
+    m=re.search(r'W[FYV][RQ]Q',s[c1+8:]); 
+    if not m: return None
+    w41=c1+8+m.start()
+    m2=re.search(r'W[GA].G',s[w41+30:]); 
+    if not m2: return None
+    w118=w41+30+m2.start()
+    c2=s.rfind('C',0,w118)
+    m3=re.search(r'R[FL][TIA]I',s[w41+12:c2]); 
+    r66=w41+12+m3.start() if m3 else w41+26
+    reg={}
+    for i in range(len(s)): reg[i]='FR'
+    for i in range(c1+4,w41-2): reg[i]='CDR1'
+    for i in range(w41+15,r66): reg[i]='CDR2'
+    for i in range(c2+1,w118): reg[i]='CDR3'
+    tags={'p29':c1+6,'p37':w41-4,'p44':w41+3,'p45':w41+4,'p47':w41+6}
+    return reg,tags,(c2+1,w118)
+AAW={'Y':1.7,'W':1.6,'R':1.3,'S':1.15,'N':1.15,'F':1.2,'D':1.1,'T':1.0,'G':1.0,'H':1.0,'A':0.8,'E':0.8,'Q':0.9,'K':0.8,'M':0.9,'P':0.8,'L':0.7,'I':0.7,'V':0.6,'C':0.8}
+BASE={'CDR3':0.50,'CDR2':0.20,'CDR1':0.18,'FR':0.03}
+def predict(s):
+    reg,tags,(a,b)=regions(s); mid=(a+b-1)/2; half=max((b-a)/2,1)
+    out=[]
+    for i,aa in enumerate(s):
+        r=reg[i]; sc=BASE[r]
+        if r=='CDR3': sc*= (0.6+0.4*np.exp(-((i-mid)/(0.7*half))**2))   # loop apex bonus
+        if i==tags['p29']: sc=max(sc,0.25)
+        if i in (tags['p37'],tags['p44'],tags['p45'],tags['p47']): sc=max(sc,0.22)
+        sc*=AAW.get(aa,1.0)
+        out.append(min(sc,1.0))
+    return np.array(out),reg
+def load(pid):
+    st=P.get_structure(pid,f'pdb/{pid}.cif')[0]
+    chains={}
+    for ch in st:
+        res=[r for r in ch if r.id[0]==' ']
+        if res: chains[ch.id]=res
+    return st,chains
+def seqof(res): return ''.join(seq1(r.get_resname()) if len(r.get_resname())==3 else 'X' for r in res)
+def contacts(vres,ares,cut=4.5):
+    atoms=[a for r in ares for a in r if a.element!='H']
+    ns=NeighborSearch(atoms)
+    vp=[];ap=set()
+    for i,r in enumerate(vres):
+        hit=False
+        for a in r:
+            if a.element=='H': continue
+            for n in ns.search(a.coord,cut):
+                hit=True; ap.add(n.get_parent().get_full_id())
+        vp.append(int(hit))
+    return np.array(vp),ap
+rows=[];stats=[]
+ids=["8GZ5","5MY6","7QVK","9MTX","9MTE","4KRL","4KRO","4KRP","7OM4","7AR0","1RJC","6ZBP","6RTW","7Z1D","8E0E","6OBC","5C2U"]
+for pid in ids:
+    st,ch=load(pid)
+    vh={k:v for k,v in ch.items() if isv(seqof(v))}
+    ag={k:v for k,v in ch.items() if k not in vh and len(v)>50}
+    for vk,vres in vh.items():
+        # antigen = chains contacting this VHH
+        contacting=[]
+        for ak,ares in ag.items():
+            vp,ap=contacts(vres,ares)
+            if vp.sum()>0: contacting.append(ak)
+        if not contacting: continue
+        ares=[r for k in contacting for r in ag[k]]
+        vp,ap=contacts(vres,ares)
+        s=seqof(vres)
+        if regions(s) is None: continue
+        pred,reg=predict(s)
+        ap_v=average_precision_score(vp,pred); prev=vp.mean()
+        # per-region composition of paratope
+        regs=np.array([reg[i] for i in range(len(s))])
+        frac={r:float((vp[regs==r]).sum()/vp.sum()) for r in ['CDR1','CDR2','CDR3','FR']}
+        # epitope: antigen residues in contact with VHH; baseline predictors
+        atoms_res=ares
+        # SASA of antigen alone
+        class Wrap: pass
+        from Bio.PDB.Chain import Chain
+        from Bio.PDB.Model import Model
+        m=Model(0)
+        for k in contacting:
+            c=Chain(k)
+            for r in ag[k]: c.add(r.copy())
+            m.add(c)
+        sr=ShrakeRupley(); sr.compute(m,level='R')
+        sasa=np.array([r.sasa for c in m for r in c]); aaa=''.join(seqof(ag[k]) for k in contacting)
+        keys=[(c.id,r.id) for c in m for r in c]
+        epi_ids={(f[2],f[3]) for f in ap}
+        ep=np.array([int(k in epi_ids) for k in keys])
+        hyd=np.array([KD.get(a,0) for a in aaa])
+        e_sasa=average_precision_score(ep,sasa); e_hyd=average_precision_score(ep,hyd); e_both=average_precision_score(ep,sasa/ (sasa.max()+1e-9)+0.05*hyd)
+        rows.append(dict(pdb=pid,vhh=vk,len=len(s),n_para=int(vp.sum()),prev=round(prev,3),prauc=round(ap_v,3),delta=round(ap_v-prev,3),auc=round(roc_auc_score(vp,pred),3),
+            f_CDR1=round(frac['CDR1'],2),f_CDR2=round(frac['CDR2'],2),f_CDR3=round(frac['CDR3'],2),f_FR=round(frac['FR'],2),
+            ag_len=len(aaa),n_epi=int(ep.sum()),epi_prev=round(ep.mean(),3),epi_sasa_pr=round(e_sasa,3),epi_hyd_pr=round(e_hyd,3),epi_combo_pr=round(e_both,3),
+            epi_buried_sasa_A2=None))
+        print(rows[-1])
+json.dump(rows,open('scores.json','w'),indent=1)
+import statistics as S
+print('MEAN prauc',S.mean(r['prauc'] for r in rows),'mean prev',S.mean(r['prev'] for r in rows),'mean delta',S.mean(r['delta'] for r in rows),'n',len(rows))
+print('MEAN epi sasa',S.mean(r['epi_sasa_pr'] for r in rows),'prev',S.mean(r['epi_prev'] for r in rows),'hyd',S.mean(r['epi_hyd_pr'] for r in rows))
+print('wins',sum(r['delta']>0.05 for r in rows))

@@ -1,0 +1,134 @@
+{
+ "growth": [
+  {
+   "year": 2007,
+   "pdb_fulltext_proxy": null,
+   "trials_started": 0,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2008,
+   "pdb_fulltext_proxy": 5,
+   "trials_started": 0,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2009,
+   "pdb_fulltext_proxy": 6,
+   "trials_started": 0,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2010,
+   "pdb_fulltext_proxy": 12,
+   "trials_started": 0,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2011,
+   "pdb_fulltext_proxy": 14,
+   "trials_started": 4,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2012,
+   "pdb_fulltext_proxy": 19,
+   "trials_started": 1,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2013,
+   "pdb_fulltext_proxy": 33,
+   "trials_started": 0,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2014,
+   "pdb_fulltext_proxy": 22,
+   "trials_started": 1,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2015,
+   "pdb_fulltext_proxy": 46,
+   "trials_started": 0,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2016,
+   "pdb_fulltext_proxy": 63,
+   "trials_started": 0,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2017,
+   "pdb_fulltext_proxy": 62,
+   "trials_started": 1,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2018,
+   "pdb_fulltext_proxy": 85,
+   "trials_started": 4,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2019,
+   "pdb_fulltext_proxy": 108,
+   "trials_started": 5,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2020,
+   "pdb_fulltext_proxy": 158,
+   "trials_started": 9,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2021,
+   "pdb_fulltext_proxy": 250,
+   "trials_started": 3,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2022,
+   "pdb_fulltext_proxy": 300,
+   "trials_started": 12,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2023,
+   "pdb_fulltext_proxy": 243,
+   "trials_started": 10,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2024,
+   "pdb_fulltext_proxy": 318,
+   "trials_started": 15,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2025,
+   "pdb_fulltext_proxy": 227,
+   "trials_started": 17,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  },
+  {
+   "year": 2026,
+   "pdb_fulltext_proxy": 33,
+   "trials_started": 14,
+   "note": "proxy; 2025 release lag, 2026 partial"
+  }
+ ],
+ "sabdab_nano_snapshots": [
+  {
+   "date": "2024-04-18",
+   "structures": 1585
+  },
+  {
+   "date": "2025-07-10",
+   "structures": 1972
+  }
+ ]
+}

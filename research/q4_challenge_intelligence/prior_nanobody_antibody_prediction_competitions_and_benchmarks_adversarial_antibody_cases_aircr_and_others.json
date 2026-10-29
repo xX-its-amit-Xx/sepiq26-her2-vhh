@@ -1,0 +1,112 @@
+[
+ {
+  "contest": "AIntibody",
+  "date": "2026-08 (Nature Biotechnology)",
+  "organiser": "Specifica (IQVIA); Bradbury, Erasmus",
+  "task": "affinity maturation / ranking / de novo loops on SARS-CoV-2 RBD",
+  "test_size": "511 designs, 29 organisations",
+  "metric": "KinExA/BLI + 5 developability assays",
+  "top_result": "Aureka 94.7 pM vs best lab 113 pM (tied)",
+  "lesson": "models won only data-rich maturation task; ranking worse than random except one model (secondary source)"
+ },
+ {
+  "contest": "Adaptyv EGFR binder competition",
+  "date": "2024 two rounds (bioRxiv 10.1101/2025.04.17.648362)",
+  "organiser": "Adaptyv Bio",
+  "task": "design EGFR binders",
+  "test_size": "R1 201 designs/5 bound; R2 400 tested/378 expressed/53 bound",
+  "metric": "SPR affinity",
+  "top_result": "best 1.21 nM (optimised cetuximab); de novo 82-91.5 nM",
+  "lesson": "ipTM/iPAE ROC-AUC ~0.5; optimising known binders most reliable"
+ },
+ {
+  "contest": "Ginkgo Datapoints AbDev",
+  "date": "2025-09 to 2025-11",
+  "organiser": "Ginkgo Datapoints",
+  "task": "predict 5 developability assays",
+  "test_size": "113 teams; test n not extracted",
+  "metric": "Spearman",
+  "top_result": "0.708 hydrophobicity; 0.392 thermostability; 0.356 polyreactivity; 0.337 self-association; 0.310 titer",
+  "lesson": "limited model performance; call for data standardisation"
+ },
+ {
+  "contest": "AIRR-ML-25",
+  "date": "2025",
+  "organiser": "AIRR-C / Kaggle",
+  "task": "repertoire disease classification + explaining sequences",
+  "test_size": "290 teams (third-party, unverified)",
+  "metric": "AUROC-type (unverified)",
+  "top_result": "HSV-2 dataset best AUROC 0.67 (Frontiers)",
+  "lesson": "official results pending (Nature Methods); k-mer + public clones + ESM2 ensembles in top-10 repo"
+ },
+ {
+  "contest": "CASP16 antibody-antigen",
+  "date": "2024",
+  "organiser": "CASP Prediction Center",
+  "task": "antibody/nanobody-antigen complexes",
+  "test_size": "8 targets (3 nanobody)",
+  "metric": "DockQ, ICS, IPS, QSbest",
+  "top_result": "kozakovvajda 5/8 acceptable; ColabFold mean DockQ 0.05",
+  "lesson": "classical docking with heavy sampling beat DL servers; most top groups statistically tied"
+ },
+ {
+  "contest": "CASP15 antibody-antigen",
+  "date": "2022",
+  "organiser": "CASP Prediction Center",
+  "task": "antibody-antigen complexes",
+  "test_size": "8 targets",
+  "metric": "DockQ",
+  "top_result": "ColabFold mean DockQ 0.21",
+  "lesson": "CASP16 targets were harder"
+ },
+ {
+  "contest": "CAPRI rounds 47-55",
+  "date": "2019-2024",
+  "organiser": "CAPRI",
+  "task": "multi-type docking, many antibody targets",
+  "test_size": "49 targets",
+  "metric": "CAPRI/DockQ",
+  "top_result": "poor on antibody/nanobody complexes",
+  "lesson": "massive sampling AF helps"
+ },
+ {
+  "contest": "Absolut!",
+  "date": "2022 (Nat Comput Sci 2:845)",
+  "organiser": "Robert, Greiff et al.",
+  "task": "synthetic antibody-antigen binding benchmark",
+  "test_size": "~1e9 structures, 159 lattice antigens",
+  "metric": "ML task accuracy",
+  "top_result": "method ranking on synthetic matched experimental",
+  "lesson": "synthetic ground truth useful for pretraining"
+ },
+ {
+  "contest": "AbBiBench",
+  "date": "2025 (arXiv 2506.04235)",
+  "organiser": "UTHealth Houston et al.",
+  "task": "likelihood vs affinity; CDR-H3 redesign",
+  "test_size": "v2 >184,500 measurements, 14 antibodies, 9 antigens",
+  "metric": "zero-shot correlation",
+  "top_result": "n/a",
+  "lesson": "scores whole complex"
+ },
+ {
+  "contest": "Hitawala and Gray AF3 docking",
+  "date": "2024-25 (mAbs 10.1080/19420862.2025.2545601)",
+  "organiser": "Gray lab",
+  "task": "AF3 antibody/nanobody docking post 2021-09-30",
+  "test_size": "70 nanobody, 118 antibody complexes",
+  "metric": "DockQ",
+  "top_result": "nanobody 11.4% high accuracy, 31.4% overall",
+  "lesson": "confident bins still 20-67% wrong"
+ },
+ {
+  "contest": "SAbDab-nano",
+  "date": "2022 (10.1093/nar/gkab1050)",
+  "organiser": "Oxford OPIG",
+  "task": "VHH structure database",
+  "test_size": "2,013 antigen-bound VHH (July 2026)",
+  "metric": "n/a",
+  "top_result": "n/a",
+  "lesson": "source of proxy complexes"
+ }
+]

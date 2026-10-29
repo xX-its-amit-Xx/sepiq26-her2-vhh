@@ -1,0 +1,212 @@
+[
+ {
+  "queen_id": "q1_her2_biology",
+  "worker_slug": "her2_ectodomain_architecture_domains_I_to_IV_and_structures",
+  "file": "research/q1_her2_biology/her2_ectodomain_architecture_domains_I_to_IV_and_structures.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 7
+ },
+ {
+  "queen_id": "q1_her2_biology",
+  "worker_slug": "erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4",
+  "file": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 8
+ },
+ {
+  "queen_id": "q1_her2_biology",
+  "worker_slug": "her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans",
+  "file": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 17
+ },
+ {
+  "queen_id": "q1_her2_biology",
+  "worker_slug": "her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints",
+  "file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 14
+ },
+ {
+  "queen_id": "q1_her2_biology",
+  "worker_slug": "all_public_her2_complex_structures_in_pdb_with_epitope_tables_incl_nanobodies_and_scfvs",
+  "file": "research/q1_her2_biology/all_public_her2_complex_structures_in_pdb_with_epitope_tables_incl_nanobodies_and_scfvs.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "high",
+  "challenge_relevance": 4.0,
+  "n_sources": 14
+ },
+ {
+  "queen_id": "q2_vhh_immunology_structure",
+  "worker_slug": "camelid_hcab_biology_alpaca_germline_ighv_genes_and_immunisation_response",
+  "file": "research/q2_vhh_immunology_structure/camelid_hcab_biology_alpaca_germline_ighv_genes_and_immunisation_response.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3.0,
+  "n_sources": 12
+ },
+ {
+  "queen_id": "q2_vhh_immunology_structure",
+  "worker_slug": "vhh_structure_framework_cdr_loops_cdr3_length_geometry_and_numbering_schemes",
+  "file": "research/q2_vhh_immunology_structure/vhh_structure_framework_cdr_loops_cdr3_length_geometry_and_numbering_schemes.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 30
+ },
+ {
+  "queen_id": "q2_vhh_immunology_structure",
+  "worker_slug": "nanobody_paratope_epitope_interaction_rules_from_sabdab_nano_and_saaint_db",
+  "file": "research/q2_vhh_immunology_structure/nanobody_paratope_epitope_interaction_rules_from_sabdab_nano_and_saaint_db.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 19
+ },
+ {
+  "queen_id": "q2_vhh_immunology_structure",
+  "worker_slug": "known_her2_nanobodies_2rs15d_5f7_and_others_epitopes_and_affinities",
+  "file": "research/q2_vhh_immunology_structure/known_her2_nanobodies_2rs15d_5f7_and_others_epitopes_and_affinities.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3.0,
+  "n_sources": 10
+ },
+ {
+  "queen_id": "q2_vhh_immunology_structure",
+  "worker_slug": "nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics",
+  "file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3.0,
+  "n_sources": 4
+ },
+ {
+  "queen_id": "q3_assay_ngs_ground_truth",
+  "worker_slug": "avida_hher2_and_avida_family_dataset_anatomy_columns_sizes_label_logic",
+  "file": "research/q3_assay_ngs_ground_truth/avida_hher2_and_avida_family_dataset_anatomy_columns_sizes_label_logic.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3.0,
+  "n_sources": 10
+ },
+ {
+  "queen_id": "q3_assay_ngs_ground_truth",
+  "worker_slug": "phage_display_biopanning_physics_and_biases_display_expression_amplification_avidity",
+  "file": "research/q3_assay_ngs_ground_truth/phage_display_biopanning_physics_and_biases_display_expression_amplification_avidity.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3.0,
+  "n_sources": 11
+ },
+ {
+  "queen_id": "q3_assay_ngs_ground_truth",
+  "worker_slug": "ngs_read_count_statistics_pcr_sequencing_error_singletons_and_enrichment_test_validity",
+  "file": "research/q3_assay_ngs_ground_truth/ngs_read_count_statistics_pcr_sequencing_error_singletons_and_enrichment_test_validity.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3.0,
+  "n_sources": 11
+ },
+ {
+  "queen_id": "q3_assay_ngs_ground_truth",
+  "worker_slug": "cryo_em_ground_truth_resolution_map_model_uncertainty_and_what_3A_can_resolve_for_small_complexes",
+  "file": "research/q3_assay_ngs_ground_truth/cryo_em_ground_truth_resolution_map_model_uncertainty_and_what_3A_can_resolve_for_small_complexes.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 9
+ },
+ {
+  "queen_id": "q3_assay_ngs_ground_truth",
+  "worker_slug": "voronota_lt_contact_area_definition_and_how_epitope_labels_depend_on_the_cutoff",
+  "file": "research/q3_assay_ngs_ground_truth/voronota_lt_contact_area_definition_and_how_epitope_labels_depend_on_the_cutoff.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 8
+ },
+ {
+  "queen_id": "q3_assay_ngs_ground_truth",
+  "worker_slug": "cross_domain_test_burden_of_proof_for_an_epitope_label_evidence_standards_ladder (extra)",
+  "file": "research/q3_assay_ngs_ground_truth/cross_domain_test_burden_of_proof_for_an_epitope_label_evidence_standards_ladder.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": "2",
+  "n_sources": 7
+ },
+ {
+  "queen_id": "q4_challenge_intelligence",
+  "worker_slug": "sepiq_guideline_detail_about_pages_verbatim_capture_sequences_numbering_and_contradictions",
+  "file": "research/q4_challenge_intelligence/sepiq_guideline_detail_about_pages_verbatim_capture_sequences_numbering_and_contradictions.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "high",
+  "challenge_relevance": 5.0,
+  "n_sources": 7
+ },
+ {
+  "queen_id": "q4_challenge_intelligence",
+  "worker_slug": "hf_space_dataset_files_template_csvs_submission_mechanics_and_community_discussion",
+  "file": "research/q4_challenge_intelligence/hf_space_dataset_files_template_csvs_submission_mechanics_and_community_discussion.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 9
+ },
+ {
+  "queen_id": "q4_challenge_intelligence",
+  "worker_slug": "antibinder_baseline_and_organiser_publications_what_the_hypothesis_folding_from_binding_means",
+  "file": "research/q4_challenge_intelligence/antibinder_baseline_and_organiser_publications_what_the_hypothesis_folding_from_binding_means.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 14
+ },
+ {
+  "queen_id": "q4_challenge_intelligence",
+  "worker_slug": "capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring",
+  "file": "research/q4_challenge_intelligence/capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3.0,
+  "n_sources": 11
+ },
+ {
+  "queen_id": "q4_challenge_intelligence",
+  "worker_slug": "prior_nanobody_antibody_prediction_competitions_and_benchmarks_adversarial_antibody_cases_aircr_and_others",
+  "file": "research/q4_challenge_intelligence/prior_nanobody_antibody_prediction_competitions_and_benchmarks_adversarial_antibody_cases_aircr_and_others.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4.0,
+  "n_sources": 23
+ }
+]

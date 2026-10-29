@@ -1,0 +1,5 @@
+[
+ {"id":"residue","term":"residue","short":"One building block (amino acid) in a protein chain; we number them to say exactly where something sits.","aliases":["residues"]},
+ {"id":"interface","term":"interface","short":"The set of positions on the target that are in contact with a binding partner.","aliases":["interface residues"]},
+ {"id":"structure prediction","term":"structure prediction","short":"Software that guesses the 3D shape of a protein, or of two proteins stuck together, from their sequences.","aliases":["structure-prediction"]}
+]

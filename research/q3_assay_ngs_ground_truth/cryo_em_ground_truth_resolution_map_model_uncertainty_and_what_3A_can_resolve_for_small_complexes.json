@@ -1,0 +1,9 @@
+[
+{"region":"Backbone, VHH framework","global_3A":"secure","interface_3.5-4A":"secure","label_risk":"none"},
+{"region":"CDR1/CDR2 side chains in contact","global_3A":"mostly defined","interface_3.5-4A":"rotamer ambiguity","label_risk":"low-moderate"},
+{"region":"CDR3 tip side chains","global_3A":"partly defined","interface_3.5-4A":"built into weak density","label_risk":"moderate-high"},
+{"region":"Antigen surface Lys/Arg/Glu/Gln","global_3A":"ambiguous rotamers","interface_3.5-4A":"ambiguous","label_risk":"moderate"},
+{"region":"Asn in N-glycan sequons","global_3A":"stub may be seen","interface_3.5-4A":"may be absent","label_risk":"high for neighbours"},
+{"region":"Domain IV / flexible ECD","global_3A":"weak or unmodelled","interface_3.5-4A":"unmodelled","label_risk":"absent from truth"},
+{"region":"His-tag, GACQ, linker","global_3A":"usually not modelled","interface_3.5-4A":"not modelled","label_risk":"absent"}
+]

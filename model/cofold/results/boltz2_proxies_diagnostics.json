@@ -1,0 +1,29 @@
+{
+ "9MTE_27A05": {
+  "n_models": 50,
+  "mean_iptm": 0.7557494807243347,
+  "sd_iptm": 0.022190906649487856,
+  "mean_ipsae": 0.6482509982585907,
+  "split_half_r_antigen_freq": 0.97029999035872,
+  "mean_antigen_contact_residues_per_model": 63.88,
+  "mean_vhh_contact_residues_per_model": 53.28
+ },
+ "9MTE_47D05": {
+  "n_models": 50,
+  "mean_iptm": 0.44118993371725085,
+  "sd_iptm": 0.13408102312118006,
+  "mean_ipsae": 0.020972414538264275,
+  "split_half_r_antigen_freq": 0.7551342782263941,
+  "mean_antigen_contact_residues_per_model": 26.0,
+  "mean_vhh_contact_residues_per_model": 28.62
+ },
+ "9MTX_29E09": {
+  "n_models": 50,
+  "mean_iptm": 0.4879491674900055,
+  "sd_iptm": 0.10957171945045052,
+  "mean_ipsae": 0.04450960813090205,
+  "split_half_r_antigen_freq": 0.9341879927487236,
+  "mean_antigen_contact_residues_per_model": 20.84,
+  "mean_vhh_contact_residues_per_model": 22.4
+ }
+}

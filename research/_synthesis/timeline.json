@@ -1,0 +1,303 @@
+[
+ {
+  "field": "HER2 biology",
+  "date": "1991",
+  "event": "Shed HER2 ectodomain (~105-110 kDa) described (Zabrecky 1991, abstract-level).",
+  "source_file": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md",
+  "confidence": "low"
+ },
+ {
+  "field": "HER2 biology",
+  "date": "1993",
+  "event": "Pupa 1993 cited for the shed ectodomain species (abstract-level).",
+  "source_file": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md",
+  "confidence": "low"
+ },
+ {
+  "field": "HER2 therapies",
+  "date": "1998-09-25",
+  "event": "Herceptin (trastuzumab) FDA approval; binds domain IV.",
+  "source_file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 structure",
+  "date": "2003-02-18",
+  "event": "1N8Z: HER2 ECD with trastuzumab Fab, 2.52 A X-ray (Cho 2003).",
+  "source_file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 therapies",
+  "date": "2012-06-08",
+  "event": "Perjeta (pertuzumab) FDA approval; binds domain II.",
+  "source_file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 therapies",
+  "date": "2013-02-22",
+  "event": "Kadcyla (ado-trastuzumab emtansine) FDA approval; DM1 payload.",
+  "source_file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 structure",
+  "date": "2017",
+  "event": "5MY6: HER2 with nanobody 2Rs15d, domain I, X-ray 2.25 A.",
+  "source_file": "research/q2_vhh_immunology_structure/known_her2_nanobodies_2rs15d_5f7_and_others_epitopes_and_affinities.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 structure",
+  "date": "2018-05-16",
+  "event": "5O4G: HER2 with Fab MF3958 (domain I), not margetuximab.",
+  "source_file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 therapies",
+  "date": "2019-12-20",
+  "event": "Enhertu (fam-trastuzumab deruxtecan) FDA approval.",
+  "source_file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 therapies",
+  "date": "2020-06-29",
+  "event": "Phesgo (pertuzumab + trastuzumab, subcutaneous) FDA approval.",
+  "source_file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 therapies",
+  "date": "2020-12-16",
+  "event": "Margenza (margetuximab) FDA approval.",
+  "source_file": "research/q1_her2_biology/her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 structure",
+  "date": "2021",
+  "event": "7MN5/7MN6/7MN8 HER2-HER3-NRG1b cryo-EM structures (Diwanji 2021).",
+  "source_file": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md",
+  "confidence": "high"
+ },
+ {
+  "field": "HER2 structure",
+  "date": "2023",
+  "event": "7QVK: HER2-VHH complex at 3.1 A, I/II junction.",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "HER2 structure",
+  "date": "2025-11-19",
+  "event": "9MTE (two VHHs, 2.66 A) and 9MTX (3.06 A) released; post-date all engine cutoffs.",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "confidence": "high"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "1993",
+  "event": "Heavy-chain-only antibodies reported (Hamers-Casterman 1993, Nature 363:446; search snippet only).",
+  "source_file": "research/q2_vhh_immunology_structure/camelid_hcab_biology_alpaca_germline_ighv_genes_and_immunisation_response.md",
+  "confidence": "low"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2012",
+  "event": "19 VHH-proxy PDB entries and 1 clinical trial started in that year (worker proxy series).",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2016",
+  "event": "J Nucl Med phase I of 68Ga-NOTA anti-HER2 VHH imaging (n=20, per worker).",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2017-10-16",
+  "event": "NCT03331601 (68Ga-NOTA-Anti-HER2 VHH1 in brain metastases) started; terminated.",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "confidence": "high"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2018-09-03",
+  "event": "Caplacizumab (Cablivi) EU approval (sources differ on the day).",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2019-02-06",
+  "event": "Caplacizumab-yhdp FDA approval (snippet).",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2021-09",
+  "event": "SAbDab-nano: 823 structures, 492 non-redundant CDR sets.",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2021-11",
+  "event": "Envafolimab (KN035) NMPA approval announced (day varies by source).",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2022",
+  "event": "Cilta-cel and ozoralizumab approved (dates from snippets).",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2024",
+  "event": "318 VHH-proxy PDB entries and 15 trials started (growth series).",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Nanobody field",
+  "date": "2026-06",
+  "event": "SAbDab2 lists 21,237 antibody instances; 2026 nanobody count not obtained.",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Structure prediction",
+  "date": "2016",
+  "event": "CASP12: coevolution contacts lift best long-range L/5 precision to 47%.",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Structure prediction",
+  "date": "2018",
+  "event": "CASP13: AlphaFold1 distograms push contact precision above 70%.",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Structure prediction",
+  "date": "2020",
+  "event": "CASP14: AlphaFold2 end-to-end; median GDT_TS 92.4 (Jumper 2021).",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Structure prediction",
+  "date": "2021",
+  "event": "MSA Transformer (Rao et al., ICML) over whole alignments.",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Structure prediction",
+  "date": "2021-09-30",
+  "event": "Training cutoff of AlphaFold3, OpenFold3 and Protenix-v1 (single source).",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "confidence": "medium-low"
+ },
+ {
+  "field": "Structure prediction",
+  "date": "2023-06-01",
+  "event": "Boltz-2 training cutoff (flagged leakage-prone).",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "confidence": "medium-low"
+ },
+ {
+  "field": "Structure prediction",
+  "date": "2025",
+  "event": "Hitawala and Gray: AF3 31.6%, Boltz-1 23.3%, Chai-1 15.0% on 60 nanobodies.",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "confidence": "medium-high"
+ },
+ {
+  "field": "Blind challenges",
+  "date": "2014",
+  "event": "CAPRI round 30 (joint with CASP11): 25 targets.",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Blind challenges",
+  "date": "2016",
+  "event": "CAPRI round 37 (CASP12): 10 targets.",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Blind challenges",
+  "date": "2018",
+  "event": "CAPRI round 46 (CASP13): 21 targets.",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Blind challenges",
+  "date": "2020",
+  "event": "CAPRI round 50 (CASP14): 12 targets, ~1250 models per target.",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Blind challenges",
+  "date": "2022",
+  "event": "CASP15-CAPRI round 54; 54 rounds and 230 targets cumulative.",
+  "source_file": "research/q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Blind challenges",
+  "date": "2024",
+  "event": "CASP16: best group above 60% on antibody-antigen targets; no group acceptable on nanobody target H1244.",
+  "source_file": "research/q4_challenge_intelligence/capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "Blind challenges",
+  "date": "2026-04",
+  "event": "CAPRI round 65: 7th joint CASP-CAPRI assembly challenge (Apr-Aug 2026).",
+  "source_file": "research/q4_challenge_intelligence/capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring.md",
+  "confidence": "medium"
+ },
+ {
+  "field": "SEPIQ challenge",
+  "date": "2026-09-01",
+  "event": "Track A submission window opens; all four sepiq.uk pages carry this build stamp.",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "confidence": "high"
+ },
+ {
+  "field": "SEPIQ challenge",
+  "date": "2026-10-17",
+  "event": "Round-1 research closed: 46 workers, 9 queen digests, 2 king logs.",
+  "source_file": "research/_meta/king_world_KINGLOG.md",
+  "confidence": "high"
+ },
+ {
+  "field": "SEPIQ challenge",
+  "date": "2026-10-31",
+  "event": "Track A submission deadline; plan last upload 2026-10-30.",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "confidence": "high"
+ },
+ {
+  "field": "SEPIQ challenge",
+  "date": "2026-12-15",
+  "event": "Results announced per /detail (Space says rankings 1 Dec).",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "confidence": "medium"
+ }
+]

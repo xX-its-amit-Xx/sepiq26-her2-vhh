@@ -1,0 +1,16 @@
+[
+{"ecology_term":"Site / grid cell","sepiq_term":"HER2 residue or surface patch"},
+{"ecology_term":"Environmental covariate x(z)","sepiq_term":"RSA, hydrophobicity, glycan distance, domain, pLDDT from predicted structure"},
+{"ecology_term":"Presence record","sepiq_term":"residue in Voronota-LT contact with a VHH (known only for PDB complexes)"},
+{"ecology_term":"Background / unlabeled sites","sepiq_term":"all other HER2 residues (PU unlabeled)"},
+{"ecology_term":"Intensity lambda(x)","sepiq_term":"relative epitope propensity"},
+{"ecology_term":"Prevalence / intercept","sepiq_term":"epitope fraction (about 0.03-0.04 of HER2 ECD, unverified; 0.126 RBD proxy)"},
+{"ecology_term":"Elkan-Noto c","sepiq_term":"labeling frequency of true epitope residues in positive set"},
+{"ecology_term":"Sampling bias / bias file","sepiq_term":"immunodominance, glycan shielding, repertoire bias"},
+{"ecology_term":"Target-group background","sepiq_term":"residues of antigens passing the same SAbDab-nano filter"},
+{"ecology_term":"Spatial block","sepiq_term":"HER2 domain or leave-one-antigen-out fold"},
+{"ecology_term":"Spatial sorting bias","sepiq_term":"test epitopes adjacent to training epitopes (leakage)"},
+{"ecology_term":"AUC extent problem","sepiq_term":"PR-AUC prior dependence; report lift = PR-AUC / pi"},
+{"ecology_term":"Boyce index","sepiq_term":"P/E ratio vs score bin, Spearman"},
+{"ecology_term":"Null model (Hijmans)","sepiq_term":"RSA-only / domain-prior predictor"}
+]

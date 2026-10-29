@@ -1,0 +1,1 @@
+[{"method":"single seed","ap":0.3718},{"method":"mean_logit","ap":0.5674},{"method":"mean_prob","ap":0.5630},{"method":"rank_avg","ap":0.5565},{"method":"max","ap":0.4626},{"method":"geomean","ap":0.5591},{"method":"noisyOR","ap":0.5655},{"method":"exp_monotone_of_mean_prob","ap":0.5630},{"method":"smooth8_artefact","ap":0.7844},{"method":"round_1_decimal_ties","ap":0.4638}]

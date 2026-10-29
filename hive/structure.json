@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "decided_by": "emperor",
+  "decided_at": "2026-10-17",
+  "rationale": "See hive/EMPEROR.md tick 0. Two kings split the problem at its natural seam: WORLD (what HER2, VHHs and the phage-NGS-cryoEM assay physically are, and what the organisers actually measure) vs INFER (how to turn sequence + public structure + NGS into per-residue probabilities, how to validate with only 3 test complexes, and what other fields know). Nine queens x five workers keeps every king under ~5 queen digests. Deadline is 2026-10-31 so rounds are short and modeling runs in parallel with research.",
+  "kings": [
+    {
+      "id": "king_world",
+      "name": "King WORLD - the biology, the molecules and the measurement",
+      "mandate": "Everything about HER2, ERBB family biology, VHH/nanobody immunology and structure, the phage-display + NGS + cryo-EM ground-truth chain, and the challenge as an institution. Owns the question 'what exactly is the label, and what is it confounded with?'",
+      "cross_domain_lenses": [
+        "forensic science and chain of custody (how trustworthy is an enrichment label?)",
+        "law of evidence and burden of proof (what counts as an epitope?)",
+        "ecology and niche modelling (binding as occupancy of a surface niche)",
+        "art conservation and restoration (inferring the original from degraded traces)",
+        "healthcare screening statistics (base rates, PR vs ROC, prevalence ~0.1)"
+      ],
+      "queens": [
+        {
+          "id": "q1_her2_biology",
+          "subdomain": "HER2/ERBB2 and the ERBB family: ectodomain domains I-IV, dimerisation, signalling, cancer, antibody drugs, glycosylation and PTMs, isoforms, transcripts, epigenetics, adjacent proteins, and every known HER2 epitope and structure",
+          "workers": [
+            "her2_ectodomain_architecture_domains_I_to_IV_and_structures",
+            "erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4",
+            "her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans",
+            "her2_therapeutic_antibodies_adcs_epitopes_trastuzumab_pertuzumab_margetuximab_and_binding_footprints",
+            "all_public_her2_complex_structures_in_pdb_with_epitope_tables_incl_nanobodies_and_scfvs"
+          ]
+        },
+        {
+          "id": "q2_vhh_immunology_structure",
+          "subdomain": "Camelid heavy-chain antibodies and VHH: germline genes, CDR1-3 geometry, convex vs concave paratopes, somatic hypermutation, immunisation, known paratope rules, therapeutic nanobodies, and every known HER2 nanobody",
+          "workers": [
+            "camelid_hcab_biology_alpaca_germline_ighv_genes_and_immunisation_response",
+            "vhh_structure_framework_cdr_loops_cdr3_length_geometry_and_numbering_schemes",
+            "nanobody_paratope_epitope_interaction_rules_from_sabdab_nano_and_saaint_db",
+            "known_her2_nanobodies_2rs15d_5f7_and_others_epitopes_and_affinities",
+            "nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics"
+          ]
+        },
+        {
+          "id": "q3_assay_ngs_ground_truth",
+          "subdomain": "The measurement chain: alpaca immunisation, phage display biopanning (one round), NGS read counts, chi-squared enrichment labels, AVIDa-hHER2 anatomy, and the cryo-EM + Voronota-LT ground truth. Noise, bias, controls, gotchas",
+          "workers": [
+            "avida_hher2_and_avida_family_dataset_anatomy_columns_sizes_label_logic",
+            "phage_display_biopanning_physics_and_biases_display_expression_amplification_avidity",
+            "ngs_read_count_statistics_pcr_sequencing_error_singletons_and_enrichment_test_validity",
+            "cryo_em_ground_truth_resolution_map_model_uncertainty_and_what_3A_can_resolve_for_small_complexes",
+            "voronota_lt_contact_area_definition_and_how_epitope_labels_depend_on_the_cutoff"
+          ]
+        },
+        {
+          "id": "q4_challenge_intelligence",
+          "subdomain": "SEPIQ 2026 as an institution: guidelines, organisers, Hugging Face space and dataset, baseline, ambiguities and contradictions, CAPRI track, precedents, leaderboard and community",
+          "workers": [
+            "sepiq_guideline_detail_about_pages_verbatim_capture_sequences_numbering_and_contradictions",
+            "hf_space_dataset_files_template_csvs_submission_mechanics_and_community_discussion",
+            "antibinder_baseline_and_organiser_publications_what_the_hypothesis_folding_from_binding_means",
+            "capri_dockq_capri_q_history_of_blind_docking_challenges_and_lessons_for_scoring",
+            "prior_nanobody_antibody_prediction_competitions_and_benchmarks_adversarial_antibody_cases_aircr_and_others"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "king_infer",
+      "name": "King INFER - from sequence to interface",
+      "mandate": "Everything about turning sequence, public structures and NGS enrichment into per-residue epitope and paratope probabilities and winning Track A: methods, data representation and integration (the user's breakthrough hypothesis), validation with only three test complexes, compute, and cross-domain ideas.",
+      "cross_domain_lenses": [
+        "cryptanalysis (known-plaintext attack on a lock)",
+        "the CASP history of protein folding (what changed it: data representation, MSAs, end-to-end training)",
+        "music information retrieval (alignment of two sequences with local correspondence)",
+        "sports analytics (small-n evaluation, ranking with huge noise)",
+        "philosophy of science (what a held-out set of three can and cannot tell you)"
+      ],
+      "queens": [
+        {
+          "id": "q5_structure_prediction_docking",
+          "subdomain": "Co-folding and docking for VHH-antigen: AlphaFold3, Boltz-2, Chai-1, OpenFold3, Protenix, HADDOCK, ClusPro, ZDOCK; nanobody-specific benchmarks and failure modes; confidence metrics and seed sampling; turning a predicted complex into per-residue probabilities",
+          "workers": [
+            "alphafold3_openfold3_boltz2_chai1_protenix_nanobody_antigen_benchmarks_and_success_rates",
+            "nanobody_antigen_docking_haddock_clusp_zdock_rosetta_and_ai_augmented_docking",
+            "confidence_metrics_iptm_pae_plddt_seed_diversity_and_epitope_probability_from_ensembles",
+            "paratope_prediction_methods_for_nanobodies_and_cdr_only_focus",
+            "her2_specific_constraints_glycans_flexible_domain_iv_and_conformational_states_for_modelling"
+          ]
+        },
+        {
+          "id": "q6_epitope_ml_methods",
+          "subdomain": "Sequence-based and structure-based epitope/paratope predictors and protein language models: BepiPred-3, DiscoTope-3, SEMA, EpiPred, AbEpiTope, ESM-2/3, AbLang, nanoBERT, IgLM, AntiBinder, transfer learning and leakage in antibody datasets",
+          "workers": [
+            "b_cell_epitope_predictors_bepipred3_discotope3_sema_abepitope_state_and_limits",
+            "protein_and_antibody_language_models_esm_ablang_nanobert_iglm_embeddings_for_interfaces",
+            "antibinder_architecture_attention_epitope_extraction_and_why_it_scores_0_176",
+            "sabdab_nano_curation_redundancy_leakage_and_clustering_for_honest_training",
+            "residue_level_pr_auc_with_prevalence_0_1_calibration_ranking_and_aggregation_tricks"
+          ]
+        },
+        {
+          "id": "q7_data_representation_integration",
+          "subdomain": "The breakthrough hypothesis: how to represent and integrate the 1.8M-read NGS enrichment data and other public data (clonotype families, convergent CDR3, co-enrichment, coevolution between paratope and epitope, DMS, mimotopes, structure ensembles) so weak binding signal becomes interface signal",
+          "workers": [
+            "clonotype_clustering_cdr3_families_and_enrichment_trajectories_as_epitope_bins",
+            "paired_coevolution_potts_dca_and_contact_inference_from_binder_vs_nonbinder_sequences",
+            "deep_mutational_scanning_and_cdr_mutation_tolerance_as_paratope_evidence_in_public_data",
+            "mimotope_and_peptide_epitope_mapping_phage_sequences_and_epitope_inference_from_binding_alone",
+            "negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising"
+          ]
+        },
+        {
+          "id": "q8_compute_validation_execution",
+          "subdomain": "How to actually compete in 14 days: validation design with only three held-out complexes, public HER2 complexes as proxies, leakage control, compute plan across Explorer/Modal/Kaggle/Colab/OpenProtein/Boltz, the five-submission ladder, uncertainty and ensembling, day-by-day runbook",
+          "workers": [
+            "validation_design_pseudo_test_sets_from_public_her2_and_nanobody_complexes_without_leakage",
+            "five_submission_ladder_and_cluster_bootstrap_decision_rules_for_n_equals_3",
+            "compute_plan_explorer_public_partitions_modal_kaggle_colab_openprotein_boltz_credits",
+            "ensembling_and_probability_calibration_for_residue_level_pr_auc_macro_over_three_targets",
+            "day_by_day_runbook_to_2026_10_31_and_failure_mode_register"
+          ]
+        },
+        {
+          "id": "q9_serendipity_cross_domain",
+          "subdomain": "What other fields know about inferring an interface from weak, noisy, enrichment-like signals, and about winning small-n blind challenges. Analogies from folding history, cryptanalysis, ecology, law, art, music, sports, healthcare, linguistics",
+          "workers": [
+            "casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end",
+            "cryptanalysis_and_codebreaking_known_plaintext_and_crib_dragging_for_interface_inference",
+            "ecology_niche_modelling_and_species_distribution_with_presence_only_data",
+            "linguistics_and_translation_alignment_unsupervised_correspondence_between_two_languages",
+            "other_blind_challenge_wins_by_data_representation_netflix_kaggle_casp_dream_and_what_they_share"
+          ]
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {"id": "label_truth", "between": ["q3_assay_ngs_ground_truth", "q4_challenge_intelligence", "q6_epitope_ml_methods", "q8_compute_validation_execution"], "purpose": "What exactly is the label and how is it scored; resolve /detail vs /guideline contradictions"},
+    {"id": "structures_and_proxies", "between": ["q1_her2_biology", "q2_vhh_immunology_structure", "q5_structure_prediction_docking", "q8_compute_validation_execution"], "purpose": "Public HER2/VHH complexes, their epitopes and cutoffs, usable as proxy test sets"},
+    {"id": "data_representation", "between": ["q3_assay_ngs_ground_truth", "q6_epitope_ml_methods", "q7_data_representation_integration"], "purpose": "What the NGS data can and cannot say; representation ideas to test"},
+    {"id": "methods_to_execution", "between": ["q5_structure_prediction_docking", "q6_epitope_ml_methods", "q7_data_representation_integration", "q8_compute_validation_execution"], "purpose": "Which engine/feature is worth GPU-hours; budgets per arm"},
+    {"id": "serendipity", "between": ["*"], "purpose": "Broadcast of cross-domain ideas from q9 and every king lens"}
+  ],
+  "post_research": ["scribe_narrative", "predator_citations", "dashboard_engineering"]
+}

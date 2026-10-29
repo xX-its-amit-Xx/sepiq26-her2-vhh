@@ -1,0 +1,72 @@
+[
+ {
+  "round": "1994 CASP1",
+  "method": "threading/homology",
+  "change_or_number": "blind assessment",
+  "gain_from": "n/a",
+  "status": "unverified"
+ },
+ {
+  "round": "~2000 CASP4",
+  "method": "Rosetta fragment assembly",
+  "change_or_number": "fragments as moves",
+  "gain_from": "data representation",
+  "status": "unverified"
+ },
+ {
+  "round": "2009",
+  "method": "Weigt DCA",
+  "change_or_number": "global Potts model of MSA",
+  "gain_from": "model",
+  "status": "unverified"
+ },
+ {
+  "round": "2011",
+  "method": "Morcos/Marks DCA",
+  "change_or_number": "coevolution contacts",
+  "gain_from": "model on fixed MSA",
+  "status": "partly verified"
+ },
+ {
+  "round": "2012",
+  "method": "PSICOV",
+  "change_or_number": "sparse inverse covariance",
+  "gain_from": "model",
+  "status": "unverified"
+ },
+ {
+  "round": "2016 CASP12",
+  "method": "coevolution+ML",
+  "change_or_number": "best L/5 = 47%",
+  "gain_from": "data representation",
+  "status": "verified"
+ },
+ {
+  "round": "2017",
+  "method": "RaptorX ResNet",
+  "change_or_number": "top-L LR 0.47 vs CCMpred 0.21",
+  "gain_from": "model",
+  "status": "verified"
+ },
+ {
+  "round": "2018 CASP13",
+  "method": "AlphaFold1",
+  "change_or_number": "distogram; L/5 >70%; 24/43 FM high accuracy",
+  "gain_from": "loss/output representation",
+  "status": "verified"
+ },
+ {
+  "round": "2020 CASP14",
+  "method": "AlphaFold2",
+  "change_or_number": "median GDT_TS 92.4; 87/92 >70",
+  "gain_from": "model+loss end-to-end",
+  "status": "verified"
+ },
+ {
+  "round": "2021",
+  "method": "MSA Transformer",
+  "change_or_number": "masked LM over MSA",
+  "gain_from": "model",
+  "status": "secondary"
+ }
+]

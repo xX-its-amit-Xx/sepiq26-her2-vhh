@@ -1,0 +1,14 @@
+[
+{"engine":"AF3","benchmark":"Hitawala&Gray mAbs 2025 nanobody","n":60,"cutoff":"2021-09-30","dockq_ge_0.23_pct":31.6,"high_pct":13.3,"protocol":"single seed top-ranked","status":"opened"},
+{"engine":"Boltz-1","benchmark":"Hitawala&Gray mAbs 2025 nanobody","n":60,"cutoff":"2021-09-30","dockq_ge_0.23_pct":23.3,"high_pct":5.0,"protocol":"single seed","status":"opened"},
+{"engine":"Chai-1","benchmark":"Hitawala&Gray mAbs 2025 nanobody","n":60,"cutoff":"2021-09-30","dockq_ge_0.23_pct":15.0,"high_pct":3.3,"protocol":"single seed","status":"opened"},
+{"engine":"AF3","benchmark":"Hitawala&Gray mAbs 2025 antibody","n":49,"cutoff":"2021-09-30","dockq_ge_0.23_pct":34.7,"high_pct":10.2,"protocol":"single seed","status":"opened"},
+{"engine":"Boltz-1","benchmark":"Hitawala&Gray mAbs 2025 antibody","n":49,"cutoff":"2021-09-30","dockq_ge_0.23_pct":20.4,"high_pct":4.1,"protocol":"single seed","status":"opened"},
+{"engine":"Chai-1","benchmark":"Hitawala&Gray mAbs 2025 antibody","n":49,"cutoff":"2021-09-30","dockq_ge_0.23_pct":20.4,"high_pct":0,"protocol":"single seed","status":"opened"},
+{"engine":"Protenix-v1","benchmark":"PXM-22to25-Antibody","n":498,"cutoff":"2022-2025","dockq_ge_0.23_pct":40.26,"high_pct":null,"protocol":"selected; median 33.14, best 54.22; 1 seed 36.01, 10 seeds 42.92, 80 seeds 47.68","status":"opened"},
+{"engine":"Boltz-2","benchmark":"PXM-22to25-Antibody","n":498,"cutoff":"2022-2025","dockq_ge_0.23_pct":40.10,"high_pct":null,"protocol":"selected; median 38.59, best 50.35; overlaps Boltz-2 training data","status":"opened"},
+{"engine":"Chai-1","benchmark":"PXM-22to25-Antibody","n":498,"cutoff":"2022-2025","dockq_ge_0.23_pct":22.12,"high_pct":null,"protocol":"selected; median 17.77","status":"opened"},
+{"engine":"AF3","benchmark":"FoldBench Ab-Ag","n":160,"cutoff":"2021-09-30 to 2025-01-09","dockq_ge_0.23_pct":48.75,"high_pct":null,"protocol":"official","status":"opened via Protenix-v1 report"},
+{"engine":"Protenix-v1","benchmark":"FoldBench Ab-Ag","n":160,"cutoff":"2021-09-30 to 2025-01-09","dockq_ge_0.23_pct":52.31,"high_pct":null,"protocol":"5 seeds x 5 samples bootstrap from 20","status":"opened"},
+{"engine":"OpenFold3","benchmark":"AF3 Ab-Ag set","n":null,"cutoff":null,"dockq_ge_0.23_pct":null,"high_pct":null,"protocol":null,"status":"unverified (figure only)"}
+]

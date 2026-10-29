@@ -1,0 +1,8 @@
+[
+{"linguistic_method":"Parallel corpus + IBM/GIZA++","protein_counterpart":"Paired co-evolving sequences + DCA","data_needed":"thousands of paired orthologs (Meff > length; exact thresholds unverified)","our_data":"none (one HER2 sequence)"},
+{"linguistic_method":"Monolingual embeddings + unsupervised mapping (Lample 2018)","protein_counterpart":"PLM embeddings of VHHs and HER2 domains","data_needed":"two varied populations, approx isomorphic","our_data":"VHH yes; antigen side no"},
+{"linguistic_method":"Seed dictionary + Procrustes + self-learning (Artetxe)","protein_counterpart":"few hundred binders + enrichment labels + PLM embeddings","data_needed":"seed pairs","our_data":"a few hundred binder labels; ~10^5-10^6 reads"},
+{"linguistic_method":"Attention as alignment","protein_counterpart":"cross-attention in AntiBinder-style models","data_needed":"supervised alignment signal","our_data":"global binary labels only"},
+{"linguistic_method":"Gold alignment set for AER","protein_counterpart":"3 held-out complexes","data_needed":"hundreds of aligned items","our_data":"n=3"},
+{"linguistic_method":"Monotone prior (fast_align)","protein_counterpart":"CDR position prior on paratope","data_needed":"SAbDab-nano interface labels","our_data":"public SAbDab-nano (1,972 structures, July 2025 snapshot)"}
+]

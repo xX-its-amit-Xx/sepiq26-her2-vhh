@@ -1,0 +1,9 @@
+[
+{"rank":1,"metric":"ipSAE (PAE cutoff 10/15)","source":"Dunbrack bioRxiv 10.1101/2025.02.10.637595","reported":"ipTM overlaps 0.3-0.7 for true vs false dimers; ipSAE ~0 for non-interactors (RAF1/RIPK1 0.000 at 10A); no AUC stated","antibody_specific":false},
+{"rank":2,"metric":"ipTM","source":"Hitawala & Gray 10.1080/19420862.2025.2545601","reported":"AP for DockQ>=0.23: 0.458 Ab (thr 0.49), 0.450 Nb (thr 0.40)","antibody_specific":true},
+{"rank":3,"metric":"I-pLDDT","source":"Hitawala & Gray","reported":"AP 0.368 Ab (cut 85), 0.336 Nb (cut 87)","antibody_specific":true},
+{"rank":4,"metric":"avg H3 pLDDT","source":"Hitawala & Gray","reported":"AP 0.287 Ab, 0.316 Nb (cut 86)","antibody_specific":true},
+{"rank":5,"metric":"Rosetta dGB","source":"Hitawala & Gray","reported":"AP 0.188 Ab, 0.178 Nb","antibody_specific":true},
+{"rank":6,"metric":"I-pLDDT + dGB","source":"Hitawala & Gray","reported":"AP 0.743 Nb","antibody_specific":true},
+{"rank":7,"metric":"ipTM real-vs-shuffled PR-AUC (AF3/Chai-1/Boltz-2)","source":"bioRxiv 10.64898/2026.03.02.709004 (snippet only, unverified)","reported":"0.187 / 0.067 / 0.026","antibody_specific":true}
+]

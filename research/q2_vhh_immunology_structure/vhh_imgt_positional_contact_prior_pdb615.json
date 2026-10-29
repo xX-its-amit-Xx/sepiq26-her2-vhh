@@ -1,0 +1,672 @@
+{
+"0": {
+"freq": 0.1818,
+"n_contact": 8,
+"n_seen": 44
+},
+"-1": {
+"freq": 0.2667,
+"n_contact": 4,
+"n_seen": 15
+},
+"1": {
+"freq": 0.2047,
+"n_contact": 87,
+"n_seen": 425
+},
+"-2": {
+"freq": 0.4,
+"n_contact": 2,
+"n_seen": 5
+},
+"2": {
+"freq": 0.1067,
+"n_contact": 59,
+"n_seen": 553
+},
+"-3": {
+"freq": 1.0,
+"n_contact": 1,
+"n_seen": 1
+},
+"3": {
+"freq": 0.0631,
+"n_contact": 37,
+"n_seen": 586
+},
+"-4": {
+"freq": 0.0,
+"n_contact": 0,
+"n_seen": 1
+},
+"4": {
+"freq": 0.0135,
+"n_contact": 8,
+"n_seen": 592
+},
+"5": {
+"freq": 0.0217,
+"n_contact": 13,
+"n_seen": 598
+},
+"6": {
+"freq": 0.0067,
+"n_contact": 4,
+"n_seen": 601
+},
+"7": {
+"freq": 0.0149,
+"n_contact": 9,
+"n_seen": 604
+},
+"8": {
+"freq": 0.0132,
+"n_contact": 8,
+"n_seen": 604
+},
+"9": {
+"freq": 0.0214,
+"n_contact": 13,
+"n_seen": 608
+},
+"11": {
+"freq": 0.0213,
+"n_contact": 13,
+"n_seen": 610
+},
+"12": {
+"freq": 0.0343,
+"n_contact": 21,
+"n_seen": 612
+},
+"13": {
+"freq": 0.0082,
+"n_contact": 5,
+"n_seen": 612
+},
+"14": {
+"freq": 0.0212,
+"n_contact": 13,
+"n_seen": 613
+},
+"15": {
+"freq": 0.0081,
+"n_contact": 5,
+"n_seen": 614
+},
+"16": {
+"freq": 0.0163,
+"n_contact": 10,
+"n_seen": 614
+},
+"17": {
+"freq": 0.0147,
+"n_contact": 9,
+"n_seen": 614
+},
+"18": {
+"freq": 0.0244,
+"n_contact": 15,
+"n_seen": 615
+},
+"19": {
+"freq": 0.013,
+"n_contact": 8,
+"n_seen": 615
+},
+"20": {
+"freq": 0.0325,
+"n_contact": 20,
+"n_seen": 615
+},
+"21": {
+"freq": 0.0,
+"n_contact": 0,
+"n_seen": 615
+},
+"22": {
+"freq": 0.0016,
+"n_contact": 1,
+"n_seen": 615
+},
+"23": {
+"freq": 0.0016,
+"n_contact": 1,
+"n_seen": 615
+},
+"24": {
+"freq": 0.0098,
+"n_contact": 6,
+"n_seen": 615
+},
+"25": {
+"freq": 0.0211,
+"n_contact": 13,
+"n_seen": 615
+},
+"26": {
+"freq": 0.0374,
+"n_contact": 23,
+"n_seen": 615
+},
+"27": {
+"freq": 0.1138,
+"n_contact": 70,
+"n_seen": 615
+},
+"28": {
+"freq": 0.2606,
+"n_contact": 160,
+"n_seen": 614
+},
+"29": {
+"freq": 0.2488,
+"n_contact": 151,
+"n_seen": 607
+},
+"30": {
+"freq": 0.2646,
+"n_contact": 154,
+"n_seen": 582
+},
+"31": {
+"freq": 0.32,
+"n_contact": 8,
+"n_seen": 25
+},
+"32": {
+"freq": 0.2667,
+"n_contact": 4,
+"n_seen": 15
+},
+"32+": {
+"freq": 0.2273,
+"n_contact": 5,
+"n_seen": 22
+},
+"33": {
+"freq": 0.2857,
+"n_contact": 2,
+"n_seen": 7
+},
+"34": {
+"freq": 0.2,
+"n_contact": 4,
+"n_seen": 20
+},
+"35": {
+"freq": 0.373,
+"n_contact": 210,
+"n_seen": 563
+},
+"36": {
+"freq": 0.5186,
+"n_contact": 306,
+"n_seen": 590
+},
+"37": {
+"freq": 0.4526,
+"n_contact": 277,
+"n_seen": 612
+},
+"38": {
+"freq": 0.3707,
+"n_contact": 228,
+"n_seen": 615
+},
+"39": {
+"freq": 0.0439,
+"n_contact": 27,
+"n_seen": 615
+},
+"40": {
+"freq": 0.0878,
+"n_contact": 54,
+"n_seen": 615
+},
+"41": {
+"freq": 0.0033,
+"n_contact": 2,
+"n_seen": 615
+},
+"42": {
+"freq": 0.2098,
+"n_contact": 129,
+"n_seen": 615
+},
+"43": {
+"freq": 0.0049,
+"n_contact": 3,
+"n_seen": 615
+},
+"44": {
+"freq": 0.0764,
+"n_contact": 47,
+"n_seen": 615
+},
+"45": {
+"freq": 0.0195,
+"n_contact": 12,
+"n_seen": 615
+},
+"46": {
+"freq": 0.0407,
+"n_contact": 25,
+"n_seen": 615
+},
+"47": {
+"freq": 0.0667,
+"n_contact": 41,
+"n_seen": 615
+},
+"48": {
+"freq": 0.0569,
+"n_contact": 35,
+"n_seen": 615
+},
+"49": {
+"freq": 0.1886,
+"n_contact": 116,
+"n_seen": 615
+},
+"50": {
+"freq": 0.1854,
+"n_contact": 114,
+"n_seen": 615
+},
+"51": {
+"freq": 0.0829,
+"n_contact": 51,
+"n_seen": 615
+},
+"52": {
+"freq": 0.3008,
+"n_contact": 185,
+"n_seen": 615
+},
+"53": {
+"freq": 0.0407,
+"n_contact": 25,
+"n_seen": 615
+},
+"54": {
+"freq": 0.0439,
+"n_contact": 27,
+"n_seen": 615
+},
+"55": {
+"freq": 0.2748,
+"n_contact": 169,
+"n_seen": 615
+},
+"56": {
+"freq": 0.0829,
+"n_contact": 51,
+"n_seen": 615
+},
+"57": {
+"freq": 0.5261,
+"n_contact": 323,
+"n_seen": 614
+},
+"58": {
+"freq": 0.4951,
+"n_contact": 302,
+"n_seen": 610
+},
+"59": {
+"freq": 0.4882,
+"n_contact": 290,
+"n_seen": 594
+},
+"60": {
+"freq": 0.292,
+"n_contact": 99,
+"n_seen": 339
+},
+"61": {
+"freq": 0.3636,
+"n_contact": 8,
+"n_seen": 22
+},
+"62": {
+"freq": 0.2469,
+"n_contact": 138,
+"n_seen": 559
+},
+"63": {
+"freq": 0.5008,
+"n_contact": 303,
+"n_seen": 605
+},
+"64": {
+"freq": 0.2177,
+"n_contact": 133,
+"n_seen": 611
+},
+"65": {
+"freq": 0.4862,
+"n_contact": 299,
+"n_seen": 615
+},
+"65+": {
+"freq": 0.1724,
+"n_contact": 5,
+"n_seen": 29
+},
+"66": {
+"freq": 0.2098,
+"n_contact": 129,
+"n_seen": 615
+},
+"67": {
+"freq": 0.1545,
+"n_contact": 95,
+"n_seen": 615
+},
+"68": {
+"freq": 0.1945,
+"n_contact": 120,
+"n_seen": 617
+},
+"69": {
+"freq": 0.0388,
+"n_contact": 24,
+"n_seen": 618
+},
+"70": {
+"freq": 0.0065,
+"n_contact": 4,
+"n_seen": 618
+},
+"71": {
+"freq": 0.1084,
+"n_contact": 67,
+"n_seen": 618
+},
+"72": {
+"freq": 0.0453,
+"n_contact": 28,
+"n_seen": 618
+},
+"74": {
+"freq": 0.021,
+"n_contact": 13,
+"n_seen": 618
+},
+"75": {
+"freq": 0.0032,
+"n_contact": 2,
+"n_seen": 618
+},
+"76": {
+"freq": 0.0161,
+"n_contact": 10,
+"n_seen": 620
+},
+"77": {
+"freq": 0.0097,
+"n_contact": 6,
+"n_seen": 620
+},
+"78": {
+"freq": 0.0161,
+"n_contact": 10,
+"n_seen": 621
+},
+"79": {
+"freq": 0.0386,
+"n_contact": 24,
+"n_seen": 622
+},
+"80": {
+"freq": 0.0322,
+"n_contact": 20,
+"n_seen": 622
+},
+"81": {
+"freq": 0.1158,
+"n_contact": 72,
+"n_seen": 622
+},
+"82": {
+"freq": 0.0756,
+"n_contact": 47,
+"n_seen": 622
+},
+"83": {
+"freq": 0.0386,
+"n_contact": 24,
+"n_seen": 622
+},
+"84": {
+"freq": 0.0531,
+"n_contact": 33,
+"n_seen": 622
+},
+"85": {
+"freq": 0.0164,
+"n_contact": 1,
+"n_seen": 61
+},
+"86": {
+"freq": 0.0066,
+"n_contact": 4,
+"n_seen": 602
+},
+"87": {
+"freq": 0.0033,
+"n_contact": 2,
+"n_seen": 606
+},
+"88": {
+"freq": 0.0114,
+"n_contact": 7,
+"n_seen": 615
+},
+"89": {
+"freq": 0.0,
+"n_contact": 0,
+"n_seen": 615
+},
+"90": {
+"freq": 0.0276,
+"n_contact": 17,
+"n_seen": 615
+},
+"91": {
+"freq": 0.0049,
+"n_contact": 3,
+"n_seen": 615
+},
+"92": {
+"freq": 0.0211,
+"n_contact": 13,
+"n_seen": 615
+},
+"93": {
+"freq": 0.0211,
+"n_contact": 13,
+"n_seen": 615
+},
+"94": {
+"freq": 0.0016,
+"n_contact": 1,
+"n_seen": 615
+},
+"95": {
+"freq": 0.013,
+"n_contact": 8,
+"n_seen": 615
+},
+"96": {
+"freq": 0.0114,
+"n_contact": 7,
+"n_seen": 615
+},
+"97": {
+"freq": 0.0195,
+"n_contact": 12,
+"n_seen": 615
+},
+"98": {
+"freq": 0.0033,
+"n_contact": 2,
+"n_seen": 615
+},
+"99": {
+"freq": 0.0211,
+"n_contact": 13,
+"n_seen": 615
+},
+"100": {
+"freq": 0.013,
+"n_contact": 8,
+"n_seen": 615
+},
+"101": {
+"freq": 0.0276,
+"n_contact": 17,
+"n_seen": 615
+},
+"102": {
+"freq": 0.0114,
+"n_contact": 7,
+"n_seen": 615
+},
+"103": {
+"freq": 0.0585,
+"n_contact": 36,
+"n_seen": 615
+},
+"104": {
+"freq": 0.0049,
+"n_contact": 3,
+"n_seen": 615
+},
+"105": {
+"freq": 0.0976,
+"n_contact": 60,
+"n_seen": 615
+},
+"106": {
+"freq": 0.0585,
+"n_contact": 36,
+"n_seen": 615
+},
+"107": {
+"freq": 0.4829,
+"n_contact": 296,
+"n_seen": 613
+},
+"108": {
+"freq": 0.5954,
+"n_contact": 359,
+"n_seen": 603
+},
+"109": {
+"freq": 0.7621,
+"n_contact": 442,
+"n_seen": 580
+},
+"110": {
+"freq": 0.7723,
+"n_contact": 407,
+"n_seen": 527
+},
+"111": {
+"freq": 0.7812,
+"n_contact": 25,
+"n_seen": 32
+},
+"111+": {
+"freq": 0.5561,
+"n_contact": 1661,
+"n_seen": 2987
+},
+"112": {
+"freq": 0.7231,
+"n_contact": 47,
+"n_seen": 65
+},
+"113": {
+"freq": 0.5323,
+"n_contact": 297,
+"n_seen": 558
+},
+"114": {
+"freq": 0.5976,
+"n_contact": 355,
+"n_seen": 594
+},
+"115": {
+"freq": 0.3311,
+"n_contact": 201,
+"n_seen": 607
+},
+"116": {
+"freq": 0.452,
+"n_contact": 278,
+"n_seen": 615
+},
+"117": {
+"freq": 0.2179,
+"n_contact": 134,
+"n_seen": 615
+},
+"118": {
+"freq": 0.1935,
+"n_contact": 119,
+"n_seen": 615
+},
+"119": {
+"freq": 0.0341,
+"n_contact": 21,
+"n_seen": 615
+},
+"120": {
+"freq": 0.0585,
+"n_contact": 36,
+"n_seen": 615
+},
+"121": {
+"freq": 0.0276,
+"n_contact": 17,
+"n_seen": 615
+},
+"122": {
+"freq": 0.013,
+"n_contact": 8,
+"n_seen": 615
+},
+"123": {
+"freq": 0.0424,
+"n_contact": 26,
+"n_seen": 613
+},
+"124": {
+"freq": 0.0049,
+"n_contact": 3,
+"n_seen": 611
+},
+"125": {
+"freq": 0.0295,
+"n_contact": 18,
+"n_seen": 610
+},
+"126": {
+"freq": 0.01,
+"n_contact": 6,
+"n_seen": 601
+},
+"127": {
+"freq": 0.0221,
+"n_contact": 12,
+"n_seen": 544
+},
+"128": {
+"freq": 0.021,
+"n_contact": 9,
+"n_seen": 429
+}
+}

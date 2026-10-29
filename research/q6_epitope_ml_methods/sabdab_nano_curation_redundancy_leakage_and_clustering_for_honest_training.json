@@ -1,0 +1,335 @@
+[
+ {
+  "pdb": "5MY6",
+  "release_date": "2017-08-09",
+  "method": "X-ray",
+  "resolution_A": 2.246,
+  "binder": "VHH 2Rs15d",
+  "epitope_domain": "I (computed, 18 res, UniProt 109-217)",
+  "basis": "computed 4.5 A"
+ },
+ {
+  "pdb": "7QVK",
+  "release_date": "2023-02-01",
+  "method": "X-ray",
+  "resolution_A": 3.1,
+  "binder": "VHH NM-02",
+  "epitope_domain": "I/II junction (computed: 11 res domain I, 12 domain II, 168-233)",
+  "basis": "computed 4.5 A"
+ },
+ {
+  "pdb": "9MTE",
+  "release_date": "2025-11-19",
+  "method": "cryo-EM",
+  "resolution_A": 2.66,
+  "binder": "VHH 27A05 + 47D05",
+  "epitope_domain": "27A05: III+I (16 III, 7 I); 47D05: I (12 I, 2 II)",
+  "basis": "computed 4.5 A"
+ },
+ {
+  "pdb": "9MTX",
+  "release_date": "2025-11-19",
+  "method": "cryo-EM",
+  "resolution_A": 3.06,
+  "binder": "VHH 29E09",
+  "epitope_domain": "III+I (11 III, 8 I); Jaccard 0.75 with 27A05 epitope",
+  "basis": "computed 4.5 A"
+ },
+ {
+  "pdb": "1N8Z",
+  "release_date": "2003-02-18",
+  "method": "X-ray",
+  "resolution_A": 2.52,
+  "binder": "Trastuzumab Fab",
+  "epitope_domain": "IV (literature, not recomputed)",
+  "basis": "literature"
+ },
+ {
+  "pdb": "1S78",
+  "release_date": "2004-04-27",
+  "method": "X-ray",
+  "resolution_A": 3.25,
+  "binder": "Pertuzumab Fab",
+  "epitope_domain": "II (literature, not recomputed)",
+  "basis": "literature"
+ },
+ {
+  "pdb": "3BE1",
+  "release_date": "2008-11-18",
+  "method": "X-ray",
+  "resolution_A": 2.9,
+  "binder": "bH1 Fab",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "3H3B",
+  "release_date": "2010-04-28",
+  "method": "X-ray",
+  "resolution_A": 2.45,
+  "binder": "chA21 scFv",
+  "epitope_domain": "unverified (likely I/II)",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "3MZW",
+  "release_date": "2010-07-28",
+  "method": "X-ray",
+  "resolution_A": 2.9,
+  "binder": "affibody ZHER2:342",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "3N85",
+  "release_date": "2010-07-28",
+  "method": "X-ray",
+  "resolution_A": 3.2,
+  "binder": "Fab37",
+  "epitope_domain": "unverified (IV region)",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "3WLW",
+  "release_date": "2015-05-27",
+  "method": "X-ray",
+  "resolution_A": 3.088,
+  "binder": "Fab (H/L)",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "3WSQ",
+  "release_date": "2015-03-25",
+  "method": "X-ray",
+  "resolution_A": 3.5,
+  "binder": "Fab",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "4HRL",
+  "release_date": "2013-10-16",
+  "method": "X-ray",
+  "resolution_A": 2.55,
+  "binder": "DARPin 9_29",
+  "epitope_domain": "I",
+  "basis": "title says domain I (4HRM) ; others unverified"
+ },
+ {
+  "pdb": "4HRM",
+  "release_date": "2013-10-16",
+  "method": "X-ray",
+  "resolution_A": 3.2,
+  "binder": "DARPin 9_26",
+  "epitope_domain": "I",
+  "basis": "PDB entity name 'Domain I'"
+ },
+ {
+  "pdb": "4HRN",
+  "release_date": "2013-10-16",
+  "method": "X-ray",
+  "resolution_A": 2.65,
+  "binder": "DARPin H10-2-G",
+  "epitope_domain": "IV (unverified)",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "5K33",
+  "release_date": "2017-04-12",
+  "method": "X-ray",
+  "resolution_A": 3.3,
+  "binder": "Fcab STAB19",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "5KWG",
+  "release_date": "2017-04-12",
+  "method": "X-ray",
+  "resolution_A": 4.3,
+  "binder": "Fcab H10-03-6",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "5O4G",
+  "release_date": "2018-05-16",
+  "method": "X-ray",
+  "resolution_A": 3.0,
+  "binder": "Fab MF3958",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "6ATT",
+  "release_date": "2018-04-25",
+  "method": "X-ray",
+  "resolution_A": 3.77,
+  "binder": "Fab 39S",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "6BGT",
+  "release_date": "2018-10-31",
+  "method": "X-ray",
+  "resolution_A": 2.7,
+  "binder": "Trastuzumab Fab mutant",
+  "epitope_domain": "IV (literature)",
+  "basis": "literature"
+ },
+ {
+  "pdb": "6J71",
+  "release_date": "2019-02-27",
+  "method": "X-ray",
+  "resolution_A": 2.918,
+  "binder": "HuA21 scFv",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "6LBX",
+  "release_date": "2020-11-18",
+  "method": "X-ray",
+  "resolution_A": 2.03,
+  "binder": "Repebody Rb-H2",
+  "epitope_domain": "IV",
+  "basis": "PDB title 'Domain IV'"
+ },
+ {
+  "pdb": "6OGE",
+  "release_date": "2019-05-15",
+  "method": "cryo-EM",
+  "resolution_A": 4.36,
+  "binder": "Trastuzumab + Pertuzumab Fabs",
+  "epitope_domain": "IV + II (literature)",
+  "basis": "literature"
+ },
+ {
+  "pdb": "7MN8",
+  "release_date": "2021-11-10",
+  "method": "cryo-EM",
+  "resolution_A": 3.45,
+  "binder": "Trastuzumab Fab (HER2/HER3/NRG1b)",
+  "epitope_domain": "IV (literature)",
+  "basis": "literature"
+ },
+ {
+  "pdb": "8FFJ",
+  "release_date": "2023-02-22",
+  "method": "cryo-EM",
+  "resolution_A": 7.5,
+  "binder": "Zanidatamab (biparatopic)",
+  "epitope_domain": "IV + II (literature)",
+  "basis": "literature"
+ },
+ {
+  "pdb": "8JYQ",
+  "release_date": "2024-03-13",
+  "method": "X-ray",
+  "resolution_A": 1.75,
+  "binder": "H2Mab-214 (peptide epitope)",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "8JYR",
+  "release_date": "2024-03-13",
+  "method": "X-ray",
+  "resolution_A": 1.69,
+  "binder": "H2Mab-119",
+  "epitope_domain": "I (PDB title: domain I)",
+  "basis": "PDB title"
+ },
+ {
+  "pdb": "8PWH",
+  "release_date": "2024-02-21",
+  "method": "cryo-EM",
+  "resolution_A": 3.17,
+  "binder": "Trastuzumab+Pertuzumab Fabs",
+  "epitope_domain": "IV + II",
+  "basis": "literature"
+ },
+ {
+  "pdb": "8Q6J",
+  "release_date": "2023-09-20",
+  "method": "cryo-EM",
+  "resolution_A": 3.3,
+  "binder": "Trastuzumab+Pertuzumab Fabs",
+  "epitope_domain": "IV + II",
+  "basis": "literature"
+ },
+ {
+  "pdb": "8VQD",
+  "release_date": "2024-10-09",
+  "method": "cryo-EM",
+  "resolution_A": 2.61,
+  "binder": "TL1 Fab (HER2 S310F)",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "9IUT",
+  "release_date": "2025-06-04",
+  "method": "X-ray",
+  "resolution_A": 2.09,
+  "binder": "H2Mab-250 (peptide epitope)",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "9L1S",
+  "release_date": "2025-01-01",
+  "method": "cryo-EM",
+  "resolution_A": 3.0,
+  "binder": "Pertuzumab variant (S310F)",
+  "epitope_domain": "II",
+  "basis": "literature"
+ },
+ {
+  "pdb": "9QBF",
+  "release_date": "2025-08-06",
+  "method": "cryo-EM",
+  "resolution_A": 3.8,
+  "binder": "Trastuzumab (compact HER2)",
+  "epitope_domain": "IV (literature)",
+  "basis": "antibody chains not listed in entity annotation"
+ },
+ {
+  "pdb": "9QBG",
+  "release_date": "2025-08-06",
+  "method": "cryo-EM",
+  "resolution_A": 3.6,
+  "binder": "Trastuzumab (extended HER2)",
+  "epitope_domain": "IV (literature)",
+  "basis": "antibody chains not listed in entity annotation"
+ },
+ {
+  "pdb": "9T3R",
+  "release_date": "2026-03-11",
+  "method": "cryo-EM",
+  "resolution_A": 3.5,
+  "binder": "EPS232 Fab",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "9T3S",
+  "release_date": "2026-03-11",
+  "method": "cryo-EM",
+  "resolution_A": 3.0,
+  "binder": "EPS226 Fab",
+  "epitope_domain": "unverified",
+  "basis": "not checked"
+ },
+ {
+  "pdb": "4KRL/4KRM/4KRO/4KRP/7OM4/8UKV",
+  "release_date": "2013-2024",
+  "method": "mixed",
+  "resolution_A": "2.66-6.05",
+  "binder": "EGFR VHHs (7D12, EgA1, 9G8, EgB4, 34E5)",
+  "epitope_domain": "EGFR domain III (not HER2)",
+  "basis": "ERBB-family nanobody neighbours"
+ }
+]

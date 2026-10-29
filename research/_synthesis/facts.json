@@ -1,0 +1,810 @@
+[
+ {
+  "fact": "Test complexes in Track A (home page 'seven' is stale)",
+  "number": 3,
+  "unit": "complexes",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Track A submission window closes",
+  "number": "2026-10-31",
+  "unit": "date",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Planned final upload (reserve day 10-30; last upload 06:00 UTC)",
+  "number": "2026-10-30",
+  "unit": "date",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Results announced (/detail); Space says ranking 1 Dec",
+  "number": "2026-12-15",
+  "unit": "date",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Maximum submissions per team",
+  "number": 5,
+  "unit": "submissions",
+  "source_file": "BRIEF.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Prizes (first/second/third)",
+  "number": "3000/2000/1000",
+  "unit": "USD",
+  "source_file": "BRIEF.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Antigen construct: UniProt P04626 residues",
+  "number": "1-624 + His6",
+  "unit": "residues",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Signal peptide length included in challenge numbering",
+  "number": 22,
+  "unit": "residues",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Printed VHH lengths ONU11/ONU13/ONU23 incl. His6",
+  "number": "127/127/135",
+  "unit": "aa",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "ONU13 CDR3 length",
+  "number": 12,
+  "unit": "aa",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "ONU23 CDR3 length (hardest case for structure predictors)",
+  "number": 20,
+  "unit": "aa",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Portal header names checked",
+  "number": 4,
+  "unit": "columns",
+  "source_file": "research/q4_challenge_intelligence/hf_space_dataset_files_template_csvs_submission_mechanics_and_community_discussion.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Portal returns score or leaderboard",
+  "number": 0,
+  "unit": "scores",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "AVIDa-hHER2 unique VHH sequences",
+  "number": 1843875,
+  "unit": "sequences",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "AVIDa-hHER2 labelled sequences",
+  "number": 19367,
+  "unit": "sequences",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Labelled Yes",
+  "number": 7316,
+  "unit": "sequences",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Labelled Not",
+  "number": 12051,
+  "unit": "sequences",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Share of Yes that are replicate-confirmed",
+  "number": 49.5,
+  "unit": "percent",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Share of Yes with zero mother-library reads",
+  "number": 59,
+  "unit": "percent",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Share of sequences with zero reads per HER2 sublibrary",
+  "number": 97,
+  "unit": "percent",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Share of sequences that are singletons",
+  "number": 77.9,
+  "unit": "percent",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Label reproducibility from counts",
+  "number": 100,
+  "unit": "percent",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Estimated false positives among binders (assumption-derived)",
+  "number": "10-40",
+  "unit": "percent",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "low"
+ },
+ {
+  "fact": "Estimated true binders missed (assumption-derived)",
+  "number": "30-60",
+  "unit": "percent",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "low"
+ },
+ {
+  "fact": "Chi-squared label invalid below combined reads",
+  "number": 10,
+  "unit": "reads",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "hIL6 sister dataset binders validated",
+  "number": "10/10",
+  "unit": "binders",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "hIL6 precision lower bound (exact 95%)",
+  "number": 69,
+  "unit": "percent",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Hamming-1 CDR3 families from 1.68 M sequences",
+  "number": 120206,
+  "unit": "families",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Families carrying 50% of above-expectation post-panning reads",
+  "number": 39,
+  "unit": "families",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Family-level replicate Pearson",
+  "number": 0.93,
+  "unit": "r",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "3-mer sequence model AUROC random split",
+  "number": 0.945,
+  "unit": "AUROC",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "3-mer sequence model AUROC family split",
+  "number": 0.855,
+  "unit": "AUROC",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Pooled per-sequence enrichment AUROC (label-circular)",
+  "number": 0.991,
+  "unit": "AUROC",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "ONU13 depletion by trastuzumab",
+  "number": ">20",
+  "unit": "fold",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "CDR3 positional variation in ONU families (sequencing error floor)",
+  "number": "0.5-2",
+  "unit": "percent per column",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "DCA composite paratope PR-AUC on CDR residues",
+  "number": 0.509,
+  "unit": "PR-AUC",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "CDR-variability-only prior PR-AUC on CDR residues",
+  "number": 0.562,
+  "unit": "PR-AUC",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "CDR3-only paratope PR-AUC (DCA worker)",
+  "number": 0.399,
+  "unit": "PR-AUC",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Mimotope oracle macro PR-AUC on 5 HER2 complexes",
+  "number": 0.081,
+  "unit": "PR-AUC",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "RSA prior macro PR-AUC on the same set",
+  "number": 0.083,
+  "unit": "PR-AUC",
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "HER2 ECD residues (P04626)",
+  "number": "23-652",
+  "unit": "residues",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Approved-antibody residue coverage of HER2 ECD",
+  "number": 6.7,
+  "unit": "percent",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "All-binder residue coverage of HER2 ECD (25 binders, 213 residues)",
+  "number": 33.8,
+  "unit": "percent",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "HER2 interface base rate on public binders",
+  "number": "3-5",
+  "unit": "percent",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Brief's 8GZ5 epitope fraction (26/206)",
+  "number": 0.126,
+  "unit": "fraction",
+  "source_file": "BRIEF.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "HER2 prevalence estimate (q6)",
+  "number": "0.024-0.064",
+  "unit": "fraction",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-low"
+ },
+ {
+  "fact": "Antigen positive fraction area>0 (24 general pairs)",
+  "number": 13.2,
+  "unit": "percent",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "Antigen positive fraction 5MY6 (HER2)",
+  "number": 3.8,
+  "unit": "percent",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "Public HER2 complexes in PDB for P04626",
+  "number": 63,
+  "unit": "entries",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Public HER2-VHH structures",
+  "number": 4,
+  "unit": "entries",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Exposure-only AUC for touched-by-any-binder",
+  "number": 0.72,
+  "unit": "AUC",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Held-out VHH macro AP for footprint prior",
+  "number": "0.04-0.05",
+  "unit": "AP",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Epitopes among 44 antibody-class interfaces: effective clusters",
+  "number": 11,
+  "unit": "clusters",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Exposed ECD residues never touched by a public binder (of 341)",
+  "number": 147,
+  "unit": "residues",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Dimer-occupied patch size",
+  "number": 51,
+  "unit": "residues",
+  "source_file": "research/q1_her2_biology/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "HER2 N-glycosylation sequons",
+  "number": "7-8",
+  "unit": "sites",
+  "source_file": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Samples with HER2 amplification (362 of 10,712 TCGA samples)",
+  "number": 3.4,
+  "unit": "percent",
+  "source_file": "research/q1_her2_biology/her2_in_cancer_amplification_isoforms_transcripts_epigenetics_ptms_glycans.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "VHH CDR3 share of antigen-contacting residues",
+  "number": 46,
+  "unit": "percent",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "VHH contacts outside IMGT CDRs",
+  "number": 24,
+  "unit": "percent",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Damage-map paratope prior PR-AUC on 17 VHH (prevalence 0.149)",
+  "number": 0.547,
+  "unit": "PR-AUC",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Damage-map gain on 5 HER2 VHHs",
+  "number": "+0.17 to +0.33",
+  "unit": "PR-AUC",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "CDR3 identity of ONU clones to any public VHH (upper bound)",
+  "number": 70,
+  "unit": "percent",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "AF3-class nanobody CDR3 RMSD",
+  "number": "2.9-4.3",
+  "unit": "angstrom",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-low"
+ },
+ {
+  "fact": "Alpaca IGHV genes (functional 84)",
+  "number": 88,
+  "unit": "genes",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Approved nanobody-derived drugs",
+  "number": 4,
+  "unit": "drugs",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Cryo-EM residues deposited vs modelled for 9MTX",
+  "number": "510/752",
+  "unit": "residues",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Antigen perfect-predictor PR-AUC ceiling",
+  "number": "0.92-0.97",
+  "unit": "PR-AUC",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Truth replicate flip rate",
+  "number": "4-9",
+  "unit": "percent",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "3-complex CI width",
+  "number": 0.18,
+  "unit": "PR-AUC",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Random PR-AUC antigen / VHH",
+  "number": "0.03-0.05 / 0.2-0.3",
+  "unit": "PR-AUC",
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-low"
+ },
+ {
+  "fact": "AF3 nanobody DockQ>=0.23 success (n=60, 1 seed)",
+  "number": 31.6,
+  "unit": "percent",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "source_url": "https://doi.org/10.1080/19420862.2025.2545601",
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "Boltz-1 nanobody success",
+  "number": 23.3,
+  "unit": "percent",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "source_url": "https://doi.org/10.1080/19420862.2025.2545601",
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "Chai-1 nanobody success",
+  "number": 15.0,
+  "unit": "percent",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "source_url": "https://doi.org/10.1080/19420862.2025.2545601",
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "HADDOCK3 all-surface top-10 (n=40)",
+  "number": 20,
+  "unit": "percent",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "source_url": "https://doi.org/10.1101/2025.07.01.662355",
+  "confidence": "medium"
+ },
+ {
+  "fact": "HADDOCK3 with true interface restraint",
+  "number": 87.5,
+  "unit": "percent",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "source_url": "https://doi.org/10.1101/2025.07.01.662355",
+  "confidence": "medium"
+ },
+ {
+  "fact": "ipTM AP for nanobody DockQ>=0.23",
+  "number": 0.45,
+  "unit": "AP",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "I-pLDDT + Rosetta dGB AP",
+  "number": 0.743,
+  "unit": "AP",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Extrapolated GPU hours for the full co-fold ensemble",
+  "number": "12-14",
+  "unit": "GPU-hours",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-low"
+ },
+ {
+  "fact": "Engine cutoffs AF3 / Boltz-2 / Chai-1",
+  "number": "2021-09-30 / 2023-06-01 / 2021-01-12",
+  "unit": "dates",
+  "source_file": "research/q5_structure_prediction_docking/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-low"
+ },
+ {
+  "fact": "9MTE and 9MTX release date",
+  "number": "2025-11-19",
+  "unit": "date",
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "DiscoTope-3.0 external PR-AUC (24 antigens)",
+  "number": 0.232,
+  "unit": "PR-AUC",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "DiscoTope-3.0 test prevalence",
+  "number": 6.4,
+  "unit": "percent",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "BepiPred-3.0 PR-AUC comparator",
+  "number": 0.177,
+  "unit": "PR-AUC",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium-high"
+ },
+ {
+  "fact": "PLM paratope probe PR-AUC",
+  "number": "0.69-0.77",
+  "unit": "PR-AUC",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "AsEP unseen-group AUROC",
+  "number": 0.544,
+  "unit": "AUROC",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Baseline proxy score (AntiBinder, organiser run)",
+  "number": 0.176,
+  "unit": "PR-AUC",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Shuffle-null mean AP on 8GZ5",
+  "number": 0.147,
+  "unit": "AP",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Probability random shuffle reaches 0.176",
+  "number": 0.16,
+  "unit": "probability",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "high"
+ },
+ {
+  "fact": "Constant predictor, AP vs trapezoid",
+  "number": "0.04 vs 0.52",
+  "unit": "PR-AUC",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "CDR-only prior on VHH alone vs pooled per complex",
+  "number": "0.64 vs 0.34",
+  "unit": "PR-AUC",
+  "source_file": "research/q6_epitope_ml_methods/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Smallest reliable macro gap at n=3 (unrelated models)",
+  "number": "0.09-0.11",
+  "unit": "PR-AUC",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Smallest gap for correlated variants",
+  "number": 0.03,
+  "unit": "PR-AUC",
+  "source_file": "research/q9_serendipity_cross_domain/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "3-cluster bootstrap false-positive rate",
+  "number": 14,
+  "unit": "percent",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Winner probability of a modestly better method at n=3",
+  "number": "58-61",
+  "unit": "percent",
+  "source_file": "research/q4_challenge_intelligence/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Rounding or ties cost in AP",
+  "number": 0.1,
+  "unit": "AP",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Max-over-seeds vs mean (synthetic)",
+  "number": 0.1,
+  "unit": "AP worse",
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "low"
+ },
+ {
+  "fact": "CASP12 best long-range L/5 precision",
+  "number": 47,
+  "unit": "percent",
+  "source_file": "research/q9_serendipity_cross_domain/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "CASP14 median GDT_TS (AlphaFold2)",
+  "number": 92.4,
+  "unit": "GDT_TS",
+  "source_file": "research/q9_serendipity_cross_domain/_QUEEN_DIGEST.md",
+  "source_url": "https://doi.org/10.1038/s41586-021-03819-2",
+  "confidence": "medium"
+ },
+ {
+  "fact": "CAPRI rounds and targets by 2022",
+  "number": "54 / 230",
+  "unit": "rounds / targets",
+  "source_file": "research/q9_serendipity_cross_domain/_QUEEN_DIGEST.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "PDB VHH-proxy entries in 2024 vs 2012",
+  "number": "318 vs 19",
+  "unit": "entries",
+  "source_file": "research/q2_vhh_immunology_structure/nanobody_therapeutics_and_engineering_history_caplacizumab_to_bispecifics.md",
+  "source_url": null,
+  "confidence": "medium"
+ },
+ {
+  "fact": "Explorer GPU cap",
+  "number": 2,
+  "unit": "GPUs",
+  "source_file": "research/_meta/king_world_KINGLOG.md",
+  "source_url": null,
+  "confidence": "high"
+ }
+]

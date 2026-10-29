@@ -1,0 +1,293 @@
+{
+ "date": "2026-10-17",
+ "claims_checked": 30,
+ "verified": 20,
+ "imprecise": 1,
+ "unsupported": 2,
+ "unreachable": 6,
+ "fabricated": 1,
+ "claims": [
+  {
+   "n": 1,
+   "file": "research/q7_data_representation_integration/clonotype_clustering_cdr3_families_and_enrichment_trajectories_as_epitope_bins.md",
+   "claim": "1,843,875 unique VHH rows",
+   "source": "local gated tables <hotdir>/q7data (HF repo sepiq-2026/SEPIQ-2026-training-data, API opened: gated=manual, files AVIDa-hHER2.csv + NGS_read_count_table.csv)",
+   "verdict": "verified",
+   "notes": "Row count of AVIDa-hHER2.csv = 1,843,875 (csv parse, 36 cols); NGS_read_count_table.csv also 1,843,875 rows, 30 cols."
+  },
+  {
+   "n": 2,
+   "file": "research/q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md",
+   "claim": "Label Yes = 7,316",
+   "source": "local gated tables <hotdir>/q7data (HF repo sepiq-2026/SEPIQ-2026-training-data, API opened: gated=manual, files AVIDa-hHER2.csv + NGS_read_count_table.csv)",
+   "verdict": "verified",
+   "notes": "Counter on label column: Yes 7316 (binary_label 1.0 = 7316)."
+  },
+  {
+   "n": 3,
+   "file": "research/q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md",
+   "claim": "Label Not = 12,051",
+   "source": "local gated tables <hotdir>/q7data (HF repo sepiq-2026/SEPIQ-2026-training-data, API opened: gated=manual, files AVIDa-hHER2.csv + NGS_read_count_table.csv)",
+   "verdict": "verified",
+   "notes": "Not 12051 (binary_label 0.0 = 12051)."
+  },
+  {
+   "n": 4,
+   "file": "research/q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md",
+   "claim": "19,367 labelled clones (not \"a few hundred\")",
+   "source": "local gated tables <hotdir>/q7data (HF repo sepiq-2026/SEPIQ-2026-training-data, API opened: gated=manual, files AVIDa-hHER2.csv + NGS_read_count_table.csv)",
+   "verdict": "verified",
+   "notes": "7,316 + 12,051 = 19,367. The BRIEF \"few hundred\" is stale."
+  },
+  {
+   "n": 5,
+   "file": "research/q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md",
+   "claim": "noise 746; non-sig. 1,823,762",
+   "source": "local gated tables <hotdir>/q7data (HF repo sepiq-2026/SEPIQ-2026-training-data, API opened: gated=manual, files AVIDa-hHER2.csv + NGS_read_count_table.csv)",
+   "verdict": "verified",
+   "notes": "Both counts match exactly."
+  },
+  {
+   "n": 6,
+   "file": "research/q7_data_representation_integration/clonotype_clustering_cdr3_families_and_enrichment_trajectories_as_epitope_bins.md",
+   "claim": "5,327,133 reads total across all columns",
+   "source": "local gated tables <hotdir>/q7data (HF repo sepiq-2026/SEPIQ-2026-training-data, API opened: gated=manual, files AVIDa-hHER2.csv + NGS_read_count_table.csv)",
+   "verdict": "verified",
+   "notes": "Sum over all 29 count columns of NGS_read_count_table.csv = 5,327,133."
+  },
+  {
+   "n": 7,
+   "file": "research/q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md",
+   "claim": "77.9% of sequences are singletons",
+   "source": "local gated tables <hotdir>/q7data (HF repo sepiq-2026/SEPIQ-2026-training-data, API opened: gated=manual, files AVIDa-hHER2.csv + NGS_read_count_table.csv)",
+   "verdict": "verified",
+   "notes": "Fraction of rows whose total count over all columns equals 1 = 0.7789."
+  },
+  {
+   "n": 8,
+   "file": "research/q7_data_representation_integration/deep_mutational_scanning_and_cdr_mutation_tolerance_as_paratope_evidence_in_public_data.md",
+   "claim": "ONU13 depleted >20x by trastuzumab; ONU11 and ONU23 not",
+   "source": "local gated tables <hotdir>/q7data (HF repo sepiq-2026/SEPIQ-2026-training-data, API opened: gated=manual, files AVIDa-hHER2.csv + NGS_read_count_table.csv)",
+   "verdict": "verified",
+   "notes": "Understated. C3 37C columns, reads (per-million): ONU13 trastuzumab 1 read (11.1 ppm) vs companion 184 (1,977 ppm) and pertuzumab 411 (4,663 ppm), i.e. roughly 180-420x. ONU11 trast 5,385 ppm and ONU23 1,984 ppm are not depleted (ONU23 is higher than companion 312 ppm)."
+  },
+  {
+   "n": 9,
+   "file": "research/q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md",
+   "claim": "Only 49.5% of Yes clones are replicate-confirmed (3,624/7,316)",
+   "source": "worker script output (not rerun)",
+   "verdict": "unreachable",
+   "notes": "Arithmetic checked (3624/7316 = 49.54%) but the 3,624 count was not recomputed in this session."
+  },
+  {
+   "n": 10,
+   "file": "research/q7_data_representation_integration/mimotope_and_peptide_epitope_mapping_phage_sequences_and_epitope_inference_from_binding_alone.md",
+   "claim": "Mimotope oracle macro PR-AUC 0.081 vs RSA prior 0.083 (5 complexes)",
+   "source": "worker script output (not rerun)",
+   "verdict": "unreachable",
+   "notes": "Internally consistent across the .md and digest; not recomputed. Worker itself notes effective n is 3-4."
+  },
+  {
+   "n": 11,
+   "file": "research/q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md",
+   "claim": "3-mer LR AUROC 0.945 (93% cluster split) falls to 0.855 (family split)",
+   "source": "worker script output (not rerun)",
+   "verdict": "unreachable",
+   "notes": "Consistent between .md and digest; not recomputed. CI for 0.855 is wide (0.815-0.890)."
+  },
+  {
+   "n": 12,
+   "file": "research/q1_her2_biology/all_public_her2_complex_structures_in_pdb_with_epitope_tables_incl_nanobodies_and_scfvs.md",
+   "claim": "RCSB UniProt P04626 returns 63 entries",
+   "source": "https://search.rcsb.org/rcsbsearch/v2/query (opened)",
+   "verdict": "verified",
+   "notes": "total_count = 63; 9MTE and 9MTX are in the hit list."
+  },
+  {
+   "n": 13,
+   "file": "research/q1_her2_biology/all_public_her2_complex_structures_in_pdb_with_epitope_tables_incl_nanobodies_and_scfvs.md",
+   "claim": "9MTE released 2025-11-19, cryo-EM 2.66 A, VHH 27A05 + 47D05 + HER2",
+   "source": "https://www.rcsb.org/structure/9MTE",
+   "verdict": "verified",
+   "notes": "Release 2025-11-19; 2.66 A; entities: VHH 27A05 (chain A, 146 aa), VHH 47D05 (chain B, 128 aa), HER2 (chain C, 630 aa)."
+  },
+  {
+   "n": 14,
+   "file": "research/q1_her2_biology/all_public_her2_complex_structures_in_pdb_with_epitope_tables_incl_nanobodies_and_scfvs.md",
+   "claim": "9MTX released 2025-11-19, 3.06 A, VHH 29E09",
+   "source": "https://www.rcsb.org/structure/9MTX",
+   "verdict": "verified",
+   "notes": "Release 2025-11-19; 3.06 A; VHH 29E09 chain A (122 aa), HER2 chain B (630 aa). The ERBB file quotes \"2.78-3.06\"; RCSB shows 3.06 only."
+  },
+  {
+   "n": 15,
+   "file": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md",
+   "claim": "9MTE = \"HER2 ECD + Fabs\", 9MTX = \"+ Fab\"; \"9MTE/9MTX include a Fab\"; ONU structures \"probably Fab-assisted\"",
+   "source": "RCSB 9MTE/9MTX entity lists + local mmCIF (<hotdir>/her2_data/cif)",
+   "verdict": "fabricated",
+   "notes": "Contradicted. 9MTE has 3 polymer entities (two VHH, HER2); 9MTX has 2 (VHH, HER2). No Fab chain in either file. Affects lines 107, 108, 140, 160 of the file."
+  },
+  {
+   "n": 16,
+   "file": "research/q1_her2_biology/all_public_her2_complex_structures_in_pdb_with_epitope_tables_incl_nanobodies_and_scfvs.md",
+   "claim": "9MTE/9MTX primary citation doi 10.1158/1535-7163.MCT-25-0654 (Mol Cancer Ther 25:541)",
+   "source": "https://doi.org/10.1158/1535-7163.MCT-25-0654",
+   "verdict": "unreachable",
+   "notes": "DOI resolves (302) to aacrjournals.org/mct/article/25/4/541/... (slug: TPP-45142 anti-HER2 T-cell engager), consistent with 25(4):541, but the page returned 403 so content (nanobody/PDB mentions) was not read."
+  },
+  {
+   "n": 17,
+   "file": "research/q3_assay_ngs_ground_truth/voronota_lt_contact_area_definition_and_how_epitope_labels_depend_on_the_cutoff.md",
+   "claim": "HER2 epitope base rate ~3-5% (5MY6 3.8%, 21/553)",
+   "source": "local mmCIF 5MY6/9MTE/9MTX, my own 4 A heavy-atom contact count",
+   "verdict": "imprecise",
+   "notes": "Recount at 4 A: 5MY6 17/556 = 3.1% (matches Q1 count of 17); 9MTX 17/400 modelled = 4.3%; 9MTE union of 2 VHH 28/451 = 6.2%. Q3 value 21/553 uses Voronota area>0 and was not reproduced. Range 3-5% is fair for single-VHH epitopes; denominators are modelled residues, not the 630-aa ECD, and the union of 2 VHH can exceed 5%."
+  },
+  {
+   "n": 18,
+   "file": "research/q3_assay_ngs_ground_truth/avida_hher2_and_avida_family_dataset_anatomy_columns_sizes_label_logic.md",
+   "claim": "AVIDa-hHER2 \"a few hundred\" labelled out of 1,843,875 (line 98; table line 82)",
+   "source": "local table (see claims 2-4)",
+   "verdict": "unsupported",
+   "notes": "Data have 19,367 labelled clones. The Q3 file repeats the stale BRIEF phrase; digest/Q7 correct it. Use 19,367."
+  },
+  {
+   "n": 19,
+   "file": "research/q3_assay_ngs_ground_truth/avida_hher2_and_avida_family_dataset_anatomy_columns_sizes_label_logic.md",
+   "claim": "AVIDa-hIL6: 573,891 antigen-VHH pairs",
+   "source": "https://arxiv.org/abs/2306.03329",
+   "verdict": "verified",
+   "notes": "Abstract page: 573,891 pairs, wild-type IL-6 + 30 mutants."
+  },
+  {
+   "n": 20,
+   "file": "research/q3_assay_ngs_ground_truth/avida_hher2_and_avida_family_dataset_anatomy_columns_sizes_label_logic.md",
+   "claim": "AVIDa-hIL6: 20,980 binders (3.7%), 552,911 non-binders, 38,599 unique VHH",
+   "source": "arXiv 2306.03329 abstract page; HF card COGNANO/AVIDa-hIL6",
+   "verdict": "unreachable",
+   "notes": "Neither page gives the binder/non-binder/unique-VHH split. Sum 20,980 + 552,911 = 573,891 and 3.66% are arithmetically consistent; the paper body was not opened."
+  },
+  {
+   "n": 21,
+   "file": "research/q6_epitope_ml_methods/b_cell_epitope_predictors_bepipred3_discotope3_sema_abepitope_state_and_limits.md",
+   "claim": "DiscoTope-3.0 external-test PR-AUC 0.232 (AF input) vs 0.223 (solved), 24 antigen chains",
+   "source": "https://www.frontiersin.org/articles/10.3389/fimmu.2024.1322712/full",
+   "verdict": "verified",
+   "notes": "Table 2: AUC-PR 0.232 / 0.223, ROC 0.783 / 0.795, MCC 0.227 / 0.214; 6,788 residues, 436 epitope residues (6.4%); SD +/-0.02 for both. The Q2 file writes 0.223 +/- 0.018 (imprecise: paper says 0.02)."
+  },
+  {
+   "n": 22,
+   "file": "research/q6_epitope_ml_methods/antibinder_architecture_attention_epitope_extraction_and_why_it_scores_0_176.md",
+   "claim": "AntiBinder paper reports no residue-level metric, no 8GZ5, no SAbDab-nano; 0.176 is organiser-side",
+   "source": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbaf008/7964432",
+   "verdict": "verified",
+   "notes": "Page: pair-level binding classifier (AUC, F1, MCC...), datasets Cov-AbDab, LANL HIV, BioMap, MET; no PR-AUC. Caveat: last ~22k of 122k characters not read."
+  },
+  {
+   "n": 23,
+   "file": "research/q6_epitope_ml_methods/antibinder_architecture_attention_epitope_extraction_and_why_it_scores_0_176.md",
+   "claim": "Baseline PR-AUC 0.176 on 8GZ5 (P17 VHH-RBD), epitope fraction 26/206 = 0.126, RTX 3090 Ti",
+   "source": "https://sepiq.uk/detail",
+   "verdict": "verified",
+   "notes": "Quotes: \"26/206 = 0.126\", \"PR-AUC of 0.176\", \"RTX 3090 Ti\". The BRIEF \"~30 min\" runtime and the exact pretrain-then-finetune recipe were not confirmed in the fetched excerpt."
+  },
+  {
+   "n": 24,
+   "file": "research/q5_structure_prediction_docking/alphafold3_openfold3_boltz2_chai1_protenix_nanobody_antigen_benchmarks_and_success_rates.md",
+   "claim": "AF3 nanobody-antigen success 31.6% (DockQ>0.23), n=60, single seed",
+   "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12360200/ (Hitawala & Gray, mAbs 2025)",
+   "verdict": "verified",
+   "notes": "60 bound nanobody complexes; top-ranked decoy of first seed."
+  },
+  {
+   "n": 25,
+   "file": "research/q5_structure_prediction_docking/alphafold3_openfold3_boltz2_chai1_protenix_nanobody_antigen_benchmarks_and_success_rates.md",
+   "claim": "Boltz-1 23.3%, Chai-1 15.0% on the same 60 nanobodies",
+   "source": "same PMC12360200",
+   "verdict": "verified",
+   "notes": "Matches. Single seed; Boltz-2 / OpenFold3 / Protenix were not benchmarked in this paper."
+  },
+  {
+   "n": 26,
+   "file": "research/q5_structure_prediction_docking/alphafold3_openfold3_boltz2_chai1_protenix_nanobody_antigen_benchmarks_and_success_rates.md",
+   "claim": "High-accuracy (DockQ>=0.80): AF3 13.3%, Boltz-1 5.0%, Chai-1 3.3%",
+   "source": "same PMC12360200 (PubMed snippet also shows 13.3 / 5 / 3.33)",
+   "verdict": "verified",
+   "notes": "Matches. 13.3% is NOT the overall success rate; do not confuse with 31.6%."
+  },
+  {
+   "n": 27,
+   "file": "research/q5_structure_prediction_docking/alphafold3_openfold3_boltz2_chai1_protenix_nanobody_antigen_benchmarks_and_success_rates.md",
+   "claim": "Protenix-v1 antibody-antigen success 36.0 -> 42.9 -> 47.7% at 1/10/80 seeds; selected 40.3 vs best 54.2",
+   "source": "PTX_V1 technical report PDF (URL resolves 200)",
+   "verdict": "unreachable",
+   "notes": "PDF text streams could not be extracted (no pdf library available; WebSearch also could not confirm). Treat as unverified."
+  },
+  {
+   "n": 28,
+   "file": "_meta/sepiq_verbatim.md (and BRIEF)",
+   "claim": "Track A window 2026-09-01 to 2026-10-31; results 2026-12-15",
+   "source": "https://sepiq.uk/detail ; https://sepiq.uk/",
+   "verdict": "verified",
+   "notes": "/detail: \"submission (Sep 1-Oct 31, 2026)\", \"results announcement (Dec 15, 2026)\". Home page also says \"scheduled to begin in June 2026\", judging 1-30 Nov. /guideline states no deadline."
+  },
+  {
+   "n": 29,
+   "file": "_meta/sepiq_verbatim.md (and BRIEF)",
+   "claim": "Prizes $3,000/$2,000/$1,000; up to 5 submissions; 3 held-out complexes ONU11/13/23; macro-PR-AUC over 3; public-data leakage not an issue",
+   "source": "https://sepiq.uk/detail ; https://sepiq.uk/guideline",
+   "verdict": "verified",
+   "notes": "Prizes and 5-submission cap appear on /detail only; /guideline lists neither; home page lists no prizes (sponsor tiers \"coming soon\"). /guideline: macro-average over 3 antibodies; quote \"we do not consider data leakage ... to be an issue\" (conditional on the answer being correct). HF Space has 42 likes (HF API); dataset is gated=manual."
+  },
+  {
+   "n": 30,
+   "file": "_meta/king_world_KINGLOG.md",
+   "claim": "Portal returns no score to participants",
+   "source": "https://sepiq.uk/detail ; https://sepiq.uk/guideline",
+   "verdict": "unsupported",
+   "notes": "Neither page says scores are or are not returned. /detail only mentions limiting submissions \"to reduce leaderboard probing\" and organiser-side \"leaderboard reporting\". Keep as \"unknown, assume no feedback\", not as a fact."
+  }
+ ],
+ "source_section_checks": [
+  {
+   "file": "q9 linguistics_and_translation_alignment",
+   "urls_checked": 10,
+   "ok_200": 10,
+   "issues": []
+  },
+  {
+   "file": "q5 alphafold3_openfold3_boltz2_chai1_protenix...",
+   "urls_checked": 10,
+   "ok_200": 8,
+   "issues": [
+    "429 biorxiv 10.1101/2025.07.11.662141v2 (rate limit, not dead)"
+   ]
+  },
+  {
+   "file": "q5 paratope_prediction_methods_for_nanobodies",
+   "urls_checked": 10,
+   "ok_200": 9,
+   "issues": [
+    "429 biorxiv 10.1101/2024.10.07.616899v2 (rate limit)"
+   ]
+  },
+  {
+   "file": "q1 her2_therapeutic_antibodies_adcs...",
+   "urls_checked": 10,
+   "ok_200": 8,
+   "issues": [
+    "403 faseb.onlinelibrary.wiley.com (publisher block)",
+    "timeout image-ppubs.uspto.gov/.../11787873",
+    "203 pubmed 41504346; bare API roots (api.fda.gov, data.rcsb.org, files.rcsb.org) are endpoints, not citations"
+   ]
+  },
+  {
+   "file": "q6 antibinder_architecture...",
+   "urls_checked": 10,
+   "ok_200": 9,
+   "issues": [
+    "403 doi.org/10.1093/bib/bbaf008 via urllib (resolves via redirect in WebFetch)"
+   ]
+  }
+ ]
+}

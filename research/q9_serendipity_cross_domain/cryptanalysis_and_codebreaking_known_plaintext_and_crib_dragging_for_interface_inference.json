@@ -1,0 +1,8 @@
+[
+ {"pdb":"1N8Z","ligand":"trastuzumab Fab","domain":"IV","n_epitope_res":19,"offset_to_P04626":22,"resolution_A":2.52},
+ {"pdb":"1S78","ligand":"pertuzumab Fab","domain":"II (24) + I (2)","n_epitope_res":26,"offset_to_P04626":22,"resolution_A":3.25},
+ {"pdb":"6OGE","ligand":"pertuzumab Fab","domain":"II (24) + I (1)","n_epitope_res":25,"offset_to_P04626":0,"resolution_A":4.36},
+ {"pdb":"6OGE","ligand":"trastuzumab Fab","domain":"IV","n_epitope_res":18,"offset_to_P04626":0,"resolution_A":4.36},
+ {"pdb":"5MY6","ligand":"nanobody 2Rs15d","domain":"I","n_epitope_res":18,"offset_to_P04626":0,"resolution_A":2.25},
+ {"pdb":"none","ligand":"nanobody 5F7","domain":"IV C-terminus (one article, no coordinates)","n_epitope_res":null,"offset_to_P04626":null,"resolution_A":null}
+]

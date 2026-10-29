@@ -1,0 +1,87 @@
+{
+ "9MTE_27A05": {
+  "pid": "P3",
+  "mean_iptm": 0.756,
+  "split_half_r_A": 0.97,
+  "split_half_r_B": 0.987,
+  "N": 50,
+  "lam_A": {
+   "shrink_iptm": 0.0,
+   "shrink_splithalf": 0.03,
+   "shrink_fixed02": 0.2
+  },
+  "lam_B": {
+   "shrink_iptm": 0.0,
+   "shrink_splithalf": 0.013,
+   "shrink_fixed02": 0.2
+  },
+  "mean_freq_A": 0.1034,
+  "mean_freq_B": 0.3527
+ },
+ "9MTE_47D05": {
+  "pid": "P4",
+  "mean_iptm": 0.441,
+  "split_half_r_A": 0.755,
+  "split_half_r_B": 0.971,
+  "N": 50,
+  "lam_A": {
+   "shrink_iptm": 0.529,
+   "shrink_splithalf": 0.245,
+   "shrink_fixed02": 0.2
+  },
+  "lam_B": {
+   "shrink_iptm": 0.529,
+   "shrink_splithalf": 0.029,
+   "shrink_fixed02": 0.2
+  },
+  "mean_freq_A": 0.0421,
+  "mean_freq_B": 0.2346
+ },
+ "9MTX_29E09": {
+  "pid": "P5",
+  "mean_iptm": 0.488,
+  "split_half_r_A": 0.934,
+  "split_half_r_B": 0.985,
+  "N": 50,
+  "lam_A": {
+   "shrink_iptm": 0.374,
+   "shrink_splithalf": 0.066,
+   "shrink_fixed02": 0.2
+  },
+  "lam_B": {
+   "shrink_iptm": 0.374,
+   "shrink_splithalf": 0.015,
+   "shrink_fixed02": 0.2
+  },
+  "mean_freq_A": 0.0337,
+  "mean_freq_B": 0.1931
+ }
+}
+arm                scope    wt     integ        macro  null   per-complex ['P3', 'P4', 'P5']
+raw_freq           antigen  0.4533 0.0536  [0.9602, 0.3236, 0.0761]
+raw_freq           vhh      0.7219 0.2068  [0.9924, 0.2516, 0.9216]
+raw_freq           pooled   0.5493 0.0994  [0.9698, 0.2059, 0.4724]
+raw_freq_cal       antigen  0.4533 0.0536  [0.9602, 0.3236, 0.0761]
+raw_freq_cal       vhh      0.7219 0.2068  [0.9924, 0.2516, 0.9216]
+raw_freq_cal       pooled   0.4903 0.0954  [0.9727, 0.1978, 0.3005]
+shrink_iptm        antigen  0.4366 0.0534  [0.9602, 0.2811, 0.0685]
+shrink_iptm        vhh      0.7560 0.2071  [0.9924, 0.3681, 0.9076]
+shrink_iptm        pooled   0.5569 0.1002  [0.9727, 0.2664, 0.4318]
+shrink_splithalf   antigen  0.4496 0.0537  [0.961, 0.3127, 0.0751]
+shrink_splithalf   vhh      0.7252 0.2071  [0.9933, 0.2568, 0.9255]
+shrink_splithalf   pooled   0.4971 0.0940  [0.9734, 0.1968, 0.321]
+shrink_fixed02     antigen  0.4495 0.0537  [0.9602, 0.3139, 0.0742]
+shrink_fixed02     vhh      0.7210 0.2071  [0.9652, 0.28, 0.9178]
+shrink_fixed02     pooled   0.5189 0.0994  [0.9403, 0.2276, 0.3887]
+db_full            antigen  0.4113 0.0539  [0.9417, 0.2233, 0.0689]
+db_full            vhh      0.7298 0.2073  [0.9929, 0.2845, 0.9121]
+db_full            pooled   0.5447 0.0936  [0.9701, 0.2043, 0.4596]
+db_conf            antigen  0.3905 0.0540  [0.9417, 0.1612, 0.0685]
+db_conf            vhh      0.7391 0.2073  [0.9929, 0.3158, 0.9088]
+db_conf            pooled   0.5562 0.0956  [0.9701, 0.2204, 0.478]
+FLOOR_composite    antigen  0.0929 0.0540  [0.1188, 0.052, 0.1079]
+FLOOR_composite    vhh      0.7221 0.2076  [0.8434, 0.5439, 0.779]
+FLOOR_composite    pooled   0.4121 0.1020  [0.4832, 0.3035, 0.4496]
+uniform_random     antigen  0.0790 0.0536  [0.0594, 0.0392, 0.1383]
+uniform_random     vhh      0.1782 0.2078  [0.2106, 0.1223, 0.2018]
+uniform_random     pooled   0.1397 0.1450  [0.1543, 0.0978, 0.1672]

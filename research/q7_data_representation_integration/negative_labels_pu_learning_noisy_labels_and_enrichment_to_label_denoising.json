@@ -1,0 +1,623 @@
+[
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "LR3mer_raw",
+  "auroc_raw_labels": 0.9449,
+  "auroc_ci": [
+   0.9335,
+   0.9537
+  ],
+  "prauc_raw_labels": 0.9378,
+  "prauc_ci": [
+   0.9225,
+   0.949
+  ],
+  "prauc_gold_subset": 0.9259,
+  "delta_prauc_vs_raw": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta_prauc_gold_vs_raw": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "LR3mer_soft",
+  "auroc_raw_labels": 0.9346,
+  "auroc_ci": [
+   0.9198,
+   0.9452
+  ],
+  "prauc_raw_labels": 0.9284,
+  "prauc_ci": [
+   0.9108,
+   0.9429
+  ],
+  "prauc_gold_subset": 0.9187,
+  "delta_prauc_vs_raw": [
+   -0.0096,
+   -0.0163,
+   -0.004
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.0072,
+   -0.0143,
+   -0.0002
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "GBM_ESM_raw",
+  "auroc_raw_labels": 0.9206,
+  "auroc_ci": [
+   0.9091,
+   0.9313
+  ],
+  "prauc_raw_labels": 0.9043,
+  "prauc_ci": [
+   0.8846,
+   0.9226
+  ],
+  "prauc_gold_subset": 0.8698,
+  "delta_prauc_vs_raw": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta_prauc_gold_vs_raw": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "GBM_ESM_soft",
+  "auroc_raw_labels": 0.9079,
+  "auroc_ci": [
+   0.8957,
+   0.9211
+  ],
+  "prauc_raw_labels": 0.8914,
+  "prauc_ci": [
+   0.8669,
+   0.9113
+  ],
+  "prauc_gold_subset": 0.8582,
+  "delta_prauc_vs_raw": [
+   -0.0126,
+   -0.0179,
+   -0.0081
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.0112,
+   -0.0189,
+   -0.0056
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "GBM_ESM_ElkanNoto",
+  "auroc_raw_labels": 0.8981,
+  "auroc_ci": [
+   0.8841,
+   0.9111
+  ],
+  "prauc_raw_labels": 0.8763,
+  "prauc_ci": [
+   0.8515,
+   0.8982
+  ],
+  "prauc_gold_subset": 0.8416,
+  "delta_prauc_vs_raw": [
+   -0.0284,
+   -0.0365,
+   -0.022
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.0281,
+   -0.0364,
+   -0.0205
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "LR3mer_nnPU_pi0.004",
+  "auroc_raw_labels": 0.5415,
+  "auroc_ci": [
+   0.5206,
+   0.563
+  ],
+  "prauc_raw_labels": 0.3707,
+  "prauc_ci": [
+   0.3432,
+   0.4009
+  ],
+  "prauc_gold_subset": 0.2645,
+  "delta_prauc_vs_raw": [
+   -0.5671,
+   -0.5908,
+   -0.5408
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.6612,
+   -0.6779,
+   -0.6409
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "MLP_ESM_nnPU_pi0.004",
+  "auroc_raw_labels": 0.5663,
+  "auroc_ci": [
+   0.5435,
+   0.5889
+  ],
+  "prauc_raw_labels": 0.4282,
+  "prauc_ci": [
+   0.3875,
+   0.4659
+  ],
+  "prauc_gold_subset": 0.3108,
+  "delta_prauc_vs_raw": [
+   -0.4775,
+   -0.5077,
+   -0.4435
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.5589,
+   -0.5813,
+   -0.5296
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "LR3mer_nnPU_pi0.01",
+  "auroc_raw_labels": 0.5433,
+  "auroc_ci": [
+   0.5223,
+   0.5648
+  ],
+  "prauc_raw_labels": 0.3717,
+  "prauc_ci": [
+   0.3441,
+   0.402
+  ],
+  "prauc_gold_subset": 0.2654,
+  "delta_prauc_vs_raw": [
+   -0.566,
+   -0.5897,
+   -0.5398
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.6603,
+   -0.6772,
+   -0.6401
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "MLP_ESM_nnPU_pi0.01",
+  "auroc_raw_labels": 0.5735,
+  "auroc_ci": [
+   0.549,
+   0.5958
+  ],
+  "prauc_raw_labels": 0.4359,
+  "prauc_ci": [
+   0.3925,
+   0.4752
+  ],
+  "prauc_gold_subset": 0.3174,
+  "delta_prauc_vs_raw": [
+   -0.4701,
+   -0.4999,
+   -0.4362
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.5524,
+   -0.5762,
+   -0.5213
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "LR3mer_nnPU_pi0.03",
+  "auroc_raw_labels": 0.5488,
+  "auroc_ci": [
+   0.5278,
+   0.5704
+  ],
+  "prauc_raw_labels": 0.375,
+  "prauc_ci": [
+   0.3472,
+   0.4054
+  ],
+  "prauc_gold_subset": 0.268,
+  "delta_prauc_vs_raw": [
+   -0.5627,
+   -0.5864,
+   -0.5364
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.6577,
+   -0.6748,
+   -0.6372
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "MLP_ESM_nnPU_pi0.03",
+  "auroc_raw_labels": 0.5907,
+  "auroc_ci": [
+   0.5637,
+   0.6171
+  ],
+  "prauc_raw_labels": 0.457,
+  "prauc_ci": [
+   0.4105,
+   0.5001
+  ],
+  "prauc_gold_subset": 0.3385,
+  "delta_prauc_vs_raw": [
+   -0.4488,
+   -0.4802,
+   -0.4123
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.5312,
+   -0.5573,
+   -0.4997
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "LR3mer_nnPU_pi0.1",
+  "auroc_raw_labels": 0.5713,
+  "auroc_ci": [
+   0.5502,
+   0.593
+  ],
+  "prauc_raw_labels": 0.3895,
+  "prauc_ci": [
+   0.3607,
+   0.4209
+  ],
+  "prauc_gold_subset": 0.2798,
+  "delta_prauc_vs_raw": [
+   -0.5482,
+   -0.572,
+   -0.5203
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.6459,
+   -0.6635,
+   -0.6248
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "MLP_ESM_nnPU_pi0.1",
+  "auroc_raw_labels": 0.6969,
+  "auroc_ci": [
+   0.6672,
+   0.7303
+  ],
+  "prauc_raw_labels": 0.6606,
+  "prauc_ci": [
+   0.6118,
+   0.7166
+  ],
+  "prauc_gold_subset": 0.5881,
+  "delta_prauc_vs_raw": [
+   -0.2446,
+   -0.285,
+   -0.1979
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.2819,
+   -0.327,
+   -0.2282
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "LR3mer_nnPU_pi0.3",
+  "auroc_raw_labels": 0.6865,
+  "auroc_ci": [
+   0.6667,
+   0.7053
+  ],
+  "prauc_raw_labels": 0.5948,
+  "prauc_ci": [
+   0.5612,
+   0.6255
+  ],
+  "prauc_gold_subset": 0.4949,
+  "delta_prauc_vs_raw": [
+   -0.3441,
+   -0.3701,
+   -0.318
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.4307,
+   -0.4559,
+   -0.3994
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "93pct-cluster held-out (5-fold)",
+  "variant": "MLP_ESM_nnPU_pi0.3",
+  "auroc_raw_labels": 0.8233,
+  "auroc_ci": [
+   0.7985,
+   0.8436
+  ],
+  "prauc_raw_labels": 0.8047,
+  "prauc_ci": [
+   0.7721,
+   0.8367
+  ],
+  "prauc_gold_subset": 0.7425,
+  "delta_prauc_vs_raw": [
+   -0.1014,
+   -0.1222,
+   -0.084
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.1284,
+   -0.1521,
+   -0.1061
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "strict KMeans-40 ESM-region held-out (5-fold)",
+  "variant": "LR3mer_raw",
+  "auroc_raw_labels": 0.8549,
+  "auroc_ci": [
+   0.8148,
+   0.8898
+  ],
+  "prauc_raw_labels": 0.8279,
+  "prauc_ci": [
+   0.7627,
+   0.8865
+  ],
+  "prauc_gold_subset": 0.7765,
+  "delta_prauc_vs_raw": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta_prauc_gold_vs_raw": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "strict KMeans-40 ESM-region held-out (5-fold)",
+  "variant": "LR3mer_soft",
+  "auroc_raw_labels": 0.7954,
+  "auroc_ci": [
+   0.709,
+   0.8637
+  ],
+  "prauc_raw_labels": 0.7691,
+  "prauc_ci": [
+   0.6685,
+   0.8476
+  ],
+  "prauc_gold_subset": 0.7108,
+  "delta_prauc_vs_raw": [
+   -0.0586,
+   -0.1109,
+   -0.0202
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.0651,
+   -0.1193,
+   -0.0198
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "strict KMeans-40 ESM-region held-out (5-fold)",
+  "variant": "GBM_ESM_raw",
+  "auroc_raw_labels": 0.8038,
+  "auroc_ci": [
+   0.7614,
+   0.8438
+  ],
+  "prauc_raw_labels": 0.7248,
+  "prauc_ci": [
+   0.6444,
+   0.8115
+  ],
+  "prauc_gold_subset": 0.6215,
+  "delta_prauc_vs_raw": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta_prauc_gold_vs_raw": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "strict KMeans-40 ESM-region held-out (5-fold)",
+  "variant": "GBM_ESM_soft",
+  "auroc_raw_labels": 0.758,
+  "auroc_ci": [
+   0.7059,
+   0.8129
+  ],
+  "prauc_raw_labels": 0.677,
+  "prauc_ci": [
+   0.5874,
+   0.7734
+  ],
+  "prauc_gold_subset": 0.5699,
+  "delta_prauc_vs_raw": [
+   -0.0481,
+   -0.0836,
+   -0.0229
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.0517,
+   -0.0943,
+   -0.0244
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "strict KMeans-40 ESM-region held-out (5-fold)",
+  "variant": "GBM_ESM_ElkanNoto",
+  "auroc_raw_labels": 0.7402,
+  "auroc_ci": [
+   0.6904,
+   0.7889
+  ],
+  "prauc_raw_labels": 0.6289,
+  "prauc_ci": [
+   0.5581,
+   0.7137
+  ],
+  "prauc_gold_subset": 0.5172,
+  "delta_prauc_vs_raw": [
+   -0.0939,
+   -0.1223,
+   -0.0662
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.1032,
+   -0.1338,
+   -0.0653
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "strict KMeans-40 ESM-region held-out (5-fold)",
+  "variant": "MLP_ESM_nnPU_pi0.01",
+  "auroc_raw_labels": 0.5793,
+  "auroc_ci": [
+   0.4927,
+   0.6576
+  ],
+  "prauc_raw_labels": 0.4745,
+  "prauc_ci": [
+   0.3246,
+   0.6247
+  ],
+  "prauc_gold_subset": 0.3537,
+  "delta_prauc_vs_raw": [
+   -0.2537,
+   -0.3562,
+   -0.141
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.2699,
+   -0.3745,
+   -0.1543
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "strict KMeans-40 ESM-region held-out (5-fold)",
+  "variant": "MLP_ESM_nnPU_pi0.1",
+  "auroc_raw_labels": 0.6065,
+  "auroc_ci": [
+   0.5272,
+   0.6776
+  ],
+  "prauc_raw_labels": 0.4736,
+  "prauc_ci": [
+   0.3629,
+   0.5883
+  ],
+  "prauc_gold_subset": 0.3522,
+  "delta_prauc_vs_raw": [
+   -0.2505,
+   -0.3256,
+   -0.1774
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.2692,
+   -0.3439,
+   -0.2014
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ },
+ {
+  "split": "strict KMeans-40 ESM-region held-out (5-fold)",
+  "variant": "MLP_ESM_nnPU_pi0.3",
+  "auroc_raw_labels": 0.701,
+  "auroc_ci": [
+   0.6486,
+   0.7626
+  ],
+  "prauc_raw_labels": 0.5812,
+  "prauc_ci": [
+   0.4902,
+   0.7042
+  ],
+  "prauc_gold_subset": 0.4542,
+  "delta_prauc_vs_raw": [
+   -0.1411,
+   -0.1701,
+   -0.0973
+  ],
+  "delta_prauc_gold_vs_raw": [
+   -0.1648,
+   -0.1952,
+   -0.1291
+  ],
+  "test_prevalence": 0.3778,
+  "gold_prevalence": 0.2718
+ }
+]

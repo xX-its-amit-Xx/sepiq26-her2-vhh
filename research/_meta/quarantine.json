@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-17",
+ "rule": ">=1 fabricated or >=2 unsupported; second entry flagged on judgment",
+ "quarantine": [
+  {
+   "file": "research/q1_her2_biology/erbb_family_dimerisation_signalling_and_adjacent_proteins_egfr_her3_her4.md",
+   "severity": "high",
+   "reason": "1 fabricated claim: asserts 9MTE/9MTX contain Fab chains and that held-out ONU structures are probably Fab-assisted. RCSB and local mmCIF show only VHH + HER2.",
+   "lines": "107,108,140,160",
+   "action": "Do not cite the Fab statements; nothing else in the file was found contradicted among the claims checked."
+  },
+  {
+   "file": "research/q3_assay_ngs_ground_truth/avida_hher2_and_avida_family_dataset_anatomy_columns_sizes_label_logic.md",
+   "severity": "medium",
+   "reason": "1 unsupported claim (\"a few hundred\" labelled; true value 19,367) plus an unverifiable hIL6 split (20,980 / 552,911 / 38,599). Below the formal threshold (1 unsupported + 1 unreachable) but the headline label count is wrong.",
+   "lines": "82,98",
+   "action": "Use 19,367 (7,316 Yes / 12,051 Not) from q7."
+  }
+ ]
+}

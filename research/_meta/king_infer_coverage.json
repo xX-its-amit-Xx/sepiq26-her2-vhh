@@ -1,0 +1,252 @@
+[
+ {
+  "queen_id": "q5_structure_prediction_docking",
+  "worker_slug": "alphafold3_openfold3_boltz2_chai1_protenix_nanobody_antigen_benchmarks_and_success_rates",
+  "file": "q5_structure_prediction_docking/alphafold3_openfold3_boltz2_chai1_protenix_nanobody_antigen_benchmarks_and_success_rates.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4,
+  "n_sources": 12
+ },
+ {
+  "queen_id": "q5_structure_prediction_docking",
+  "worker_slug": "confidence_metrics_iptm_pae_plddt_seed_diversity_and_epitope_probability_from_ensembles",
+  "file": "q5_structure_prediction_docking/confidence_metrics_iptm_pae_plddt_seed_diversity_and_epitope_probability_from_ensembles.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 5,
+  "n_sources": 9
+ },
+ {
+  "queen_id": "q5_structure_prediction_docking",
+  "worker_slug": "her2_specific_constraints_glycans_flexible_domain_iv_and_conformational_states_for_modelling",
+  "file": "q5_structure_prediction_docking/her2_specific_constraints_glycans_flexible_domain_iv_and_conformational_states_for_modelling.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4,
+  "n_sources": 8
+ },
+ {
+  "queen_id": "q5_structure_prediction_docking",
+  "worker_slug": "nanobody_antigen_docking_haddock_clusp_zdock_rosetta_and_ai_augmented_docking",
+  "file": "q5_structure_prediction_docking/nanobody_antigen_docking_haddock_clusp_zdock_rosetta_and_ai_augmented_docking.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 12
+ },
+ {
+  "queen_id": "q5_structure_prediction_docking",
+  "worker_slug": "paratope_prediction_methods_for_nanobodies_and_cdr_only_focus",
+  "file": "q5_structure_prediction_docking/paratope_prediction_methods_for_nanobodies_and_cdr_only_focus.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4,
+  "n_sources": 23
+ },
+ {
+  "queen_id": "q6_epitope_ml_methods",
+  "worker_slug": "antibinder_architecture_attention_epitope_extraction_and_why_it_scores_0_176",
+  "file": "q6_epitope_ml_methods/antibinder_architecture_attention_epitope_extraction_and_why_it_scores_0_176.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 11
+ },
+ {
+  "queen_id": "q6_epitope_ml_methods",
+  "worker_slug": "b_cell_epitope_predictors_bepipred3_discotope3_sema_abepitope_state_and_limits",
+  "file": "q6_epitope_ml_methods/b_cell_epitope_predictors_bepipred3_discotope3_sema_abepitope_state_and_limits.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 13
+ },
+ {
+  "queen_id": "q6_epitope_ml_methods",
+  "worker_slug": "protein_and_antibody_language_models_esm_ablang_nanobert_iglm_embeddings_for_interfaces",
+  "file": "q6_epitope_ml_methods/protein_and_antibody_language_models_esm_ablang_nanobert_iglm_embeddings_for_interfaces.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 22
+ },
+ {
+  "queen_id": "q6_epitope_ml_methods",
+  "worker_slug": "residue_level_pr_auc_with_prevalence_0_1_calibration_ranking_and_aggregation_tricks",
+  "file": "q6_epitope_ml_methods/residue_level_pr_auc_with_prevalence_0_1_calibration_ranking_and_aggregation_tricks.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 5,
+  "n_sources": 13
+ },
+ {
+  "queen_id": "q6_epitope_ml_methods",
+  "worker_slug": "sabdab_nano_curation_redundancy_leakage_and_clustering_for_honest_training",
+  "file": "q6_epitope_ml_methods/sabdab_nano_curation_redundancy_leakage_and_clustering_for_honest_training.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4,
+  "n_sources": 19
+ },
+ {
+  "queen_id": "q7_data_representation_integration",
+  "worker_slug": "clonotype_clustering_cdr3_families_and_enrichment_trajectories_as_epitope_bins",
+  "file": "q7_data_representation_integration/clonotype_clustering_cdr3_families_and_enrichment_trajectories_as_epitope_bins.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 2,
+  "n_sources": 7
+ },
+ {
+  "queen_id": "q7_data_representation_integration",
+  "worker_slug": "deep_mutational_scanning_and_cdr_mutation_tolerance_as_paratope_evidence_in_public_data",
+  "file": "q7_data_representation_integration/deep_mutational_scanning_and_cdr_mutation_tolerance_as_paratope_evidence_in_public_data.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 2,
+  "n_sources": 6
+ },
+ {
+  "queen_id": "q7_data_representation_integration",
+  "worker_slug": "mimotope_and_peptide_epitope_mapping_phage_sequences_and_epitope_inference_from_binding_alone",
+  "file": "q7_data_representation_integration/mimotope_and_peptide_epitope_mapping_phage_sequences_and_epitope_inference_from_binding_alone.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 2,
+  "n_sources": 25
+ },
+ {
+  "queen_id": "q7_data_representation_integration",
+  "worker_slug": "negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising",
+  "file": "q7_data_representation_integration/negative_labels_pu_learning_noisy_labels_and_enrichment_to_label_denoising.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 10
+ },
+ {
+  "queen_id": "q7_data_representation_integration",
+  "worker_slug": "paired_coevolution_potts_dca_and_contact_inference_from_binder_vs_nonbinder_sequences",
+  "file": "q7_data_representation_integration/paired_coevolution_potts_dca_and_contact_inference_from_binder_vs_nonbinder_sequences.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 2,
+  "n_sources": 7
+ },
+ {
+  "queen_id": "q8_compute_validation_execution",
+  "worker_slug": "compute_plan_explorer_public_partitions_modal_kaggle_colab_openprotein_boltz_credits",
+  "file": "q8_compute_validation_execution/compute_plan_explorer_public_partitions_modal_kaggle_colab_openprotein_boltz_credits.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 7
+ },
+ {
+  "queen_id": "q8_compute_validation_execution",
+  "worker_slug": "day_by_day_runbook_to_2026_10_31_and_failure_mode_register",
+  "file": "q8_compute_validation_execution/day_by_day_runbook_to_2026_10_31_and_failure_mode_register.md",
+  "exists": true,
+  "tier": "intermediate",
+  "confidence": "medium",
+  "challenge_relevance": 4,
+  "n_sources": 11
+ },
+ {
+  "queen_id": "q8_compute_validation_execution",
+  "worker_slug": "ensembling_and_probability_calibration_for_residue_level_pr_auc_macro_over_three_targets",
+  "file": "q8_compute_validation_execution/ensembling_and_probability_calibration_for_residue_level_pr_auc_macro_over_three_targets.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4,
+  "n_sources": 11
+ },
+ {
+  "queen_id": "q8_compute_validation_execution",
+  "worker_slug": "five_submission_ladder_and_cluster_bootstrap_decision_rules_for_n_equals_3",
+  "file": "q8_compute_validation_execution/five_submission_ladder_and_cluster_bootstrap_decision_rules_for_n_equals_3.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 5,
+  "n_sources": 8
+ },
+ {
+  "queen_id": "q8_compute_validation_execution",
+  "worker_slug": "validation_design_pseudo_test_sets_from_public_her2_and_nanobody_complexes_without_leakage",
+  "file": "q8_compute_validation_execution/validation_design_pseudo_test_sets_from_public_her2_and_nanobody_complexes_without_leakage.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4,
+  "n_sources": 15
+ },
+ {
+  "queen_id": "q9_serendipity_cross_domain",
+  "worker_slug": "casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end",
+  "file": "q9_serendipity_cross_domain/casp_history_what_actually_changed_the_field_data_representation_msa_end_to_end.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 9
+ },
+ {
+  "queen_id": "q9_serendipity_cross_domain",
+  "worker_slug": "cryptanalysis_and_codebreaking_known_plaintext_and_crib_dragging_for_interface_inference",
+  "file": "q9_serendipity_cross_domain/cryptanalysis_and_codebreaking_known_plaintext_and_crib_dragging_for_interface_inference.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 19
+ },
+ {
+  "queen_id": "q9_serendipity_cross_domain",
+  "worker_slug": "ecology_niche_modelling_and_species_distribution_with_presence_only_data",
+  "file": "q9_serendipity_cross_domain/ecology_niche_modelling_and_species_distribution_with_presence_only_data.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 3,
+  "n_sources": 21
+ },
+ {
+  "queen_id": "q9_serendipity_cross_domain",
+  "worker_slug": "linguistics_and_translation_alignment_unsupervised_correspondence_between_two_languages",
+  "file": "q9_serendipity_cross_domain/linguistics_and_translation_alignment_unsupervised_correspondence_between_two_languages.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 2,
+  "n_sources": 19
+ },
+ {
+  "queen_id": "q9_serendipity_cross_domain",
+  "worker_slug": "other_blind_challenge_wins_by_data_representation_netflix_kaggle_casp_dream_and_what_they_share",
+  "file": "q9_serendipity_cross_domain/other_blind_challenge_wins_by_data_representation_netflix_kaggle_casp_dream_and_what_they_share.md",
+  "exists": true,
+  "tier": "expert",
+  "confidence": "medium",
+  "challenge_relevance": 4,
+  "n_sources": 16
+ }
+]

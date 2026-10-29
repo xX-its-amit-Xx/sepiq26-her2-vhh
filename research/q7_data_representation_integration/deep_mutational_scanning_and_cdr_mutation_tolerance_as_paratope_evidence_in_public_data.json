@@ -1,0 +1,49 @@
+{
+ "per_entry_pr_auc": [
+  {
+   "entry": "5MY6",
+   "base": 0.1565,
+   "tol_only(-mism)": 0.1348,
+   "tol_only(-ent)": 0.1566,
+   "CDR3_uniform": 0.2205,
+   "allCDR_uniform": 0.3298,
+   "tol_within_CDR3(-mism)": 0.2884
+  },
+  {
+   "entry": "7QVK",
+   "base": 0.0909,
+   "tol_only(-mism)": 0.1443,
+   "tol_only(-ent)": 0.1454,
+   "CDR3_uniform": 0.2338,
+   "allCDR_uniform": 0.168,
+   "tol_within_CDR3(-mism)": 0.3124
+  },
+  {
+   "entry": "9MTE_A",
+   "base": 0.1468,
+   "tol_only(-mism)": 0.1574,
+   "tol_only(-ent)": 0.1823,
+   "CDR3_uniform": 0.2529,
+   "allCDR_uniform": 0.2943,
+   "tol_within_CDR3(-mism)": 0.332
+  },
+  {
+   "entry": "9MTE_B",
+   "base": 0.1111,
+   "tol_only(-mism)": 0.0844,
+   "tol_only(-ent)": 0.0796,
+   "CDR3_uniform": 0.1177,
+   "allCDR_uniform": 0.2125,
+   "tol_within_CDR3(-mism)": 0.1168
+  },
+  {
+   "entry": "9MTX",
+   "base": 0.1545,
+   "tol_only(-mism)": 0.1622,
+   "tol_only(-ent)": 0.1772,
+   "CDR3_uniform": 0.2029,
+   "allCDR_uniform": 0.2799,
+   "tol_within_CDR3(-mism)": 0.2214
+  }
+ ]
+}

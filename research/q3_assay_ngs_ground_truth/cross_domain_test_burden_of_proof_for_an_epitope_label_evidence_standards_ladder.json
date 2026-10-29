@@ -1,0 +1,9 @@
+[
+{"rung":"L0","evidence":"Read present in NGS table","standard":"Mere allegation","surviving_illustrative":1843875,"basis":"SEPIQ card"},
+{"rung":"L0.5","evidence":"Has any binder/non-binder label","standard":"Allegation with a procedure","surviving_illustrative":300,"basis":"'few hundred' (site)"},
+{"rung":"L1","evidence":"Label Yes (IE-score cascade, p<=0.05)","standard":"PPV about 27% (est.)","surviving_illustrative":90,"basis":"assumed 30% binder share"},
+{"rung":"L2","evidence":"Enrichment fold >= threshold in both libraries","standard":"PPV about 80% if independent (est.)","surviving_illustrative":"20-55","basis":"est."},
+{"rung":"L3","evidence":"L2 plus another Yes in same 93% cluster","standard":"Corroborated by related witness","surviving_illustrative":"5-25","basis":"est."},
+{"rung":"L4","evidence":"Orthogonal ELISA/BLI","standard":"Near beyond reasonable doubt for binding","surviving_illustrative":0,"basis":"none found for hHER2"},
+{"rung":"L5","evidence":"Cryo-EM contact map","standard":"Beyond reasonable doubt for epitope","surviving_illustrative":3,"basis":"ONU11/13/23, held out"}
+]

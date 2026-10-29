@@ -1,0 +1,11 @@
+[
+{"experiment":"CASP16 AA targets","metric":"best group success","value":">60% (kozakovvajda); typical group ~25%","source":"PMC12154902"},
+{"experiment":"CASP16 AA","metric":"AF3 5000 models","value":"2 models DockQ>0.49; mean DockQ ~0.27","source":"PMC12154902"},
+{"experiment":"CASP16 H1244 nanobody","metric":"acceptable models","value":"none from any group/AF","source":"PMC12154902"},
+{"experiment":"Hitawala & Gray AF3 one seed Ab","metric":"DockQ>0.23 / high","value":"38.1% / 11.0% (N=118)","source":"PMC11838198"},
+{"experiment":"Hitawala & Gray AF3 one seed Nb","metric":"DockQ>0.23 / high","value":"31.4% / 11.4% (N=70)","source":"PMC11838198"},
+{"experiment":"AF3 1000 seeds Ab","metric":"success","value":"60% (AF3 paper, cited)","source":"PMC11838198"},
+{"experiment":"Rosetta / AF2.3-M Ab","metric":"DockQ>0.23","value":"~20%","source":"PMC11838198"},
+{"experiment":"AlphaRED Ab","metric":"acceptable","value":"43%","source":"PMC11838198"},
+{"experiment":"CAPRI 47-55 top groups","metric":"targets acceptable or better","value":"70-75% (secondary listing)","source":"search listing of Proteins paper"}
+]

@@ -1,0 +1,59 @@
+{
+ "9MTE_27A05": {
+  "pid": "P3",
+  "mean_iptm": 0.756,
+  "split_half_r_A": 0.97,
+  "split_half_r_B": 0.987,
+  "N": 50,
+  "lam_A": {
+   "shrink_iptm": 0.0,
+   "shrink_splithalf": 0.03,
+   "shrink_fixed02": 0.2
+  },
+  "lam_B": {
+   "shrink_iptm": 0.0,
+   "shrink_splithalf": 0.013,
+   "shrink_fixed02": 0.2
+  },
+  "mean_freq_A": 0.1034,
+  "mean_freq_B": 0.3527
+ },
+ "9MTE_47D05": {
+  "pid": "P4",
+  "mean_iptm": 0.441,
+  "split_half_r_A": 0.755,
+  "split_half_r_B": 0.971,
+  "N": 50,
+  "lam_A": {
+   "shrink_iptm": 0.529,
+   "shrink_splithalf": 0.245,
+   "shrink_fixed02": 0.2
+  },
+  "lam_B": {
+   "shrink_iptm": 0.529,
+   "shrink_splithalf": 0.029,
+   "shrink_fixed02": 0.2
+  },
+  "mean_freq_A": 0.0421,
+  "mean_freq_B": 0.2346
+ },
+ "9MTX_29E09": {
+  "pid": "P5",
+  "mean_iptm": 0.488,
+  "split_half_r_A": 0.934,
+  "split_half_r_B": 0.985,
+  "N": 50,
+  "lam_A": {
+   "shrink_iptm": 0.374,
+   "shrink_splithalf": 0.066,
+   "shrink_fixed02": 0.2
+  },
+  "lam_B": {
+   "shrink_iptm": 0.374,
+   "shrink_splithalf": 0.015,
+   "shrink_fixed02": 0.2
+  },
+  "mean_freq_A": 0.0337,
+  "mean_freq_B": 0.1931
+ }
+}

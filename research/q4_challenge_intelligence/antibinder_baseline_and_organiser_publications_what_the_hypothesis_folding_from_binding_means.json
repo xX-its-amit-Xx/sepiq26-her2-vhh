@@ -1,0 +1,8 @@
+[
+{"item":"AVIDa-hIL6","date":"2023-06-06 (v1); 2023-10-11 (v2)","venue":"arXiv 2306.03329; NeurIPS 2023 D&B","numbers":"573,891 pairs; 20,980 binding; 30 mutants"},
+{"item":"AVIDa-SARS-CoV-2 / VHHCorpus-2M","date":"2024","venue":"arXiv 2405.18749; NeurIPS 2024 D&B","numbers":"77,003 pairs; 22,002 binding; 2 alpacas; >2M corpus"},
+{"item":"AVIDa-hHER2","date":"none found","venue":"no paper found","numbers":"~1.8M seqs; HF card 1,843,875"},
+{"item":"N-iX/COGNANO partnership","date":"2026-10-05","venue":"press release","numbers":"1.8M HER2 VHH sequences for SEPIQ"},
+{"item":"AntiBinder","date":"2025","venue":"Brief Bioinform 26(1) bbaf008","numbers":"COVID 27,324; HIV 24,004; BioMap 1,363; MET 4,000"},
+{"item":"SEPIQ proxy","date":"2026","venue":"sepiq.uk/detail","numbers":"8GZ5 26/206=0.126; PR-AUC 0.176"}
+]

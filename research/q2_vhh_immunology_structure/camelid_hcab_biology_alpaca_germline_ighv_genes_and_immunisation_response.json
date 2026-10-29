@@ -1,0 +1,7 @@
+[
+{"nanobody":"2Rs15d","pdb":"5MY6","epitope_domain":"HER2 domain I","affinity":"4.5+/-0.8 nM (125I) / 7.1+/-0.4 nM (18F) / 4.74+/-0.39 nM (131I), cells","source":"D'Huyvetter 2017 Clin Cancer Res 23:6616","status":"verified"},
+{"nanobody":"5F7","pdb":"none found","epitope_domain":"C-terminus domain IV (blocked by trastuzumab)","affinity":"not found","source":"PMC5662479 (secondhand)","status":"PDB unverified"},
+{"nanobody":"A9B5","pdb":"none found","epitope_domain":"domain I","affinity":"not found","source":"PMC10634241 (search snippet)","status":"unverified"},
+{"nanobody":"47D5","pdb":"none found","epitope_domain":"none found","affinity":"none found","source":"none","status":"unverifiable"},
+{"nanobody":"R3B23","pdb":"n/a","epitope_domain":"non-HER2 control","affinity":"n/a","source":"PMC5662479","status":"control"}
+]

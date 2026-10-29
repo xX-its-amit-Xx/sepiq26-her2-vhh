@@ -1,0 +1,12 @@
+[
+{"name":"2Rs15d","pdb":"5MY6 (X-ray 2.25 A, released 2017-08-09; HER2 chain A 622 res, Nb chain B 115 res)","epitope_domain":"I (residues not retrieved)","affinity":"3.9 nM (method not stated, Ducharme 2023); 4.74+/-0.39 nM for 131I-Nb on HER2+ cells (search snippet only)","source":"D'Huyvetter CCR 2017 10.1158/1078-0432.CCR-17-0310 (unopened); Ducharme Mol Pharm 2023 10.1021/acs.molpharmaceut.3c00360 (PMC11606513)","verified":"Y for PDB entry and domain I; N for contact residues and KD method"},
+{"name":"5F7","pdb":"none found","epitope_domain":"not reported; selected from trastuzumab-competing Nb panel","affinity":"SPR KD 0.51 nM (ka 1.054e6, kd 5.381e-4); BT474M1 cells 1.8 nM (125I), 3.2 nM (131I-IB-Mal-D-GEEEK)","source":"Pruszynski Nucl Med Biol 2012 10.1016/j.nucmedbio.2012.08.008 (PMC3551612)","verified":"Y"},
+{"name":"27A05","pdb":"9MTE (cryo-EM 2.66 A, released 2025-11-19, with 47D05)","epitope_domain":"not retrieved (paper: differs from trastuzumab and pertuzumab epitopes)","affinity":"not retrieved","source":"De Tavernier Mol Cancer Ther 2026 10.1158/1535-7163.MCT-25-0654 (paper page returned 403)","verified":"Y entry; N epitope and affinity"},
+{"name":"47D05 (probably the 47D5 of the brief)","pdb":"9MTE","epitope_domain":"not retrieved","affinity":"not retrieved","source":"same","verified":"Y entry; N epitope and affinity; identity with 47D5 unverified"},
+{"name":"29E09","pdb":"9MTX (cryo-EM 3.06 A, released 2025-11-19)","epitope_domain":"not retrieved","affinity":"not retrieved","source":"same","verified":"Y entry; N epitope and affinity"},
+{"name":"A2G5","pdb":"none","epitope_domain":"I (chimeric murine-domain ELISA + competitive ELISA)","affinity":"BLI KD 14.37 nM (parent A2H4 98.13)","source":"Liu Front Immunol 2023 10.3389/fimmu.2023.1292839 (PMC10634241)","verified":"Y"},
+{"name":"A9B5","pdb":"none","epitope_domain":"I","affinity":"BLI KD 7.801 nM (parent A9H5 136.7)","source":"same","verified":"Y"},
+{"name":"H2F5","pdb":"none","epitope_domain":"II (overlaps pertuzumab)","affinity":"BLI KD 3.89 nM (parent H2C11 509.5)","source":"same","verified":"Y"},
+{"name":"G1E4","pdb":"none","epitope_domain":"IV (trastuzumab blocks it)","affinity":"BLI KD 53.4 nM (parent G1H2 750)","source":"same","verified":"Y"},
+{"name":"11A4, 22G, 18G, A10, D12, 5F7-47D5 biparatopic, CAR-T VHHs, Hamers/Cong sets","pdb":"unknown","epitope_domain":"unknown","affinity":"unknown","source":"none opened","verified":"N (unverified seed-list items)"}
+]

@@ -1,0 +1,132 @@
+[
+ {
+  "id": "R1",
+  "title": "Insurance submission first",
+  "challenge_the_fun_part": "You must produce a valid, sensible file for a contest that never tells you your score, so correctness of format is the whole game.",
+  "cheapest_experiment": "Local validator against the printed sequences (offset 0, tags = 0, unique values, numbering round-trip) plus a CDR3/position paratope prior and an exposure prior shrunk to ~0.04; about 2 CPU-hours; upload 2026-10-20.",
+  "kill_test": "Any mismatch against template sequences blocks upload; a file whose values contain ties or whose seqNum is off by 22 fails the round-trip test.",
+  "analogous_solved_problem": {
+   "field": "Forensics (chain of custody)",
+   "problem": "Page captures and handoffs silently corrupted evidence (a stale home page said seven targets).",
+   "how_overcome": "Treat each handoff as an exhibit register entry and audit it; this exposed the stale home page and the header-only uploader."
+  },
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "id": "R2",
+  "title": "Consensus of many co-folding runs",
+  "challenge_the_fun_part": "A single AI pose is right about one time in three, so the puzzle is turning many wrong-ish guesses into trustworthy per-residue probabilities.",
+  "cheapest_experiment": "Boltz-2, Chai-1, OpenFold3 (Protenix-v1) x 5-20 seeds x 5 samples on ONU11/13/23 and on 9MTE/9MTX; ipSAE-weighted Voronota-LT contact frequency, mean over seeds, shrunk by split-half disagreement. Measure seconds per seed first (about 12-14 GPU-h is an extrapolation).",
+  "kill_test": "On 9MTE/9MTX the consensus must beat the exposure prior (and unshrunk mean contact); macro lift over per-complex shuffle null must be >= ~1.5x, else do not submit it as the main arm.",
+  "analogous_solved_problem": {
+   "field": "Cryptanalysis",
+   "problem": "Recovering a message from many noisy intercepts.",
+   "how_overcome": "Frequency analysis: repeated patterns across intercepts carry the signal; split-half agreement tells you when the histogram has converged (hive analogy, q5/q9)."
+  },
+  "source_file": "research/_meta/king_infer_KINGLOG.md"
+ },
+ {
+  "id": "R3",
+  "title": "Nanobody-side paratope head",
+  "challenge_the_fun_part": "The nanobody half is the easy half, so the fun is beating a trivial 'CDR3 is the contact' rule honestly.",
+  "cheapest_experiment": "Probe on ESM-2 / AbLang-2 / IgBert (MIT/BSD) trained on SAbDab-nano with CDR3-cluster grouped folds; compare with the CDR-variability prior (0.562 on CDR residues) and the positional damage map.",
+  "kill_test": "Drop it unless it exceeds the prior by >= 0.05 on the proxies; check on 5 HER2 VHHs after ANARCI renumbering.",
+  "analogous_solved_problem": {
+   "field": "Art conservation",
+   "problem": "Judging which parts of a painting are original when the surface is overpainted.",
+   "how_overcome": "Use a hand-set damage map (known regions of high change) as a prior; hive version scored 0.547 vs 0.149 prevalence on 17 VHH complexes."
+  },
+  "source_file": "research/q2_vhh_immunology_structure/_QUEEN_DIGEST.md"
+ },
+ {
+  "id": "R4",
+  "title": "Antigen exposure prior with an occupancy mask",
+  "challenge_the_fun_part": "On a 600-residue antigen where only 3-5% touch, the game is to say less, more precisely.",
+  "cheapest_experiment": "Exposure (RSA) x (1 - dimer-occupied patch of ~51 residues) x a mild public-footprint term, blended with uniform and shrunk to ~0.04.",
+  "kill_test": "Remove the mask if it does not lower mean AP-by-position on the 4 public VHH epitopes, or hurts held-out AP; kill the whole prior if it does not beat uniform.",
+  "analogous_solved_problem": {
+   "field": "Ecology",
+   "problem": "Where a species can live versus where it does live (niche models from presence-only records).",
+   "how_overcome": "Separate the fundamental niche from the realised niche with an occupancy mask and fit with PU-style statistics; the hive notes that presence-only intercepts are unidentifiable, so rank only (Fithian and Hastie 2013)."
+  },
+  "source_file": "research/q9_serendipity_cross_domain/ecology_niche_modelling_and_species_distribution_with_presence_only_data.md"
+ },
+ {
+  "id": "R5",
+  "title": "Weight-of-evidence fusion",
+  "challenge_the_fun_part": "Several weak clues (consensus, exposure, language-model, domain hint) must be added without double-counting.",
+  "cheapest_experiment": "Convert each source to log-odds, cluster correlated sources, sum, map back to 0-1 with unique values.",
+  "kill_test": "Revert to the best single source if the sum does not beat it by >= 0.03 macro PR-AUC after clustering.",
+  "analogous_solved_problem": {
+   "field": "Cryptanalysis (Turing-era Bayesian codebreaking)",
+   "problem": "Combining many weak, roughly independent clues about a key.",
+   "how_overcome": "Add log-odds in decibans; valid only when clues are independent, so cluster correlated clues first (hive q9)."
+  },
+  "source_file": "research/q9_serendipity_cross_domain/cryptanalysis_and_codebreaking_known_plaintext_and_crib_dragging_for_interface_inference.md"
+ },
+ {
+  "id": "R6",
+  "title": "Competition-column domain gate",
+  "challenge_the_fun_part": "One free hint exists: trastuzumab depleted ONU13 more than 20-fold but not ONU11 or ONU23.",
+  "cheapest_experiment": "Use only as a soft prior on domain IV for ONU13 (down-weight for the others) once q1/q3 confirm which domain the competing antibodies bind; needs the gated table.",
+  "kill_test": "Discard if the domain mapping cannot be verified or if the gate lowers AP on any proxy where the answer is known.",
+  "analogous_solved_problem": {
+   "field": "Healthcare screening",
+   "problem": "A screening test with a low prior and weak specificity (prosecutor's fallacy).",
+   "how_overcome": "Combine the test with the base rate by Bayes instead of trusting a positive; PPV about 27% at a 3% prior (estimate, q3)."
+  },
+  "source_file": "research/q3_assay_ngs_ground_truth/_QUEEN_DIGEST.md"
+ },
+ {
+  "id": "R7",
+  "title": "Walk-forward validation on post-cutoff structures",
+  "challenge_the_fun_part": "Without a score from the site, the fun is building an honest league table from four public complexes.",
+  "cheapest_experiment": "Voronota-LT area>0 table for 5MY6/7QVK/9MTE x2/9MTX (+8GZ5 sanity); leave-one-complex-out; paired bootstrap; antigen and VHH reported separately; templates on/off and old vs new weights ablation.",
+  "kill_test": "If an arm's rank on 9MTE/9MTX contradicts its rank on 5MY6/7QVK beyond a preset margin, treat the earlier gain as memorisation.",
+  "analogous_solved_problem": {
+   "field": "Sports analytics",
+   "problem": "Backtesting a rating model without peeking at the future.",
+   "how_overcome": "Walk-forward: evaluate only on events after the model's information cutoff (hive q8)."
+  },
+  "source_file": "research/q8_compute_validation_execution/_QUEEN_DIGEST.md"
+ },
+ {
+  "id": "R8",
+  "title": "Pick the simpler arm when the gap is small",
+  "challenge_the_fun_part": "With only three test complexes, humility is a strategy.",
+  "cheapest_experiment": "Pre-register at most 2-3 arms and the margin before looking; use the five-submission ladder (floor, prior blend, consensus, ensemble, reserve).",
+  "kill_test": "If the local leave-one-complex-out bootstrap CIs (~0.18) of two arms overlap, submit the simpler one.",
+  "analogous_solved_problem": {
+   "field": "Machine-learning competitions",
+   "problem": "Overfitting a tiny public test set (Netflix margin 0.00001 RMSE, tie broken by 20 minutes; Roelofs 2019 across 120 Kaggle competitions).",
+   "how_overcome": "Winners added new information and blended, and large leaderboards showed little overfitting; small test sets are the outliers (hive q9)."
+  },
+  "source_file": "research/q9_serendipity_cross_domain/_QUEEN_DIGEST.md"
+ },
+ {
+  "id": "R9",
+  "title": "Settle the scorer before the deadline",
+  "challenge_the_fun_part": "The metric's fine print (pooling, AP vs trapezoid, best vs last) can reverse the winner.",
+  "cheapest_experiment": "Post one precise question on the HF Space community tab; meanwhile write probabilities with chain base rates preserved (antigen ~0.05, VHH ~0.15) and unique values.",
+  "kill_test": "n/a as a model idea; success is a written answer from the organisers, or a file that is robust under all variants.",
+  "analogous_solved_problem": {
+   "field": "Law of evidence",
+   "problem": "What counts as proof depends on the standard of proof.",
+   "how_overcome": "Make the answer robust to the standard: rank by the fraction of cutoffs that agree, since the area-weighted metric is near cutoff-proof."
+  },
+  "source_file": "research/_meta/king_world_KINGLOG.md"
+ },
+ {
+  "id": "R10",
+  "title": "Keep NGS tables for lineage and splits, not location",
+  "challenge_the_fun_part": "The big dataset cannot say where on HER2 a nanobody binds; the fun is knowing exactly why.",
+  "cheapest_experiment": "Use only for family structure, grouped-CV folds, and sanity checks; no GPU time.",
+  "kill_test": "Revisit only if a competition-column cluster with a known domain label matches an ONU CDR3 family.",
+  "analogous_solved_problem": {
+   "field": "Linguistics (translation alignment)",
+   "problem": "Learning a dictionary between two languages without parallel text.",
+   "how_overcome": "Works only with two populations and thousands of pairs; here one HER2 sequence faces 1e5-1e6 VHH, so the dictionary cannot be learned (hive q9)."
+  },
+  "source_file": "research/q7_data_representation_integration/_QUEEN_DIGEST.md"
+ }
+]

@@ -1,0 +1,16 @@
+[
+{"method":"HADDOCK3 True Interface (bound Ag)","scenario":"all interface residues active","n":40,"top1_acc":"65%","top10_acc":"87.5%","source":"Sanchez-Marin, Giulini, Bonvin bioRxiv 10.1101/2025.07.01.662355"},
+{"method":"HADDOCK3 True Interface (unbound Ag)","scenario":"all interface residues active","n":40,"top1_acc":"57.5%","top10_acc":"80%","source":"same"},
+{"method":"HADDOCK3 Loose Interface (bound Ag)","scenario":"CDR active + epitope+4A passive","n":40,"top1_acc":"30%","top10_acc":"55% (65% with FCC cluster-based)","source":"same"},
+{"method":"HADDOCK3 Loose Interface (unbound Ag)","scenario":"CDR active + epitope+4A passive","n":40,"top1_acc":"17.5%","top10_acc":"42.5% (55% cluster-based)","source":"same"},
+{"method":"HADDOCK3 Loose + CDR+FR paratope (bound / unbound)","scenario":"framework-aware paratope","n":40,"top1_acc":"not reported","top10_acc":"62.5% / 42.5%; top200 95% / 85%","source":"same"},
+{"method":"HADDOCK3 Two-Hit (bound / unbound)","scenario":"2 epitope hits + CDR","n":40,"top1_acc":"similar to LI","top10_acc":"max 47.5% (new paratope) / 37.5%","source":"same"},
+{"method":"HADDOCK3 All Surface (bound Ag)","scenario":"blind, 10000 rigid-body models","n":40,"top1_acc":"7.5%","top10_acc":"20%","source":"same"},
+{"method":"AF2-Multimer v2.3","scenario":"blind","n":40,"top1_acc":"25%","top10_acc":"27.5%","source":"same"},
+{"method":"AF3 server (25 models)","scenario":"blind","n":40,"top1_acc":"32.5%","top10_acc":"52.5%","source":"same"},
+{"method":"AF3 single seed (Hitawala & Gray)","scenario":"blind","n":70,"top1_acc":"31.4% DockQ>0.23; 11.4% high","top10_acc":"n/a","source":"PMC11838198 (preprint)"},
+{"method":"ClusPro AbEMap contact-frequency epitope, bound X-ray","scenario":"antibody not nanobody, n=26","n":26,"top1_acc":"PR-AUC 0.43","top10_acc":"ROC 0.77","source":"PMC12679822"},
+{"method":"ClusPro AbEMap, unbound X-ray","scenario":"antibody, n=26","n":26,"top1_acc":"PR-AUC 0.26","top10_acc":"ROC 0.70","source":"PMC12679822"},
+{"method":"AbEMap-style contact freq on AF2 ensemble","scenario":"antibody, sequence only","n":26,"top1_acc":"PR-AUC 0.36","top10_acc":"ROC 0.69","source":"PMC12679822"},
+{"method":"AbEMap-style contact freq on AF3 100 seeds/500 models","scenario":"antibody, sequence only","n":26,"top1_acc":"PR-AUC 0.58 (opt5) / 0.53 (opt6)","top10_acc":"ROC 0.82 / 0.81","source":"PMC12679822"}
+]

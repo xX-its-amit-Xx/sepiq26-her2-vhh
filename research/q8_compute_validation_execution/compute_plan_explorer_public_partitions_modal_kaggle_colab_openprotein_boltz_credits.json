@@ -1,0 +1,9 @@
+[
+{"arm":"A0 MSAs","engine":"ColabFold","runs":9,"gpu_hours":0,"venue":"local/Explorer short","wallclock":"10-17..10-19","gate":"MSAs exist"},
+{"arm":"A1 proxy backtest","engine":"Boltz-2","runs":150,"gpu_hours":3,"venue":"Explorer gpu-short array %2","wallclock":"10-19..10-22","gate":"proxy PR-AUC above baseline"},
+{"arm":"A2 main co-fold","engine":"Boltz-2","runs":75,"gpu_hours":1.5,"venue":"Explorer else Modal L40S","wallclock":"10-20..10-23","gate":"wait over 12h -> Modal"},
+{"arm":"A3 second engine","engine":"Chai-1/OpenFold3","runs":90,"gpu_hours":2.5,"venue":"Explorer A100/H200","wallclock":"10-22..10-25","gate":"only if Boltz variance high"},
+{"arm":"A4 AF3/Protenix-v2","engine":"AF3","runs":15,"gpu_hours":0.5,"venue":"only if weights in hand","wallclock":"10-25","gate":"benched by default"},
+{"arm":"A5 AntiBinder finetune","engine":"transformer","runs":3,"gpu_hours":1.5,"venue":"Kaggle/Colab","wallclock":"10-22..10-26","gate":"beat 0.176"},
+{"arm":"Buffer","engine":"any","runs":0,"gpu_hours":5,"venue":"any","wallclock":"to 10-28","gate":"hard stop 10-28"}
+]

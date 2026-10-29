@@ -1,0 +1,78 @@
+[
+ {
+  "protein": "HER2 (ERBB2)",
+  "uniprot": "P04626",
+  "ecd_range_uniprot": "23-652",
+  "ecd_len": 630,
+  "id_ecd_pct": 100,
+  "id_I_pct": 100,
+  "id_II_pct": 100,
+  "id_III_pct": 100,
+  "id_IV_pct": 100,
+  "ligand": "none known",
+  "role": "antigen"
+ },
+ {
+  "protein": "EGFR (HER1)",
+  "uniprot": "P00533",
+  "ecd_range_uniprot": "25-645",
+  "ecd_len": 621,
+  "id_ecd_pct": 43.5,
+  "id_I_pct": 42.5,
+  "id_II_pct": 51.2,
+  "id_III_pct": 39.5,
+  "id_IV_pct": 45.0,
+  "ligand": "EGF P01133, EREG O14944, others",
+  "role": "paralog; counter-selection"
+ },
+ {
+  "protein": "HER3 (ERBB3)",
+  "uniprot": "P21860",
+  "ecd_range_uniprot": "20-643",
+  "ecd_len": 624,
+  "id_ecd_pct": 44.0,
+  "id_I_pct": 45.6,
+  "id_II_pct": 45.5,
+  "id_III_pct": 40.7,
+  "id_IV_pct": 47.3,
+  "ligand": "NRG1 Q02297",
+  "role": "paralog; HER2 partner"
+ },
+ {
+  "protein": "HER4 (ERBB4)",
+  "uniprot": "Q15303",
+  "ecd_range_uniprot": "26-651",
+  "ecd_len": 626,
+  "id_ecd_pct": 43.5,
+  "id_I_pct": 46.6,
+  "id_II_pct": 48.0,
+  "id_III_pct": 40.1,
+  "id_IV_pct": 41.9,
+  "ligand": "NRG1, BTC P35070",
+  "role": "paralog; HER2 partner"
+ },
+ {
+  "protein": "NRG1",
+  "uniprot": "Q02297",
+  "ecd_range_uniprot": "n/a (ligand; EGF-like 178-222)",
+  "ecd_len": null,
+  "id_ecd_pct": null,
+  "ligand": "binds HER3/HER4",
+  "role": "ligand"
+ },
+ {
+  "protein": "EGF",
+  "uniprot": "P01133",
+  "ecd_range_uniprot": "n/a (mature EGF 971-1023)",
+  "ecd_len": null,
+  "ligand": "binds EGFR",
+  "role": "ligand"
+ },
+ {
+  "protein": "MUC4",
+  "uniprot": "Q99102",
+  "ecd_range_uniprot": "n/a (5412 aa mucin; EGF-like 5118-5157, 5321-5360)",
+  "ecd_len": null,
+  "role": "HER2-associated membrane mucin (literature, not structurally characterised here)"
+ }
+]
