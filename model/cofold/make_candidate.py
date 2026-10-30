@@ -20,9 +20,9 @@ import features as F  # noqa: E402
 import sepiq_common as sc  # noqa: E402
 import validate_submission as V  # noqa: E402
 
-CONT = os.path.join(HERE, "contacts")
-PER = os.path.join(HERE, "per_residue")
-OUT = os.path.join(MODEL, "submissions", "s2_cofold_candidate")
+CONT = os.path.join(HERE, os.environ.get("COFOLD_CONT", "contacts"))
+PER = os.path.join(HERE, os.environ.get("COFOLD_PER", "per_residue"))
+OUT = os.path.join(MODEL, "submissions", os.environ.get("CAND_OUT", "s2_cofold_candidate"))
 os.makedirs(PER, exist_ok=True)
 
 

@@ -97,3 +97,14 @@ Proxy antigen AP macro: Chai-1 0.074 (null 0.053; vs exposure prior +0.007, CI -
 Mean ipTM 0.17-0.27 (Boltz-2 ~0.4), so Chai-1 as run here carries no antigen signal. Equal-weight Boltz-2+Chai-1 ensemble: antigen 0.368, VHH 0.63, both below Boltz-2 alone.
 Decision: pre-registered ensemble rule FAILS; no s4 ensemble. S2 raw Boltz-2 stays the main candidate. Chai-1 scripts: `model/cofold/chai_contacts.py`, results `model/cofold/results/{chai,ens}_*`.
 Caveat: n=3 proxies, one Chai config (no templates tuned); this is "no evidence it helps", not "Chai-1 is bad".
+
+## Tick 4 — 2026-10-30 (benchmark, lab rules, Mol-1; pre-registered before any Mol-1 result)
+**State.** Two Track A submissions are in (floor, raw Boltz-2). The Boltz-2 40-complex benchmark never produced data: the 20-complex run (job 11480155) failed
+silently because the YAML MSA paths were relative to the wrong working directory (every unit logged "MSA file not found" and rc=0); the other 20 inputs lack MSAs
+(ColabFold server errors). Lab-partition rule is in the global CLAUDE.md (yield guard, weekday 8 pm-8 am); guarded runner `run_cofold_lab.sh` tested except the grace-expiry scancel.
+Track B (CAPRI atomic complexes) has no portal, deadline or format on sepiq.uk and needs a CAPRI account: not entered.
+**Mol-1** (Molence Bio, Apache-2.0 code, Protenix derivative; self-reported benchmarks; the report indicates PDB training data before 2021-09-30, so the 2025 proxies are leakage-free).
+Run: 3 seeds x 5 samples on 9MTE x2, 9MTX and ONU11/13/23 (job 11496897), same label procedure as Boltz-2.
+**Pre-registered rule (written before results).** Replace raw Boltz-2 as the Track A antigen-side source only if Mol-1 antigen macro PR-AUC on the 3 proxies beats raw Boltz-2 (0.453)
+by >= 0.10 AND the per-complex ordering is not driven by a single complex. A Mol-1+Boltz-2 equal-weight average is a second candidate, adopted only if it beats both by >= 0.05.
+Otherwise no new submission: the two accepted submissions stand. Any new submission uses one of the 3 remaining slots and must be validated with `model/validate_submission.py`.
